@@ -1,0 +1,1 @@
+Hak cipta oleh ARTCORP TECHNOLOGY
