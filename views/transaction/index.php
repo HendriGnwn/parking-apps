@@ -25,8 +25,8 @@ $this->params['breadcrumbs'][] = $this->title;
 		<div class="panel-body">
 		<?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 		<p>
-			<?= Html::a('<i class="fa fa-sign-in"></i>&nbsp;&nbsp;Buat Transaksi Masuk', ['create'], ['class' => 'btn btn-success']) ?>
-			<?= Html::a('<i class="fa fa-sign-out"></i>&nbsp;&nbsp;Buat Transaksi Keluar', ['create-out'], ['class' => 'btn btn-primary']) ?>
+			<?= Html::a('<i class="fa fa-sign-in"></i>&nbsp;&nbsp;Buat Transaksi', ['create-transaction'], ['class' => 'btn btn-success']) ?>
+			<?php //<?= Html::a('<i class="fa fa-sign-out"></i>&nbsp;&nbsp;Buat Transaksi Keluar', ['create-out'], ['class' => 'btn btn-primary']) ?>
 		</p>
 		<?php Pjax::begin(); ?>    
 		<?= GridView::widget([

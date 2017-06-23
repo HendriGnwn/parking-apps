@@ -45,11 +45,13 @@ class Transaction extends BaseActiveRecord
 {
 	const SCENARIO_ENTRY = 'entry';
 	const SCENARIO_EXIT = 'exit';
+	const SCENARIO_ENTRY_AND_EXIT = 'entryAndExit';
 	
 	const CODE_PREFIX = '';
 	
 	const STATUS_ENTRY = 1;
 	const STATUS_EXIT = 2;
+	const STATUS_ENTRY_EXIT = 3;
 	
 	const PAYMENT_STATUS_DRAFT = 1;
 	const PAYMENT_STATUS_WAITING = 5;
@@ -79,8 +81,9 @@ class Transaction extends BaseActiveRecord
     public function rules()
     {
         return [
-			[['gate_in_id', 'time_in', 'transport_price_id'], 'required', 'on'=>self::SCENARIO_ENTRY],
+			[['gate_in_id', 'time_in', 'transport_price_id'], 'required', 'on'=> [self::SCENARIO_ENTRY, self::SCENARIO_ENTRY_AND_EXIT]],
 			[['police_number', 'code', 'gate_out_id', 'time_out', 'payment_id', 'final_amount'], 'required', 'on'=>self::SCENARIO_EXIT],
+			[['police_number', 'payment_id', 'final_amount'], 'required', 'on'=>self::SCENARIO_ENTRY_AND_EXIT],
             [['gate_in_id', 'gate_out_id', 'status', 'payment_status', 'transport_price_id', 'payment_id', 'voucher_id', 'created_by', 'updated_by'], 'integer'],
             [['code', 'police_number', 'gate_in_id', 'time_in', 'gate_out_id', 'time_out', 'status', 
 				'vehicle_id', 'payment_status', 'transport_price_id', 'payment_id', 'voucher_id', 'final_amount', 'created_at', 'updated_at', 'picture'], 'safe'],
@@ -96,8 +99,10 @@ class Transaction extends BaseActiveRecord
 	
 	public function validateTime($attribute, $params)
 	{
-		if ($this->time_out < $this->time_in) {
-			$this->addError($this->time_out, 'Waktu keluar tidak boleh kurang dari Waktu Masuk.');
+		if ($this->scenario != self::SCENARIO_ENTRY_AND_EXIT) {
+			if ($this->time_out < $this->time_in) {
+				$this->addError($this->time_out, 'Waktu keluar tidak boleh kurang dari Waktu Masuk.');
+			}
 		}
 	}
 	
@@ -120,6 +125,13 @@ class Transaction extends BaseActiveRecord
 			$this->voucher_id = $calculate['voucher_id'];
 		}
 		
+		if ($this->scenario == self::SCENARIO_ENTRY_AND_EXIT) {
+			$this->payment_status = self::PAYMENT_STATUS_PAID;
+			$this->gate_out_id = null;
+			$this->time_out = $this->time_in;
+			$this->status = self::STATUS_ENTRY_EXIT;
+		}
+		
 		return parent::beforeSave($insert);
 	}
 
@@ -133,7 +145,7 @@ class Transaction extends BaseActiveRecord
             'code' => 'Kode',
             'police_number' => 'Nomor Polisi',
             'gate_in_id' => 'Pintu Masuk',
-            'time_in' => 'Waktu Masuk',
+            'time_in' => 'Waktu',
             'gate_out_id' => 'Pintu Keluar',
             'time_out' => 'Waktu Keluar',
             'picture' => 'Gambar',
@@ -253,6 +265,7 @@ class Transaction extends BaseActiveRecord
         return [
             self::STATUS_ENTRY => 'Parkir',
             self::STATUS_EXIT => 'Sudah Keluar',
+            self::STATUS_ENTRY_EXIT => 'Parkir - Keluar',
         ];
     }
 
@@ -264,6 +277,7 @@ class Transaction extends BaseActiveRecord
         switch($this->status) {
             case self::STATUS_ENTRY: return Html::label($this->getStatusLabel(), null, ['class'=>'label label-success']);
             case self::STATUS_EXIT: return Html::label($this->getStatusLabel(), null, ['class'=>'label label-danger']);
+            case self::STATUS_ENTRY_EXIT: return Html::label($this->getStatusLabel(), null, ['class'=>'label label-primary']);
         }
     }
 	

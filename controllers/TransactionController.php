@@ -5,9 +5,11 @@ namespace app\controllers;
 use app\controllers\BaseController;
 use app\models\search\TransactionSearch;
 use app\models\Transaction;
-use app\helpers\DateTime;
+use app\models\TransportPrice;
+use app\models\Voucher;
 use Yii;
 use yii\filters\VerbFilter;
+use yii\helpers\ArrayHelper;
 use yii\web\NotFoundHttpException;
 
 /**
@@ -64,6 +66,7 @@ class TransactionController extends BaseController
      */
     public function actionCreate()
     {
+		return $this->redirect(['create-transaction']);
 		$session = Yii::$app->session;
 		
         $model = new Transaction();
@@ -159,7 +162,8 @@ class TransactionController extends BaseController
 	}
 	
 	public function actionCreateOut()
-	{		
+	{
+		return $this->redirect(['create-transaction']);
 		$session = Yii::$app->session;
 		
 		$model = new Transaction();
@@ -204,6 +208,39 @@ class TransactionController extends BaseController
         }
 	}
 	
+	public function actionCreateTransaction()
+	{
+		$session = Yii::$app->session;
+		
+		$model = new Transaction();
+		$model->scenario = Transaction::SCENARIO_ENTRY_AND_EXIT;
+		
+		
+		/** if session transactionGateIn found, set model gate_in_id */
+		if ($session->has('transactionGateIn')) {
+			$model->gate_in_id = $session->get('transactionGateIn');
+		}
+		
+		/** if session transactionGateIn found, set model gate_in_id */
+		if ($session->has('transactionPayment')) {
+			$model->payment_id = $session->get('transactionPayment');
+		}
+
+        if ($model->load(Yii::$app->request->post()) && ($model->save())) {
+			
+			$session->set('transactionGateIn', $model->gate_in_id);
+			$session->set('transactionTransportPriceId', $model->transport_price_id);
+			$session->set('transactionPayment', $model->payment_id);
+			return $this->redirect(['print-out', 'id' => $model->id]);
+			
+        } else {
+			render:
+            return $this->render('create-transaction', [
+				'model' => $model
+			]);
+        }
+	}
+	
 	/**
 	 * call ajax request to get data transaction by code and police number
 	 * 
@@ -229,12 +266,34 @@ class TransactionController extends BaseController
 		echo json_encode($query);
 	}
 	
+	public function actionAjaxCalculateTotalByTransportPrice()
+	{
+		$request = Yii::$app->request;
+		if (!$request->isAjax) {
+			return null;
+		}
+		
+		$transportPriceId = $request->post('transport_price');
+		$transportPrice = TransportPrice::find()->where(['id' => $transportPriceId])->one();
+		if (!$transportPrice) {
+			return null;
+		}
+		
+		$arrayFinalAmount = ['voucher_id' => null,'final_amount' => $transportPrice->amount, 'transport_price_id'=>$transportPriceId];
+		$result = ArrayHelper::merge($transportPrice->attributes, $arrayFinalAmount);
+
+		$vehicleRelation = ['vehicle' => $transportPrice->vehicle->attributes];
+		$result = ArrayHelper::merge($result, $vehicleRelation);
+		
+		return json_encode($result);
+	}
+	
 	public function actionTest()
 	{
 		$code = 'B1010FFF';
 		$vehicle = '1';
 		$today = date('Y-m-d');
-		$var = \app\models\Voucher::find()
+		$var = Voucher::find()
 				->join('INNER JOIN', 'transport_price', 'transport_price.id = voucher.id')
 				//->andWhere(['voucher.code'=>$code, 'voucher.status'=>\app\models\Voucher::STATUS_ACTIVE, 'voucher.vehicle_id'=>$vehicle,'transport_price.transport_id'=>])
 				->andFilterWhere(['<=', 'voucher.start_date', $today])

@@ -17,10 +17,13 @@ use yii\helpers\Url;
 	<span><?= $model->vehicle ? $model->vehicle->name . ' /' : '' ?> <?= $model->police_number ?></span>
 	<br/>
 	<span>Masuk: <?= $model->getFormattedIndoDateTime() ?></span>
-	<br/>
-	<span>Keluar: <?= $model->getFormattedIndoDateTime('time_out') ?></span>
-	<br/>
-	<span>Lama Parkir: <?= $model->getDiffTimeInOut() ?></span>
+	
+	<?php if ($model->status == Transaction::STATUS_EXIT) { ?>
+		<br/>
+		<span>Keluar: <?= $model->getFormattedIndoDateTime('time_out') ?></span>
+		<br/>
+		<span>Lama Parkir: <?= $model->getDiffTimeInOut() ?></span>
+	<?php } ?>
 	<br/>
 	<strong style="font-size:11pt">Total: <?= $model->getFinalAmountLabel() ?></strong>
 	<br/>
@@ -32,6 +35,6 @@ use yii\helpers\Url;
 <div class="text-center">
 	<small><?= Setting::getStructExitFooter() ?></small>
 </div>
-<?= Html::beginForm(Url::to(['transaction/create-out']), 'get') ?>
+<?= Html::beginForm(Url::to(['transaction/create-transaction']), 'get') ?>
 <?= Html::submitButton('Print / Press Enter', ['class'=>'print', 'id'=>'buttonPrint', 'onclick'=>'printWindow()']) ?>
 <?= Html::endForm() ?>
