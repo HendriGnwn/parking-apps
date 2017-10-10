@@ -438,7 +438,12 @@ INSERT INTO `transaction` (`id`, `code`, `police_number`, `gate_in_id`, `time_in
 (58,	'11161112001',	'B1234SOB',	1,	'2016-11-12 11:20:49',	2,	'2016-11-12 11:22:53',	NULL,	2,	10,	1,	1,	1,	NULL,	2000.00,	'2016-11-12 11:20:55',	'2016-11-12 11:23:15',	2,	2),
 (59,	'11161112001',	'B1234SOB',	1,	'2016-11-12 11:20:49',	2,	'2016-11-12 11:22:53',	NULL,	2,	10,	1,	1,	1,	NULL,	2000.00,	'2016-11-12 11:20:55',	'2016-11-12 11:23:15',	2,	2),
 (60,	'11161114001',	'',	1,	'2016-11-14 13:35:07',	NULL,	NULL,	NULL,	1,	5,	1,	1,	NULL,	NULL,	NULL,	'2016-11-14 13:35:11',	NULL,	2,	2),
-(61,	'11161114002',	'B7891JGH',	1,	'2016-11-14 13:35:25',	2,	'2016-11-14 13:35:49',	NULL,	2,	10,	1,	1,	1,	NULL,	2000.00,	'2016-11-14 13:35:43',	'2016-11-14 13:36:01',	2,	2);
+(61,	'11161114002',	'B7891JGH',	1,	'2016-11-14 13:35:25',	2,	'2016-11-14 13:35:49',	NULL,	2,	10,	1,	1,	1,	NULL,	2000.00,	'2016-11-14 13:35:43',	'2016-11-14 13:36:01',	2,	2),
+(62,	'11170624001',	'B6941PFJ',	1,	'2017-06-24 01:13:16',	NULL,	'2017-06-24 01:13:16',	NULL,	1,	10,	1,	1,	1,	NULL,	5000.00,	'2017-06-24 01:14:22',	NULL,	1,	1),
+(63,	'12170624001',	'B6941PFJ',	1,	'2017-06-24 01:16:11',	NULL,	'2017-06-24 01:16:11',	NULL,	1,	10,	2,	2,	1,	NULL,	7000.00,	'2017-06-24 01:16:20',	NULL,	1,	1),
+(64,	'13170624001',	'B6941PFJ',	1,	'2017-06-24 01:17:56',	NULL,	'2017-06-24 01:17:56',	NULL,	3,	10,	3,	3,	1,	NULL,	8000.00,	'2017-06-24 01:18:04',	NULL,	1,	1),
+(65,	'11170624002',	'B8291PDJ',	1,	'2017-06-24 01:21:03',	NULL,	'2017-06-24 01:21:03',	NULL,	3,	10,	1,	1,	1,	NULL,	5000.00,	'2017-06-24 01:21:12',	NULL,	1,	1),
+(66,	'12170624002',	'B5812ITH',	1,	'2017-06-24 09:20:37',	NULL,	'2017-06-24 09:20:37',	NULL,	3,	10,	2,	2,	1,	NULL,	7000.00,	'2017-06-24 09:20:58',	NULL,	1,	1);
 
 DROP TABLE IF EXISTS `transport`;
 CREATE TABLE `transport` (
@@ -517,7 +522,7 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 INSERT INTO `user` (`id`, `gate_id`, `shift_id`, `username`, `email`, `password_hash`, `auth_key`, `confirmed_at`, `unconfirmed_email`, `blocked_at`, `registration_ip`, `online`, `online_date`, `created_at`, `updated_at`, `flags`) VALUES
-(1,	0,	0,	'admin',	'hendri.gnw@gmail.com',	'$2y$10$Y98GQUuS7BMGcyiznKUPOeIH.OiXQPkKrW5bmc4VJUw67nADR5c.q',	'oyFsVxIqIksQr2WQWSWIt42GcSOUUIAS',	1475747026,	NULL,	NULL,	'::1',	0,	'2017-02-19 09:51:45',	1475746427,	1487472933,	0),
+(1,	0,	0,	'admin',	'hendri.gnw@gmail.com',	'$2y$10$Y98GQUuS7BMGcyiznKUPOeIH.OiXQPkKrW5bmc4VJUw67nADR5c.q',	'oyFsVxIqIksQr2WQWSWIt42GcSOUUIAS',	1475747026,	NULL,	NULL,	'::1',	1,	'2017-10-10 13:26:31',	1475746427,	1507616792,	0),
 (2,	1,	0,	'operator',	'hendrigunawan195@gmail.com',	'$2y$10$EMxtCm4bFkBYh5.OBOJrju0aiijvd/dsZqVvr1uoaxYVjteghOBBu',	'4jdPs4T7jmgKhsq2N1XxheG2mQ7LooBV',	1476344540,	NULL,	NULL,	'::1',	1,	'2016-12-31 09:46:26',	1476344540,	1483152386,	0),
 (5,	0,	0,	'owner',	'hendri.gunawan@computesta.com',	'$2y$10$eyLJGvFpfoTM8m1QPwv0nOfMMlZHLRcVwPvN3bitIz1A0mmv8ysR2',	'pcI7UqejJ0UaCgE7otSKi9WYywi4tk5B',	1476348422,	NULL,	NULL,	'::1',	0,	'2016-10-14 17:37:49',	1476348422,	1476441491,	0);
 
@@ -563,4 +568,4 @@ INSERT INTO `voucher` (`id`, `code`, `transport_price_id`, `vehicle_id`, `vouche
 (2,	'B6941PFJ',	4,	1,	2,	1,	'2016-10-10',	'2016-11-15',	5,	10000.00,	1,	'2016-10-10 04:51:10',	NULL,	1,	1),
 (3,	'B1234SOC',	7,	1,	2,	1,	'2016-10-20',	'2016-10-20',	0,	0.00,	1,	'2016-10-20 09:53:17',	NULL,	1,	1);
 
--- 2017-03-31 02:44:13
+-- 2017-10-10 06:29:34

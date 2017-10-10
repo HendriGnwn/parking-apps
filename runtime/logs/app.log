@@ -24616,3 +24616,1273 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1498242131.167
     'REQUEST_TIME' => 1498242131
 ]
+2017-06-24 09:20:11 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'user' does not exist: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id-ID/user.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id/user.php
+    in D:\xampp\htdocs\secure-parking\themes\adminlte\views\security\login.php:22
+    in D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\controllers\SecurityController.php:166
+2017-06-24 09:20:11 [::1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'k3j6hfprakbsgnkvoskq5t9480'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=k3j6hfprakbsgnkvoskq5t9480'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '51384'
+    'REDIRECT_URL' => '/secure-parking/web/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/user/login'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1498270811.006
+    'REQUEST_TIME' => 1498270811
+]
+2017-06-24 09:20:15 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'user' does not exist: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id-ID/user.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id/user.php
+    in D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\models\User.php:217
+    in D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\models\User.php:196
+    in D:\xampp\htdocs\secure-parking\models\User.php:40
+2017-06-24 09:20:15 [::1][1][-][info][application] $_POST = [
+    '_csrf' => 'WXkxbWY1M3RoFUMKVWF/HQAaZR4VWlxMCEBdHgVWQg4xGmk.VgxaEA=='
+    'login-form' => [
+        'login' => 'admin'
+        'password' => 'admin123'
+        'rememberMe' => '0'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'k3j6hfprakbsgnkvoskq5t9480'
+    '_csrf' => 'eb5fc5ec108e2893b5d3dafe4e782b3b1e7c50300b24af40ed37ea11b72c1025a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1lrg3TLiYcTssoo8Q9lsccqzhcXS09id\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/user/login'
+    'HTTP_COOKIE' => 'PHPSESSID=k3j6hfprakbsgnkvoskq5t9480; _csrf=eb5fc5ec108e2893b5d3dafe4e782b3b1e7c50300b24af40ed37ea11b72c1025a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221lrg3TLiYcTssoo8Q9lsccqzhcXS09id%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '159'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '51384'
+    'REDIRECT_URL' => '/secure-parking/web/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/user/login'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1498270815.018
+    'REQUEST_TIME' => 1498270815
+]
+2017-06-24 09:20:37 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\xampp\htdocs\secure-parking/messages/id-ID/app.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking/messages/id/app.php
+    in D:\xampp\htdocs\secure-parking\views\transaction\create-transaction.php:11
+    in D:\xampp\htdocs\secure-parking\controllers\TransactionController.php:240
+2017-06-24 09:20:36 [::1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'phljihncj75826mellcp2ifg04'
+    '_csrf' => 'eb5fc5ec108e2893b5d3dafe4e782b3b1e7c50300b24af40ed37ea11b72c1025a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1lrg3TLiYcTssoo8Q9lsccqzhcXS09id\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/transaction/index'
+    'HTTP_COOKIE' => 'PHPSESSID=phljihncj75826mellcp2ifg04; _csrf=eb5fc5ec108e2893b5d3dafe4e782b3b1e7c50300b24af40ed37ea11b72c1025a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221lrg3TLiYcTssoo8Q9lsccqzhcXS09id%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '51402'
+    'REDIRECT_URL' => '/secure-parking/web/transaction/create-transaction'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/transaction/create-transaction'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1498270836.661
+    'REQUEST_TIME' => 1498270836
+]
+2017-06-24 09:21:05 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\xampp\htdocs\secure-parking/messages/id-ID/app.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking/messages/id/app.php
+    in D:\xampp\htdocs\secure-parking\views\transaction\create-transaction.php:11
+    in D:\xampp\htdocs\secure-parking\controllers\TransactionController.php:240
+2017-06-24 09:21:05 [::1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'phljihncj75826mellcp2ifg04'
+    '_csrf' => 'eb5fc5ec108e2893b5d3dafe4e782b3b1e7c50300b24af40ed37ea11b72c1025a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1lrg3TLiYcTssoo8Q9lsccqzhcXS09id\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+    'transactionGateIn' => '1'
+    'transactionTransportPriceId' => '2'
+    'transactionPayment' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/transaction/print-out/66'
+    'HTTP_COOKIE' => 'PHPSESSID=phljihncj75826mellcp2ifg04; _csrf=eb5fc5ec108e2893b5d3dafe4e782b3b1e7c50300b24af40ed37ea11b72c1025a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221lrg3TLiYcTssoo8Q9lsccqzhcXS09id%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '51414'
+    'REDIRECT_URL' => '/secure-parking/web/transaction/create-transaction'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/transaction/create-transaction'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1498270865.391
+    'REQUEST_TIME' => 1498270865
+]
+2017-06-24 09:21:31 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\xampp\htdocs\secure-parking/messages/id-ID/app.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking/messages/id/app.php
+    in D:\xampp\htdocs\secure-parking\views\report\_search-transaction.php:71
+    in D:\xampp\htdocs\secure-parking\views\report\transaction.php:44
+    in D:\xampp\htdocs\secure-parking\controllers\ReportController.php:25
+2017-06-24 09:21:31 [::1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'phljihncj75826mellcp2ifg04'
+    '_csrf' => 'eb5fc5ec108e2893b5d3dafe4e782b3b1e7c50300b24af40ed37ea11b72c1025a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1lrg3TLiYcTssoo8Q9lsccqzhcXS09id\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+    'transactionGateIn' => '1'
+    'transactionTransportPriceId' => '2'
+    'transactionPayment' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/transaction/index'
+    'HTTP_COOKIE' => 'PHPSESSID=phljihncj75826mellcp2ifg04; _csrf=eb5fc5ec108e2893b5d3dafe4e782b3b1e7c50300b24af40ed37ea11b72c1025a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221lrg3TLiYcTssoo8Q9lsccqzhcXS09id%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '51420'
+    'REDIRECT_URL' => '/secure-parking/web/report/transaction'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/report/transaction'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1498270890.994
+    'REQUEST_TIME' => 1498270890
+]
+2017-06-24 09:21:37 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\xampp\htdocs\secure-parking/messages/id-ID/app.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking/messages/id/app.php
+    in D:\xampp\htdocs\secure-parking\views\report\_search-transaction.php:71
+    in D:\xampp\htdocs\secure-parking\views\report\transaction.php:44
+    in D:\xampp\htdocs\secure-parking\controllers\ReportController.php:25
+2017-06-24 09:21:37 [::1][1][-][info][application] $_GET = [
+    'TransactionSearch' => [
+        'filter_date' => 'time_in'
+        'from_date' => '2017-06-23'
+        'to_date' => '2017-06-24'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'phljihncj75826mellcp2ifg04'
+    '_csrf' => 'eb5fc5ec108e2893b5d3dafe4e782b3b1e7c50300b24af40ed37ea11b72c1025a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1lrg3TLiYcTssoo8Q9lsccqzhcXS09id\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+    'transactionGateIn' => '1'
+    'transactionTransportPriceId' => '2'
+    'transactionPayment' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/report/transaction'
+    'HTTP_COOKIE' => 'PHPSESSID=phljihncj75826mellcp2ifg04; _csrf=eb5fc5ec108e2893b5d3dafe4e782b3b1e7c50300b24af40ed37ea11b72c1025a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221lrg3TLiYcTssoo8Q9lsccqzhcXS09id%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '51420'
+    'REDIRECT_QUERY_STRING' => 'TransactionSearch%5Bfilter_date%5D=time_in&TransactionSearch%5Bfrom_date%5D=2017-06-23&TransactionSearch%5Bto_date%5D=2017-06-24'
+    'REDIRECT_URL' => '/secure-parking/web/report/transaction'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'TransactionSearch%5Bfilter_date%5D=time_in&TransactionSearch%5Bfrom_date%5D=2017-06-23&TransactionSearch%5Bto_date%5D=2017-06-24'
+    'REQUEST_URI' => '/secure-parking/web/report/transaction?TransactionSearch%5Bfilter_date%5D=time_in&TransactionSearch%5Bfrom_date%5D=2017-06-23&TransactionSearch%5Bto_date%5D=2017-06-24'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1498270897.635
+    'REQUEST_TIME' => 1498270897
+]
+2017-06-24 09:21:44 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\xampp\htdocs\secure-parking/messages/id-ID/app.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking/messages/id/app.php
+    in D:\xampp\htdocs\secure-parking\views\report\_search-transaction.php:71
+    in D:\xampp\htdocs\secure-parking\views\report\transaction.php:44
+    in D:\xampp\htdocs\secure-parking\controllers\ReportController.php:25
+2017-06-24 09:21:44 [::1][1][-][info][application] $_GET = [
+    'TransactionSearch' => [
+        'filter_date' => 'time_in'
+        'from_date' => '2017-06-23'
+        'to_date' => '2017-06-25'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'phljihncj75826mellcp2ifg04'
+    '_csrf' => 'eb5fc5ec108e2893b5d3dafe4e782b3b1e7c50300b24af40ed37ea11b72c1025a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1lrg3TLiYcTssoo8Q9lsccqzhcXS09id\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+    'transactionGateIn' => '1'
+    'transactionTransportPriceId' => '2'
+    'transactionPayment' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/report/transaction?TransactionSearch%5Bfilter_date%5D=time_in&TransactionSearch%5Bfrom_date%5D=2017-06-23&TransactionSearch%5Bto_date%5D=2017-06-24'
+    'HTTP_COOKIE' => 'PHPSESSID=phljihncj75826mellcp2ifg04; _csrf=eb5fc5ec108e2893b5d3dafe4e782b3b1e7c50300b24af40ed37ea11b72c1025a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221lrg3TLiYcTssoo8Q9lsccqzhcXS09id%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '51425'
+    'REDIRECT_QUERY_STRING' => 'TransactionSearch%5Bfilter_date%5D=time_in&TransactionSearch%5Bfrom_date%5D=2017-06-23&TransactionSearch%5Bto_date%5D=2017-06-24&TransactionSearch%5Bfilter_date%5D=time_in&TransactionSearch%5Bfrom_date%5D=2017-06-23&TransactionSearch%5Bto_date%5D=2017-06-25'
+    'REDIRECT_URL' => '/secure-parking/web/report/transaction'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'TransactionSearch%5Bfilter_date%5D=time_in&TransactionSearch%5Bfrom_date%5D=2017-06-23&TransactionSearch%5Bto_date%5D=2017-06-24&TransactionSearch%5Bfilter_date%5D=time_in&TransactionSearch%5Bfrom_date%5D=2017-06-23&TransactionSearch%5Bto_date%5D=2017-06-25'
+    'REQUEST_URI' => '/secure-parking/web/report/transaction?TransactionSearch%5Bfilter_date%5D=time_in&TransactionSearch%5Bfrom_date%5D=2017-06-23&TransactionSearch%5Bto_date%5D=2017-06-24&TransactionSearch%5Bfilter_date%5D=time_in&TransactionSearch%5Bfrom_date%5D=2017-06-23&TransactionSearch%5Bto_date%5D=2017-06-25'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1498270904.321
+    'REQUEST_TIME' => 1498270904
+]
+2017-06-24 09:29:34 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\xampp\htdocs\secure-parking/messages/id-ID/app.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking/messages/id/app.php
+    in D:\xampp\htdocs\secure-parking\views\transaction\create.php:19
+    in D:\xampp\htdocs\secure-parking\controllers\TransactionController.php:92
+2017-06-24 09:29:34 [::1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'phljihncj75826mellcp2ifg04'
+    '_csrf' => 'eb5fc5ec108e2893b5d3dafe4e782b3b1e7c50300b24af40ed37ea11b72c1025a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1lrg3TLiYcTssoo8Q9lsccqzhcXS09id\";}'
+    'XSRF-TOKEN' => 'eyJpdiI6IjVFT3NpOVRuaUxkK2wzUTZcL2JhK1RnPT0iLCJ2YWx1ZSI6InF6eFNcL3NjVkw0UmV3RnpMdExZYXJOMVRCMG9rK280cDZod2xDS21PSVNURExQWVNsNXl5RjRkdWZoOTZiWStZazNmZXBkaXBRZjZTUG5nQmJuNUg2dz09IiwibWFjIjoiYjczZTNmZjcyODkxZTMwYjliMDNhMmYwNTk3NWFlZDVkMDk5NmYzYjBkMWQ3NzA3MjkzYWZhYjFjNzM1YTZjNCJ9'
+    'laravel_session' => 'eyJpdiI6ImFqZXROSzByZDl1RXBqOEgwYXRJMmc9PSIsInZhbHVlIjoiY0s2QitZRHphMFA2WHp3SHRDZ1hpKzZDcHlSamFWQmgyajlRS1JpbUhqRDRWWFdCQmZFVkRrc2NMaHdXczJaMVRlT1F1UjNUdXVGXC9XUzFtQmphMHV3PT0iLCJtYWMiOiJiMzM0NDQ0MWE0NjhhOTZjMGNiZWM0YWUzMDg5ZGRlNzg0NjQyZDMzZjYwOTkxNGM0ODk1ZTA1NDE5OWZiZGU0In0='
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+    'transactionGateIn' => '1'
+    'transactionTransportPriceId' => '2'
+    'transactionPayment' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/transaction/index'
+    'HTTP_COOKIE' => 'PHPSESSID=phljihncj75826mellcp2ifg04; _csrf=eb5fc5ec108e2893b5d3dafe4e782b3b1e7c50300b24af40ed37ea11b72c1025a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221lrg3TLiYcTssoo8Q9lsccqzhcXS09id%22%3B%7D; XSRF-TOKEN=eyJpdiI6IjVFT3NpOVRuaUxkK2wzUTZcL2JhK1RnPT0iLCJ2YWx1ZSI6InF6eFNcL3NjVkw0UmV3RnpMdExZYXJOMVRCMG9rK280cDZod2xDS21PSVNURExQWVNsNXl5RjRkdWZoOTZiWStZazNmZXBkaXBRZjZTUG5nQmJuNUg2dz09IiwibWFjIjoiYjczZTNmZjcyODkxZTMwYjliMDNhMmYwNTk3NWFlZDVkMDk5NmYzYjBkMWQ3NzA3MjkzYWZhYjFjNzM1YTZjNCJ9; laravel_session=eyJpdiI6ImFqZXROSzByZDl1RXBqOEgwYXRJMmc9PSIsInZhbHVlIjoiY0s2QitZRHphMFA2WHp3SHRDZ1hpKzZDcHlSamFWQmgyajlRS1JpbUhqRDRWWFdCQmZFVkRrc2NMaHdXczJaMVRlT1F1UjNUdXVGXC9XUzFtQmphMHV3PT0iLCJtYWMiOiJiMzM0NDQ0MWE0NjhhOTZjMGNiZWM0YWUzMDg5ZGRlNzg0NjQyZDMzZjYwOTkxNGM0ODk1ZTA1NDE5OWZiZGU0In0%3D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '51462'
+    'REDIRECT_URL' => '/secure-parking/web/transaction/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/transaction/create'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1498271374.057
+    'REQUEST_TIME' => 1498271374
+]
+2017-06-24 09:29:37 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\xampp\htdocs\secure-parking/messages/id-ID/app.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking/messages/id/app.php
+    in D:\xampp\htdocs\secure-parking\views\transaction\create.php:19
+    in D:\xampp\htdocs\secure-parking\controllers\TransactionController.php:207
+2017-06-24 09:29:37 [::1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'phljihncj75826mellcp2ifg04'
+    '_csrf' => 'eb5fc5ec108e2893b5d3dafe4e782b3b1e7c50300b24af40ed37ea11b72c1025a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1lrg3TLiYcTssoo8Q9lsccqzhcXS09id\";}'
+    'XSRF-TOKEN' => 'eyJpdiI6IjVFT3NpOVRuaUxkK2wzUTZcL2JhK1RnPT0iLCJ2YWx1ZSI6InF6eFNcL3NjVkw0UmV3RnpMdExZYXJOMVRCMG9rK280cDZod2xDS21PSVNURExQWVNsNXl5RjRkdWZoOTZiWStZazNmZXBkaXBRZjZTUG5nQmJuNUg2dz09IiwibWFjIjoiYjczZTNmZjcyODkxZTMwYjliMDNhMmYwNTk3NWFlZDVkMDk5NmYzYjBkMWQ3NzA3MjkzYWZhYjFjNzM1YTZjNCJ9'
+    'laravel_session' => 'eyJpdiI6ImFqZXROSzByZDl1RXBqOEgwYXRJMmc9PSIsInZhbHVlIjoiY0s2QitZRHphMFA2WHp3SHRDZ1hpKzZDcHlSamFWQmgyajlRS1JpbUhqRDRWWFdCQmZFVkRrc2NMaHdXczJaMVRlT1F1UjNUdXVGXC9XUzFtQmphMHV3PT0iLCJtYWMiOiJiMzM0NDQ0MWE0NjhhOTZjMGNiZWM0YWUzMDg5ZGRlNzg0NjQyZDMzZjYwOTkxNGM0ODk1ZTA1NDE5OWZiZGU0In0='
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+    'transactionGateIn' => '1'
+    'transactionTransportPriceId' => '2'
+    'transactionPayment' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/transaction/create'
+    'HTTP_COOKIE' => 'PHPSESSID=phljihncj75826mellcp2ifg04; _csrf=eb5fc5ec108e2893b5d3dafe4e782b3b1e7c50300b24af40ed37ea11b72c1025a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221lrg3TLiYcTssoo8Q9lsccqzhcXS09id%22%3B%7D; XSRF-TOKEN=eyJpdiI6IjVFT3NpOVRuaUxkK2wzUTZcL2JhK1RnPT0iLCJ2YWx1ZSI6InF6eFNcL3NjVkw0UmV3RnpMdExZYXJOMVRCMG9rK280cDZod2xDS21PSVNURExQWVNsNXl5RjRkdWZoOTZiWStZazNmZXBkaXBRZjZTUG5nQmJuNUg2dz09IiwibWFjIjoiYjczZTNmZjcyODkxZTMwYjliMDNhMmYwNTk3NWFlZDVkMDk5NmYzYjBkMWQ3NzA3MjkzYWZhYjFjNzM1YTZjNCJ9; laravel_session=eyJpdiI6ImFqZXROSzByZDl1RXBqOEgwYXRJMmc9PSIsInZhbHVlIjoiY0s2QitZRHphMFA2WHp3SHRDZ1hpKzZDcHlSamFWQmgyajlRS1JpbUhqRDRWWFdCQmZFVkRrc2NMaHdXczJaMVRlT1F1UjNUdXVGXC9XUzFtQmphMHV3PT0iLCJtYWMiOiJiMzM0NDQ0MWE0NjhhOTZjMGNiZWM0YWUzMDg5ZGRlNzg0NjQyZDMzZjYwOTkxNGM0ODk1ZTA1NDE5OWZiZGU0In0%3D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '51462'
+    'REDIRECT_URL' => '/secure-parking/web/transaction/create-out'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/transaction/create-out'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1498271377.026
+    'REQUEST_TIME' => 1498271377
+]
+2017-06-24 09:30:01 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'user' does not exist: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id-ID/user.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id/user.php
+    in D:\xampp\htdocs\secure-parking\themes\adminlte\views\admin\index.php:25
+    in D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\controllers\AdminController.php:183
+2017-06-24 09:30:01 [::1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'phljihncj75826mellcp2ifg04'
+    '_csrf' => 'eb5fc5ec108e2893b5d3dafe4e782b3b1e7c50300b24af40ed37ea11b72c1025a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1lrg3TLiYcTssoo8Q9lsccqzhcXS09id\";}'
+    'XSRF-TOKEN' => 'eyJpdiI6IjVFT3NpOVRuaUxkK2wzUTZcL2JhK1RnPT0iLCJ2YWx1ZSI6InF6eFNcL3NjVkw0UmV3RnpMdExZYXJOMVRCMG9rK280cDZod2xDS21PSVNURExQWVNsNXl5RjRkdWZoOTZiWStZazNmZXBkaXBRZjZTUG5nQmJuNUg2dz09IiwibWFjIjoiYjczZTNmZjcyODkxZTMwYjliMDNhMmYwNTk3NWFlZDVkMDk5NmYzYjBkMWQ3NzA3MjkzYWZhYjFjNzM1YTZjNCJ9'
+    'laravel_session' => 'eyJpdiI6ImFqZXROSzByZDl1RXBqOEgwYXRJMmc9PSIsInZhbHVlIjoiY0s2QitZRHphMFA2WHp3SHRDZ1hpKzZDcHlSamFWQmgyajlRS1JpbUhqRDRWWFdCQmZFVkRrc2NMaHdXczJaMVRlT1F1UjNUdXVGXC9XUzFtQmphMHV3PT0iLCJtYWMiOiJiMzM0NDQ0MWE0NjhhOTZjMGNiZWM0YWUzMDg5ZGRlNzg0NjQyZDMzZjYwOTkxNGM0ODk1ZTA1NDE5OWZiZGU0In0='
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+    'transactionGateIn' => '1'
+    'transactionTransportPriceId' => '2'
+    'transactionPayment' => '1'
+    'actions-redirect' => '/secure-parking/web/user/admin/index'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/gate/index'
+    'HTTP_COOKIE' => 'PHPSESSID=phljihncj75826mellcp2ifg04; _csrf=eb5fc5ec108e2893b5d3dafe4e782b3b1e7c50300b24af40ed37ea11b72c1025a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221lrg3TLiYcTssoo8Q9lsccqzhcXS09id%22%3B%7D; XSRF-TOKEN=eyJpdiI6IjVFT3NpOVRuaUxkK2wzUTZcL2JhK1RnPT0iLCJ2YWx1ZSI6InF6eFNcL3NjVkw0UmV3RnpMdExZYXJOMVRCMG9rK280cDZod2xDS21PSVNURExQWVNsNXl5RjRkdWZoOTZiWStZazNmZXBkaXBRZjZTUG5nQmJuNUg2dz09IiwibWFjIjoiYjczZTNmZjcyODkxZTMwYjliMDNhMmYwNTk3NWFlZDVkMDk5NmYzYjBkMWQ3NzA3MjkzYWZhYjFjNzM1YTZjNCJ9; laravel_session=eyJpdiI6ImFqZXROSzByZDl1RXBqOEgwYXRJMmc9PSIsInZhbHVlIjoiY0s2QitZRHphMFA2WHp3SHRDZ1hpKzZDcHlSamFWQmgyajlRS1JpbUhqRDRWWFdCQmZFVkRrc2NMaHdXczJaMVRlT1F1UjNUdXVGXC9XUzFtQmphMHV3PT0iLCJtYWMiOiJiMzM0NDQ0MWE0NjhhOTZjMGNiZWM0YWUzMDg5ZGRlNzg0NjQyZDMzZjYwOTkxNGM0ODk1ZTA1NDE5OWZiZGU0In0%3D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '51474'
+    'REDIRECT_URL' => '/secure-parking/web/user/admin/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/user/admin/index'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1498271401.449
+    'REQUEST_TIME' => 1498271401
+]
+2017-06-24 11:47:45 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'user' does not exist: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id-ID/user.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id/user.php
+    in D:\xampp\htdocs\secure-parking\themes\adminlte\views\security\login.php:22
+    in D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\controllers\SecurityController.php:166
+2017-06-24 11:47:45 [::1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'olvf0l2ala95dj3a7s951s3mr7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=olvf0l2ala95dj3a7s951s3mr7'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '49168'
+    'REDIRECT_URL' => '/secure-parking/web/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/user/login'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1498279665.176
+    'REQUEST_TIME' => 1498279665
+]
+2017-06-24 11:47:51 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'user' does not exist: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id-ID/user.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id/user.php
+    in D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\models\User.php:217
+    in D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\models\User.php:196
+    in D:\xampp\htdocs\secure-parking\models\User.php:40
+2017-06-24 11:47:51 [::1][1][-][info][application] $_POST = [
+    '_csrf' => 'Lk02WVE2bEEcPAMGAGcgd0x0ei0YT1gIQyZePxdSWQh.fmZqPFoWOA=='
+    'login-form' => [
+        'login' => 'admin'
+        'password' => 'admin123'
+        'rememberMe' => '0'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'olvf0l2ala95dj3a7s951s3mr7'
+    '_csrf' => 'f87b77b618d412735cd74e7527948958ed833cf2bb62417bf629dace7731c788a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2q5_QQL6b9LtIy4ImkhfFd5IP3P3mlzy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/user/login'
+    'HTTP_COOKIE' => 'PHPSESSID=olvf0l2ala95dj3a7s951s3mr7; _csrf=f87b77b618d412735cd74e7527948958ed833cf2bb62417bf629dace7731c788a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222q5_QQL6b9LtIy4ImkhfFd5IP3P3mlzy%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '157'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '49168'
+    'REDIRECT_URL' => '/secure-parking/web/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/user/login'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1498279671.017
+    'REQUEST_TIME' => 1498279671
+]
+2017-06-24 11:48:03 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\xampp\htdocs\secure-parking/messages/id-ID/app.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking/messages/id/app.php
+    in D:\xampp\htdocs\secure-parking\views\report\_search-transaction.php:71
+    in D:\xampp\htdocs\secure-parking\views\report\transaction-recapitulation.php:45
+    in D:\xampp\htdocs\secure-parking\controllers\ReportController.php:61
+2017-06-24 11:48:02 [::1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'cns2usf2a3i55fvmaase32f4s3'
+    '_csrf' => 'f87b77b618d412735cd74e7527948958ed833cf2bb62417bf629dace7731c788a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2q5_QQL6b9LtIy4ImkhfFd5IP3P3mlzy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/'
+    'HTTP_COOKIE' => 'PHPSESSID=cns2usf2a3i55fvmaase32f4s3; _csrf=f87b77b618d412735cd74e7527948958ed833cf2bb62417bf629dace7731c788a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222q5_QQL6b9LtIy4ImkhfFd5IP3P3mlzy%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '49168'
+    'REDIRECT_URL' => '/secure-parking/web/report/transaction-recapitulation'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/report/transaction-recapitulation'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1498279682.04
+    'REQUEST_TIME' => 1498279682
+]
+2017-06-24 11:48:23 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\xampp\htdocs\secure-parking/messages/id-ID/app.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking/messages/id/app.php
+    in D:\xampp\htdocs\secure-parking\views\transaction\create.php:19
+    in D:\xampp\htdocs\secure-parking\controllers\TransactionController.php:92
+2017-06-24 11:48:22 [::1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'cns2usf2a3i55fvmaase32f4s3'
+    '_csrf' => 'f87b77b618d412735cd74e7527948958ed833cf2bb62417bf629dace7731c788a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2q5_QQL6b9LtIy4ImkhfFd5IP3P3mlzy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/report/transaction-recapitulation'
+    'HTTP_COOKIE' => 'PHPSESSID=cns2usf2a3i55fvmaase32f4s3; _csrf=f87b77b618d412735cd74e7527948958ed833cf2bb62417bf629dace7731c788a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222q5_QQL6b9LtIy4ImkhfFd5IP3P3mlzy%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '49182'
+    'REDIRECT_URL' => '/secure-parking/web/transaction/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/transaction/create'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1498279702.864
+    'REQUEST_TIME' => 1498279702
+]
+2017-06-24 11:48:30 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\xampp\htdocs\secure-parking/messages/id-ID/app.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking/messages/id/app.php
+    in D:\xampp\htdocs\secure-parking\views\transaction\create-transaction.php:11
+    in D:\xampp\htdocs\secure-parking\controllers\TransactionController.php:240
+2017-06-24 11:48:30 [::1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'cns2usf2a3i55fvmaase32f4s3'
+    '_csrf' => 'f87b77b618d412735cd74e7527948958ed833cf2bb62417bf629dace7731c788a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2q5_QQL6b9LtIy4ImkhfFd5IP3P3mlzy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/transaction/index'
+    'HTTP_COOKIE' => 'PHPSESSID=cns2usf2a3i55fvmaase32f4s3; _csrf=f87b77b618d412735cd74e7527948958ed833cf2bb62417bf629dace7731c788a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222q5_QQL6b9LtIy4ImkhfFd5IP3P3mlzy%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '49182'
+    'REDIRECT_URL' => '/secure-parking/web/transaction/create-transaction'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/transaction/create-transaction'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1498279710.503
+    'REQUEST_TIME' => 1498279710
+]
+2017-10-10 13:26:23 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'user' does not exist: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id-ID/user.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id/user.php
+    in D:\xampp\htdocs\secure-parking\themes\adminlte\views\security\login.php:22
+    in D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\controllers\SecurityController.php:166
+2017-10-10 13:26:22 [::1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '26vgakd4t1bo8n6bt1oa4rlbt0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=26vgakd4t1bo8n6bt1oa4rlbt0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '51162'
+    'REDIRECT_URL' => '/secure-parking/web/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/user/login'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507616782.783
+    'REQUEST_TIME' => 1507616782
+]
+2017-10-10 13:26:31 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'user' does not exist: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id-ID/user.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id/user.php
+    in D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\models\User.php:217
+    in D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\models\User.php:196
+    in D:\xampp\htdocs\secure-parking\models\User.php:40
+2017-10-10 13:26:31 [::1][1][-][info][application] $_POST = [
+    '_csrf' => 'WjZyTHVhOW8Cewo6BwRJLBEbADUkB24oAmAqHRIqaQs/WEomIFlyWw=='
+    'login-form' => [
+        'login' => 'admin'
+        'password' => 'admin123'
+        'rememberMe' => '0'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '26vgakd4t1bo8n6bt1oa4rlbt0'
+    '_csrf' => '7ea0cff869eee44380fbbe8d35945fb660ae9d516c54ee721148ec090a787d54a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XMxvrepCK-ryQfWGXVXQgKPden8jU8K4\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '159'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/user/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=26vgakd4t1bo8n6bt1oa4rlbt0; _csrf=7ea0cff869eee44380fbbe8d35945fb660ae9d516c54ee721148ec090a787d54a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XMxvrepCK-ryQfWGXVXQgKPden8jU8K4%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '51194'
+    'REDIRECT_URL' => '/secure-parking/web/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/user/login'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507616791.703
+    'REQUEST_TIME' => 1507616791
+]
+2017-10-10 13:28:11 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\xampp\htdocs\secure-parking/messages/id-ID/app.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking/messages/id/app.php
+    in D:\xampp\htdocs\secure-parking\views\transaction\create-transaction.php:11
+    in D:\xampp\htdocs\secure-parking\controllers\TransactionController.php:240
+2017-10-10 13:28:11 [::1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '7ea0cff869eee44380fbbe8d35945fb660ae9d516c54ee721148ec090a787d54a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XMxvrepCK-ryQfWGXVXQgKPden8jU8K4\";}'
+    'PHPSESSID' => '718hnels5l4ua527801ncirec1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/transaction/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=7ea0cff869eee44380fbbe8d35945fb660ae9d516c54ee721148ec090a787d54a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XMxvrepCK-ryQfWGXVXQgKPden8jU8K4%22%3B%7D; PHPSESSID=718hnels5l4ua527801ncirec1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '51204'
+    'REDIRECT_URL' => '/secure-parking/web/transaction/create-transaction'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/transaction/create-transaction'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507616891.43
+    'REQUEST_TIME' => 1507616891
+]

@@ -66,7 +66,7 @@ class TransactionController extends BaseController
      */
     public function actionCreate()
     {
-		return $this->redirect(['create-transaction']);
+		//return $this->redirect(['create-transaction']);
 		$session = Yii::$app->session;
 		
         $model = new Transaction();
@@ -163,7 +163,7 @@ class TransactionController extends BaseController
 	
 	public function actionCreateOut()
 	{
-		return $this->redirect(['create-transaction']);
+		//return $this->redirect(['create-transaction']);
 		$session = Yii::$app->session;
 		
 		$model = new Transaction();
