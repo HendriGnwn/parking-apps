@@ -19,6 +19,8 @@ use yii\helpers\Html;
  * @property string $police_number
  * @property integer $gate_in_id
  * @property string $time_in
+ * @property string $camera_in
+ * @property string $camera_out
  * @property integer $gate_out_id
  * @property string $time_out
  * @property string $picture
@@ -64,9 +66,28 @@ class Transaction extends BaseActiveRecord
 	public $car;
 	public $big_car;
 	public $date;
+	
+	public $path;
+	
+	/**
+	 * @var UploadedFile
+	 */
+	public $cameraFileUpload;
+	
+	public function init() 
+	{
+		parent::init();
+		
+		$path = 'web/transactions/';
+		$this->path = $path;
+		
+		if(!is_dir(Yii::getAlias('@app/' .$path))) {
+			mkdir(Yii::getAlias('@app/' .$path)); 
+		}
+		
+		return true;
+	}
 
-	
-	
     /**
      * @inheritdoc
      */
@@ -88,14 +109,37 @@ class Transaction extends BaseActiveRecord
             [['code', 'police_number', 'gate_in_id', 'time_in', 'gate_out_id', 'time_out', 'status', 
 				'vehicle_id', 'payment_status', 'transport_price_id', 'payment_id', 'voucher_id', 'final_amount', 'created_at', 'updated_at', 'picture'], 'safe'],
             [['final_amount'], 'number'],
+            [['camera_in', 'camera_out'], 'safe'],
 			[['payment_status'], 'default', 'value'=>self::PAYMENT_STATUS_DRAFT],
 			[['status'], 'default', 'value'=>self::STATUS_ENTRY],
 			['police_number', 'match', 'pattern'=>'/^([\w\S])+$/', 'message'=>"{attribute} jangan memakai spasi"],
             [['code', 'police_number'], 'string', 'max' => 100],
             [['picture'], 'string', 'max' => 200],
-			[['time_out'], 'validateTime']
+			[['time_out'], 'validateTime'],
+			[['cameraFileUpload'], 'file', 'skipOnEmpty'=>true, 'checkExtensionByMimeType'=>false,
+				'extensions'=>['png', 'jpg'],
+				'maxSize' => 1024 * 1024 * 1],
         ];
     }
+	
+	/**
+	 * - delete file in path
+	 * 
+	 * @return type
+	 */
+	public function beforeDelete() 
+	{
+		/* todo: delete the corresponding file in storage */
+		$this->deleteFile();
+				
+		return parent::beforeDelete();
+	}
+	
+	private function deleteFile()
+	{
+		@unlink(Yii::getAlias('@app/' . $this->path) . $this->camera_in);
+		@unlink(Yii::getAlias('@app/' . $this->path) . $this->camera_out);
+	}
 	
 	public function validateTime($attribute, $params)
 	{
@@ -113,6 +157,8 @@ class Transaction extends BaseActiveRecord
 			$this->payment_status = self::PAYMENT_STATUS_WAITING;
 			$transportPrice = TransportPrice::findOne($this->transport_price_id);
 			$this->vehicle_id = $transportPrice ? $transportPrice->vehicle->id : null;
+			
+			$this->processUploadCameraInFile();
 		}
 		
 		if ($this->scenario == self::SCENARIO_EXIT) {
@@ -134,6 +180,43 @@ class Transaction extends BaseActiveRecord
 		
 		return parent::beforeSave($insert);
 	}
+	
+	/**
+	 * process upload file
+	 * 
+	 * @return boolean
+	 */
+	public function processUploadCameraInFile()
+	{
+		if (!empty($this->cameraFileUpload)) {
+			$this->deleteFile();
+			
+			$path = str_replace('web/', '', $this->path);
+			$this->cameraFileUpload->saveAs($path . $this->generateCameraInFile(true));
+		
+			$this->camera_in = $this->generateCameraInFile(true);
+		}
+		
+		return true;
+	}
+	
+	/**
+	 * generate file name
+	 * 
+	 * @param type $withExt false
+	 * @return type
+	 */
+	public function generateCameraInFile($withExt = false)
+	{
+		$prefix = $this->vehicle_id . '-' . $this->gate_in_id;
+		$trim   = trim($prefix);
+		$name	= str_replace(' ', '-', $trim).'-'.$this->time_in;
+		$name = Url::generateUrl($name);
+		
+		$ext = $withExt ? '.' . $this->cameraFileUpload->extension : '';
+		
+		return $name . $ext;
+	}
 
     /**
      * @inheritdoc
@@ -148,6 +231,8 @@ class Transaction extends BaseActiveRecord
             'time_in' => 'Waktu',
             'gate_out_id' => 'Pintu Keluar',
             'time_out' => 'Waktu Keluar',
+            'camera_in' => 'Foto Kendaraan Masuk',
+            'camera_out' => 'Foto Kendaraan Keluar',
             'picture' => 'Gambar',
             'status' => 'Status',
             'payment_status' => 'Status Pembayaran',

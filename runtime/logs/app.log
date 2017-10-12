@@ -25886,3 +25886,1586 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1507616891.43
     'REQUEST_TIME' => 1507616891
 ]
+2017-10-12 22:15:31 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'user' does not exist: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id-ID/user.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id/user.php
+    in D:\xampp\htdocs\secure-parking\themes\adminlte\views\security\login.php:22
+    in D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\controllers\SecurityController.php:166
+2017-10-12 22:15:30 [::1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'efbvc1m5bsi08c5lb1hb1s7fc6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=efbvc1m5bsi08c5lb1hb1s7fc6'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '50015'
+    'REDIRECT_URL' => '/secure-parking/web/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/user/login'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507821330.784
+    'REQUEST_TIME' => 1507821330
+]
+2017-10-12 22:15:41 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'user' does not exist: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id-ID/user.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id/user.php
+    in D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\models\User.php:217
+    in D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\models\User.php:196
+    in D:\xampp\htdocs\secure-parking\models\User.php:40
+2017-10-12 22:15:41 [::1][1][-][info][application] $_POST = [
+    '_csrf' => 'Z1ZYc2xQSUsRAAEsKyA7JRUHaTAWOX8oVGE9O1Q8AQIDF2sjGRIfGA=='
+    'login-form' => [
+        'login' => 'admin'
+        'password' => 'admin123'
+        'rememberMe' => '0'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'efbvc1m5bsi08c5lb1hb1s7fc6'
+    '_csrf' => 'd7cb7da8fe5a78a8d04989a0cb696956a34b81e81b481ead0c666fd59f05621aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vVY_GprnrQ1Czi6c37eH8lHIdA3PuBVS\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '157'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/user/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=efbvc1m5bsi08c5lb1hb1s7fc6; _csrf=d7cb7da8fe5a78a8d04989a0cb696956a34b81e81b481ead0c666fd59f05621aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vVY_GprnrQ1Czi6c37eH8lHIdA3PuBVS%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '50019'
+    'REDIRECT_URL' => '/secure-parking/web/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/user/login'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507821341.441
+    'REQUEST_TIME' => 1507821341
+]
+2017-10-12 22:27:34 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\xampp\htdocs\secure-parking/messages/id-ID/app.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking/messages/id/app.php
+    in D:\xampp\htdocs\secure-parking\views\transaction\create.php:19
+    in D:\xampp\htdocs\secure-parking\controllers\TransactionController.php:92
+2017-10-12 22:27:33 [::1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'd7cb7da8fe5a78a8d04989a0cb696956a34b81e81b481ead0c666fd59f05621aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vVY_GprnrQ1Czi6c37eH8lHIdA3PuBVS\";}'
+    'PHPSESSID' => '9ph0hsdimjbvgjbet4eg6shhc1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=d7cb7da8fe5a78a8d04989a0cb696956a34b81e81b481ead0c666fd59f05621aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vVY_GprnrQ1Czi6c37eH8lHIdA3PuBVS%22%3B%7D; PHPSESSID=9ph0hsdimjbvgjbet4eg6shhc1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '50073'
+    'REDIRECT_URL' => '/secure-parking/web/transaction/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/transaction/create'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507822053.936
+    'REQUEST_TIME' => 1507822053
+]
+2017-10-12 22:27:44 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\xampp\htdocs\secure-parking/messages/id-ID/app.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking/messages/id/app.php
+    in D:\xampp\htdocs\secure-parking\views\transaction\create-transaction.php:11
+    in D:\xampp\htdocs\secure-parking\controllers\TransactionController.php:240
+2017-10-12 22:27:44 [::1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'd7cb7da8fe5a78a8d04989a0cb696956a34b81e81b481ead0c666fd59f05621aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vVY_GprnrQ1Czi6c37eH8lHIdA3PuBVS\";}'
+    'PHPSESSID' => '9ph0hsdimjbvgjbet4eg6shhc1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/transaction/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=d7cb7da8fe5a78a8d04989a0cb696956a34b81e81b481ead0c666fd59f05621aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vVY_GprnrQ1Czi6c37eH8lHIdA3PuBVS%22%3B%7D; PHPSESSID=9ph0hsdimjbvgjbet4eg6shhc1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '50082'
+    'REDIRECT_URL' => '/secure-parking/web/transaction/create-transaction'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/transaction/create-transaction'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507822064.129
+    'REQUEST_TIME' => 1507822064
+]
+2017-10-12 22:44:12 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\xampp\htdocs\secure-parking/messages/id-ID/app.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking/messages/id/app.php
+    in D:\xampp\htdocs\secure-parking\views\transaction\create-transaction.php:11
+    in D:\xampp\htdocs\secure-parking\controllers\TransactionController.php:240
+2017-10-12 22:44:12 [::1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'd7cb7da8fe5a78a8d04989a0cb696956a34b81e81b481ead0c666fd59f05621aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vVY_GprnrQ1Czi6c37eH8lHIdA3PuBVS\";}'
+    'PHPSESSID' => '9ph0hsdimjbvgjbet4eg6shhc1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+    'transactionGateIn' => '1'
+    'transactionTransportPriceId' => '1'
+    'transactionPayment' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/transaction/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=d7cb7da8fe5a78a8d04989a0cb696956a34b81e81b481ead0c666fd59f05621aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vVY_GprnrQ1Czi6c37eH8lHIdA3PuBVS%22%3B%7D; PHPSESSID=9ph0hsdimjbvgjbet4eg6shhc1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '50092'
+    'REDIRECT_URL' => '/secure-parking/web/transaction/create-transaction'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/transaction/create-transaction'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507823052.474
+    'REQUEST_TIME' => 1507823052
+]
+2017-10-12 22:44:17 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\xampp\htdocs\secure-parking/messages/id-ID/app.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking/messages/id/app.php
+    in D:\xampp\htdocs\secure-parking\views\transaction\create.php:19
+    in D:\xampp\htdocs\secure-parking\controllers\TransactionController.php:92
+2017-10-12 22:44:17 [::1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'd7cb7da8fe5a78a8d04989a0cb696956a34b81e81b481ead0c666fd59f05621aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vVY_GprnrQ1Czi6c37eH8lHIdA3PuBVS\";}'
+    'PHPSESSID' => '9ph0hsdimjbvgjbet4eg6shhc1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+    'transactionGateIn' => '1'
+    'transactionTransportPriceId' => '1'
+    'transactionPayment' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/transaction/create-transaction'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=d7cb7da8fe5a78a8d04989a0cb696956a34b81e81b481ead0c666fd59f05621aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vVY_GprnrQ1Czi6c37eH8lHIdA3PuBVS%22%3B%7D; PHPSESSID=9ph0hsdimjbvgjbet4eg6shhc1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '50092'
+    'REDIRECT_URL' => '/secure-parking/web/transaction/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/transaction/create'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507823057.185
+    'REQUEST_TIME' => 1507823057
+]
+2017-10-12 22:49:22 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\xampp\htdocs\secure-parking/messages/id-ID/app.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking/messages/id/app.php
+    in D:\xampp\htdocs\secure-parking\views\transaction\create.php:19
+    in D:\xampp\htdocs\secure-parking\controllers\TransactionController.php:92
+2017-10-12 22:49:22 [::1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'd7cb7da8fe5a78a8d04989a0cb696956a34b81e81b481ead0c666fd59f05621aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vVY_GprnrQ1Czi6c37eH8lHIdA3PuBVS\";}'
+    'PHPSESSID' => '9ph0hsdimjbvgjbet4eg6shhc1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+    '__id' => 1
+    'transactionGateIn' => '1'
+    'transactionTransportPriceId' => '1'
+    'transactionPayment' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/transaction/create-transaction'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=d7cb7da8fe5a78a8d04989a0cb696956a34b81e81b481ead0c666fd59f05621aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vVY_GprnrQ1Czi6c37eH8lHIdA3PuBVS%22%3B%7D; PHPSESSID=9ph0hsdimjbvgjbet4eg6shhc1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '50097'
+    'REDIRECT_URL' => '/secure-parking/web/transaction/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/transaction/create'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507823362.309
+    'REQUEST_TIME' => 1507823362
+]
+2017-10-12 23:11:52 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'user' does not exist: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id-ID/user.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id/user.php
+    in D:\xampp\htdocs\secure-parking\themes\adminlte\views\security\login.php:22
+    in D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\controllers\SecurityController.php:166
+2017-10-12 23:11:52 [::1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'udphtpueb4jn20a4k6gcsblvd4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/api/create-gate-in'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '50800984-d0ba-c7ee-e093-966df7796879'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=udphtpueb4jn20a4k6gcsblvd4'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '50105'
+    'REDIRECT_URL' => '/secure-parking/web/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/user/login'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507824712.153
+    'REQUEST_TIME' => 1507824712
+]
+2017-10-12 23:12:26 [::1][-][udphtpueb4jn20a4k6gcsblvd4][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\HeaderCollection::isPost' in D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Object.php:138
+Stack trace:
+#0 D:\xampp\htdocs\secure-parking\controllers\ApiController.php(17): yii\base\Object->__get('isPost')
+#1 [internal function]: app\controllers\ApiController->actionCreateGateIn()
+#2 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('create-gate-in', Array)
+#5 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('api/create-gate...', Array)
+#6 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\secure-parking\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-10-12 23:12:26 [::1][-][udphtpueb4jn20a4k6gcsblvd4][info][application] $_COOKIE = [
+    'PHPSESSID' => 'udphtpueb4jn20a4k6gcsblvd4'
+    '_csrf' => '65e9e31f3f5b7486e7bfdba3cb9362a894cbcec041c2295dd436dc46d09b3a0ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"L_AvMFyAuGzFwEO2vPC1pwKPC1wD1imD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/api/create-gate-in'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '7d2f12bd-565d-49ae-d4e8-953a6db988e3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=udphtpueb4jn20a4k6gcsblvd4; _csrf=65e9e31f3f5b7486e7bfdba3cb9362a894cbcec041c2295dd436dc46d09b3a0ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22L_AvMFyAuGzFwEO2vPC1pwKPC1wD1imD%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '50108'
+    'REDIRECT_URL' => '/secure-parking/web/api/create-gate-in'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/api/create-gate-in'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507824746.443
+    'REQUEST_TIME' => 1507824746
+]
+2017-10-12 23:22:32 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Response content must not be an array.' in D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\web\Response.php:1020
+Stack trace:
+#0 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\web\Response.php(313): yii\web\Response->prepare()
+#1 D:\xampp\htdocs\secure-parking\controllers\ApiController.php(34): yii\web\Response->send()
+#2 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Object.php(107): app\controllers\ApiController->init()
+#3 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Controller.php(84): yii\base\Object->__construct(Array)
+#4 [internal function]: yii\base\Controller->__construct('api', Object(yii\web\Application), Array)
+#5 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\di\Container.php(373): ReflectionClass->newInstanceArgs(Array)
+#6 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\di\Container.php(154): yii\di\Container->build('app\\controllers...', Array, Array)
+#7 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('app\\controllers...', Array)
+#8 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Module.php(567): yii\BaseYii::createObject('app\\controllers...', Array)
+#9 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('api')
+#10 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('api/create-gate...')
+#11 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('api/create-gate...', Array)
+#12 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\secure-parking\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2017-10-12 23:22:32 [::1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'udphtpueb4jn20a4k6gcsblvd4'
+    '_csrf' => '65e9e31f3f5b7486e7bfdba3cb9362a894cbcec041c2295dd436dc46d09b3a0ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"L_AvMFyAuGzFwEO2vPC1pwKPC1wD1imD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'd0a9abb0-8378-86da-cc12-e9ed8f1cc3b1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=udphtpueb4jn20a4k6gcsblvd4; _csrf=65e9e31f3f5b7486e7bfdba3cb9362a894cbcec041c2295dd436dc46d09b3a0ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22L_AvMFyAuGzFwEO2vPC1pwKPC1wD1imD%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '50126'
+    'REDIRECT_URL' => '/secure-parking/web/api/create-gate-in'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/api/create-gate-in'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507825352.245
+    'REQUEST_TIME' => 1507825352
+]
+2017-10-12 23:23:52 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Response content must not be an array.' in D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\web\Response.php:1020
+Stack trace:
+#0 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\web\Response.php(313): yii\web\Response->prepare()
+#1 D:\xampp\htdocs\secure-parking\controllers\ApiController.php(33): yii\web\Response->send()
+#2 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Object.php(107): app\controllers\ApiController->init()
+#3 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Controller.php(84): yii\base\Object->__construct(Array)
+#4 [internal function]: yii\base\Controller->__construct('api', Object(yii\web\Application), Array)
+#5 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\di\Container.php(373): ReflectionClass->newInstanceArgs(Array)
+#6 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\di\Container.php(154): yii\di\Container->build('app\\controllers...', Array, Array)
+#7 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('app\\controllers...', Array)
+#8 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Module.php(567): yii\BaseYii::createObject('app\\controllers...', Array)
+#9 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('api')
+#10 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('api/create-gate...')
+#11 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('api/create-gate...', Array)
+#12 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\secure-parking\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2017-10-12 23:23:52 [::1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'udphtpueb4jn20a4k6gcsblvd4'
+    '_csrf' => '65e9e31f3f5b7486e7bfdba3cb9362a894cbcec041c2295dd436dc46d09b3a0ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"L_AvMFyAuGzFwEO2vPC1pwKPC1wD1imD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '47a6827c-8b5e-f4ba-7cbd-148b9e348596'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=udphtpueb4jn20a4k6gcsblvd4; _csrf=65e9e31f3f5b7486e7bfdba3cb9362a894cbcec041c2295dd436dc46d09b3a0ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22L_AvMFyAuGzFwEO2vPC1pwKPC1wD1imD%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '50127'
+    'REDIRECT_URL' => '/secure-parking/web/api/create-gate-in'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/api/create-gate-in'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507825432.813
+    'REQUEST_TIME' => 1507825432
+]
+2017-10-12 23:24:13 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Response content must not be an array.' in D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\web\Response.php:1020
+Stack trace:
+#0 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\web\Response.php(313): yii\web\Response->prepare()
+#1 D:\xampp\htdocs\secure-parking\controllers\ApiController.php(33): yii\web\Response->send()
+#2 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Object.php(107): app\controllers\ApiController->init()
+#3 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Controller.php(84): yii\base\Object->__construct(Array)
+#4 [internal function]: yii\base\Controller->__construct('api', Object(yii\web\Application), Array)
+#5 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\di\Container.php(373): ReflectionClass->newInstanceArgs(Array)
+#6 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\di\Container.php(154): yii\di\Container->build('app\\controllers...', Array, Array)
+#7 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('app\\controllers...', Array)
+#8 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Module.php(567): yii\BaseYii::createObject('app\\controllers...', Array)
+#9 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('api')
+#10 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('api/create-gate...')
+#11 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('api/create-gate...', Array)
+#12 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\secure-parking\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2017-10-12 23:24:13 [::1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'udphtpueb4jn20a4k6gcsblvd4'
+    '_csrf' => '65e9e31f3f5b7486e7bfdba3cb9362a894cbcec041c2295dd436dc46d09b3a0ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"L_AvMFyAuGzFwEO2vPC1pwKPC1wD1imD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '47aebb2c-14be-e00c-461e-d958a86bc726'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=udphtpueb4jn20a4k6gcsblvd4; _csrf=65e9e31f3f5b7486e7bfdba3cb9362a894cbcec041c2295dd436dc46d09b3a0ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22L_AvMFyAuGzFwEO2vPC1pwKPC1wD1imD%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '50129'
+    'REDIRECT_URL' => '/secure-parking/web/api/create-gate-in'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/api/create-gate-in'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507825453.903
+    'REQUEST_TIME' => 1507825453
+]
+2017-10-12 23:46:22 [::1][-][udphtpueb4jn20a4k6gcsblvd4][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\Request::file()' in D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 D:\xampp\htdocs\secure-parking\controllers\ApiController.php(51): yii\base\Component->__call('file', Array)
+#1 D:\xampp\htdocs\secure-parking\controllers\ApiController.php(51): yii\web\Request->file()
+#2 [internal function]: app\controllers\ApiController->actionCreateGateIn()
+#3 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('create-gate-in', Array)
+#6 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('api/create-gate...', Array)
+#7 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\secure-parking\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2017-10-12 23:46:21 [::1][-][udphtpueb4jn20a4k6gcsblvd4][info][application] $_COOKIE = [
+    'PHPSESSID' => 'udphtpueb4jn20a4k6gcsblvd4'
+    '_csrf' => '65e9e31f3f5b7486e7bfdba3cb9362a894cbcec041c2295dd436dc46d09b3a0ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"L_AvMFyAuGzFwEO2vPC1pwKPC1wD1imD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/api/create-gate-in'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '342'
+    'HTTP_POSTMAN_TOKEN' => '812b0056-bfae-0a7b-0338-5d7392ea624f'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=udphtpueb4jn20a4k6gcsblvd4; _csrf=65e9e31f3f5b7486e7bfdba3cb9362a894cbcec041c2295dd436dc46d09b3a0ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22L_AvMFyAuGzFwEO2vPC1pwKPC1wD1imD%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '50202'
+    'REDIRECT_URL' => '/secure-parking/web/api/create-gate-in'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/api/create-gate-in'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507826781.933
+    'REQUEST_TIME' => 1507826781
+]
+2017-10-12 23:47:45 [::1][-][udphtpueb4jn20a4k6gcsblvd4][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Malformed UTF-8 characters, possibly incorrectly encoded.' in D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\helpers\BaseJson.php:123
+Stack trace:
+#0 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\helpers\BaseJson.php(61): yii\helpers\BaseJson::handleJsonError(5)
+#1 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\web\JsonResponseFormatter.php(89): yii\helpers\BaseJson::encode(Array, 320)
+#2 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\web\JsonResponseFormatter.php(73): yii\web\JsonResponseFormatter->formatJson(Object(yii\web\Response))
+#3 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\web\Response.php(1007): yii\web\JsonResponseFormatter->format(Object(yii\web\Response))
+#4 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\web\Response.php(313): yii\web\Response->prepare()
+#5 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Response->send()
+#6 D:\xampp\htdocs\secure-parking\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2017-10-12 23:47:45 [::1][-][udphtpueb4jn20a4k6gcsblvd4][info][application] $_POST = [
+    '------WebKitFormBoundaryhOlEF009ANmsqxfl
+Content-Disposition:_form-data;_name' => '\"gate_in_id\"
+
+1
+------WebKitFormBoundaryhOlEF009ANmsqxfl
+Content-Disposition: form-data; name=\"time_in\"
+
+2017-11-11 10:00:00
+------WebKitFormBoundaryhOlEF009ANmsqxfl
+Content-Disposition: form-data; name=\"\"; filename=\"33605.jpg\"
+Content-Type: image/jpeg
+
+ÿØÿà\0JFIF\0\0\0d\0d\0\0ÿì\0Ducky\0\0\0\0\0<\0\0ÿá/http://ns.adobe.com/xap/1.0/\0<?xpacket begin=\"ï»¿\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?> <x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"Adobe XMP Core 5.6-c067 79.157747, 2015/03/30-23:40:42        \"> <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"> <rdf:Description rdf:about=\"\" xmlns:xmpMM=\"http://ns.adobe.com/xap/1.0/mm/\" xmlns:stRef=\"http://ns.adobe.com/xap/1.0/sType/ResourceRef#\" xmlns:xmp=\"http://ns.adobe.com/xap/1.0/\" xmpMM:DocumentID=\"xmp.did:6C3C5A09AD6411E79FECA61588E05633\" xmpMM:InstanceID=\"xmp.iid:6C3C5A08AD6411E79FECA61588E05633\" xmp:CreatorTool=\"Adobe Photoshop CC 2015 (Windows)\"> <xmpMM:DerivedFrom stRef:instanceID=\"xmp.iid:19579AD2AA4611E7AE54D8DAE7CF4D43\" stRef:documentID=\"xmp.did:19579AD3AA4611E7AE54D8DAE7CF4D43\"/> </rdf:Description> </rdf:RDF> </x:xmpmeta> <?xpacket end=\"r\"?>ÿî\0Adobe\0dÀ\0\0\0ÿÛ\0„\0		
+
+
+
+ÿÀ\0 Ð\0ÿÄ\0¶\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0	\0!1AQ\"a2qB#‘¡R±b3ÁÑr$‚C4ðá¢S%’²cñÂDÒƒT\0\0\0!1AQa\"q2ð‘¡±ÁÑáBR#ñbr’‚3C²$ÿÚ\0\0\0?\0¾-â/VoôÖƒŽõ\'Ëþzº¢™*›’|tTDeMµd<*c¨Qâxa%ŠuÖdV¿p;¶7†ç	o ¼-5Ã {b8ãõ-	 fc@¦úáûŸ7ÿ\0Æ¼TýoäVWh#Ž‘]Íµä“š{\\·)\"
+ñoå®/{ÖvèuP´[KhPxA©IVæE~\'Bvl,$kŠ\\dgÿ\0¶¯!\"jeE*I?04Øøhšƒêy¿kÄ7\"!±‹“Ik1ñ†Ù'
+    'ý>™±÷Q­™IŒýmÔyd-sµãMÕÔ«£VŒOQ¥±ñvroFgÜ—Xë¬•®JVçk2{/`' => 'VCBj<‰ßT§æ¦°Nì¬î:[Ã€’å— cWD~“Û«ñ#t4èAß^ËÛ®²cO©ÁæW¶ÏÌ²]ž6$ôó×Dç³lW5Øž½ªLßZŠêˆ`|õl·õ ¨Ý€,¿—]S-omà¾nmÚ­R64ò#Ti23¬Q‚ÎxŽœ)SÓ®¡¤B–îPæ8êõ,)ãá¨PÑ‹™Íº†<˜l:Vš¢‰¹ 1!Q/#Ä×s¶©KØ·¦âÝ¿Ü¾Ò›9Þá®'
+    '¸vŽ	‘Y£‘Ò¼ø>XéFv ®ÃOäöüÔÆò5¢ßÊvüü½y4µ¡0Wpv­êfñù‹»ÌÜÊìÂÞ`²°5Cí â¼h)çJèø¹UìµRT_¯æ/“îMÍ¿€å66×_Š,ÅœSÔ’ÞE*yƒ®unêæ­¯€ßorÔÏevÝý¾' => ''
+    'ÚL]ÍÒÿ' => ''
+    '\\¹r\'k7hñaðð¬èïJúVæËûüË,Ëä6£’´S:4‡ÚSW^>z-‡‘ŠÑ)Ïó0´zêˆø|íÕÔW‹|­©gŒÅ‚õà	p»5ÈÇZÄ0îÞågÞwò‰\"ÁcËdä\\]™fß™rÕ?«EÀœwN‡¡öìK\"yòC¼ ‰íû\\Þóu¬²p­æ½^RBŽÀòæ>_ßËN_V^?m«k%ä-Î¿ÙÔ¥d—ª?¯ˆ_¼~Ëá2ÛÞÚe¤Äf^Ñ' => 'Ù[ÕÍ$e˜$ÛU…kã¦xýl)ÒõW£mù©ý#ˆ®æºGáqÝã÷Oíýìþëµl¶göáÈ‰9§#Ð%Çé?äÀ;›‰ÃæUßìºÿ\0íý>îL?Vµ-^ÛïŒuÙýN*åf‘@3ÚÍé™>ñyŽ_'
+    '_ÐèáÏ_ìtVRñÔ' => 'À_úŽ¡D6%O_Ž£(ÀôÖK¬m’Û
+þ¦õ0Ô6…¼¶:â{éÞâø.^8ì-YDaÈ.OÌ*6Ò™î“Ô{j¥*º­Þÿ\0§@þ1vÉbÊž[®Ûjø×vNE-T¶%u=h4Ñ‚S!³I#qjU™×Þ=Ò¼\\n~§°×Žò[È«{Žú{ÉêîOÙnAb â\0Ø
+yÓ_9¾{fÈïo©þžG£ÇŽ´P„ ø¡gæG'
+    '#Yyt5üØk£ŠÍ(-‘±²½¾^ÌSÜ*_ÚR|YùèöÖ­”9˜KØ{°9‚ü²1ÝÌmê~_P>JÕ©ÔÃD	rÙë9£÷Z_‚€È–’GÉêXQÂ¬(ÝŽ™í«ÓS	%žÛ-†·¾²‘ñÒY³}g' => ''
+    'ýërXä·¡ÔÔ×—ã×Y…]¦u’\\YÌÆÂöì<–Ñ¢„ó%¥Â
+–ôïÓokµÚÉÚb4dÛcV_1ÌRËiK‡O¦y*XšŠµM~eßÏÏCåÃ³kfÍáMD˜âÁtT_®æ§Æ¿®]Þ¡ØUYXð´ÜáM«OŽ…ddö,YA(j¬i@kå]JeYHÅŽÉOÉŸ\'' => 'Ö{c°=—†ÊÒ_r_i¤¾žA^H¡ê)Óã®7^6>ë|—‹ÓÈå¹/,wha;{V«L\0Q,€3¿mùm¯Ê÷,™œÙÇ’DÆÒ;ê§Ç\\ÌùvF˜Q¹
+Š“Òš]¶ÙAk\"´’O-z¿gö«6¯d%ÈÎ¢ŽFâ ¢ìÇoÃ^ï>Ôs–BŽ\'Þ•GúyPùÓÇZh’O†âŠ*¨ñâ\0©=NÞz5€¬äô¡$lÉð <OOY	Ê´\0yjŠfaF¬ˆöš…šní9¯›ËTÈÄàîkK[3$rýC½]4rË¸å·…E5ÉÏîØªâ¯ºßŽ£x¸w¶ú	7nùk²QcšíDnÖñº³\"oÅ‰5¾ôZó\\®C½ÝÞ’u±cUª¨§“í|ýŽR3ŽÈJÓ¸/u|Ê«ŠÀ–Y‡\0­òõßEÇšŽ¯¹(èŠµmÑ„l{OÆIq\"O%Áa5Ò9]êJ‹táÒª(t çÉv¼‹­D{™®­lÇØSj¢I]“ÅÜòó#[¢—æ]œíï.$9#B²\'¹l´KPú—ùÔhî¾’•µ2Ï´Òk«§UFŒ¬±Üì$`=VŸ7“j`O¹$i´–¢.îE½•·ÐäqóJ‹#J7ãó“‰mð×[7¶÷¹«§64hdû2·ïº«{Œ†Ödb)Êˆ«-|.¿«]^G‚äåîª<ÑbeõJŽ†š8¨2æ7·b[dIØÌê6‘ ßkp®µNÜ”‚?ˆÕJ{¨$®Ú…¤{niq­*i_ÇP±K)•—ÜQ@8-R¦7©åC]Qa›[5¾QujÜ}Ïõ\"j’§ËTC3‚ºw\0º¢Ž¦›þ:„ÝÞbðxÉ/rwoiIZ‹6ËÔïà·‡òÛ²ŠY›ÝQw=Šnÿ\0»{§î¦fl	Ë·¡§»5…»=Ù>™C–1BŸ]{
+p0ûv%—$<§_þŸ‰Ëy¯žÐ“íünYÝ«Ø=ŸÛ›Ëh„ùI”ó¾T¨cVX—¢ 1é×Ã^k™îÙ3%K¿OJÿ\0QÌZãÕjÆþFæÃ=Õ´bIãFtF­Zm¥*¥¤;†ª×ª{6ìÎâ½ÎãÍÕÍ»[•< EcARµøøjòÓ±ÄÈ~waÉÚœ¯àº³·•£™áIZ:¢–æ¬~S¡7¤Öí'
+    '“ÜŽÒ,\"‚ÆE-Px°]Åz!ÛÉ1‘`Šö£ª€YA¥zU‡žß†±LêÚ-~eºÂØ‡{†°–én$Ã«O¸‚hØ×5 5®Õé¨ùª„œ®K*º\'é}0áðöüekI-J’h>e5OX  ©ë¢Ó' => '¬¡½\0v$/÷¿nç2ÙŸ«Ç$wVéÇÁU»#þç¨ækê:gjªÃ;\\^,Xm£ÿ\0ùÓ5µ¬J×’#,Ê˜\\¡G?©8šÄŠŠo¥ÞW]N2Åß0¿ð!g~Õ_[gì{‡³.Í×ÝÇ9’5‰§1‘À6ü”å®Î/v­ð:äNó³[üäBÜ>Û÷T7=Ãý¦pðß,xC€â“Ú?«Ûjr\\¯²ûßÏËâ:²kÚâ¯Tj•5‰i’bA
+jG^º’CTrH5$ïSùþ:¦Ê$G1uä€©®æ5!”pK4xz«]‡ž¬X¢H\"ŠæO™Öˆg¨C\\­Å~\'¦¬ŒŠzê<$B®î„b£©è52±$øžº’Q±îCFˆW…}`z›þ­Sd5ÆÁåëeÄÓTXâôù|\0¥5f€LéÜ ½ê{oîMŠaÊB]éï†?¤SÃKäÆ¬Æ­‘¼Rë¯wÕüƒ\0PQ«¦(wc‰ÒËŸ€ó>Z7–¸øÝÞý‹ð7‹½ DîÉááy9êv5­×m|¯›{ß#ï}ÎgçøÐô|z¥U6.ó%o2ÛÅÉ2î´e5 ¯êÖ1'
+    'œ¤×Kq#!asŽ¹–Ædeš_¼Ç—!ÉH¦ºª^¯B“• 
+ûëm®Rhc' => ''
+    'XYg*X*ï!Ûôñ­|´ï«' => ''
+    '›•mÉy{héÐ_
+©jŸmÕ˜ëãOñÒ”£N?yŒ¶—!uqs2{0A7©¤õ7¶´ÜU«ËòÖ­VÒQæ	ÛR^VÊÛh,b‰æ¹ÍÈžëF¥Ò_¸ÅÝE	(ÕcNÎ' => [
+        'úH¬Æ‹9¯Òô¶Žœ5‰˜ó‘E5a' => 'F‹”JŽHâ·Šuf÷Qž9–´#‰Oý%X=k.*×lž®exGõdÝšñw)%©âáÊùt¡×¸ý¿Éž=©2ëüÄåã‹'
+    ]
+    'sïvcm±ÿ' => '†D”ƒT$EM|öÖ’\"pÈ¿k~êÝvÕÂà³ò3bƒ{pÎ}MlA§óO#áøjëh7¹Ðå–c$QÜ0†ê:	íä(à8Ùã‘zy‚4wYQâ^,Ž–VI6ŸU æŠms¹,Tù6IØæ iwqûáâ‰™ñr¨ÃÕÈ0êÛ€5æþæL7k'
+    'Û/ìz¯xöÚeÄ¹\\U5ÞÝ»/>ß_¨÷²®$ŠË-€ZÃ”P—vÔ÷±‹¤ƒü¢ž:ègÒ©ô<ïÜ)Šê÷×À	av¿qöbY¨Kµ¼¥§¾Be<¼)ýv ¦úo‹Š–RŸ¨ß\'Ÿ“;›?OEà?a»ž(¡—‘³º˜ÿ' => 'ìà‹Ùéî8…\0l¨?¤kÁûŸ/?\"Ë½v¥µN…A91——U°¡Ú»®ZÅw°^ôƒ8Ü ÄÑzµ6Óx=£6[lÿ\0œ„ƒPXÅ€½_öê¤ZÛˆdåÎÇ—;pˆTxëÓáÀ¨´v“B[3’[zõ\'L¤a²BÀmÓWdø'
+    'Ý5Gž²ˆWó˜B,’üÆ•!>Õ–^š£0yÈŠ“JxS­>:…šeº_è5d’¿û©Ü™wn²÷WÝ™c–â' => ''
+    'í­	£ÿ' => '¿«ñð:Õ#	÷øxâ¼{éîÉe*RU@'
+    '¹/ÈÇÃLÓ#k¶_§^¤k|ÿ' => '¿kä•ò2ª×RÇÀ}¼À‹uKÛU–AêT•V)A¯QÚ’Ðä;6X±ŠÀc#öìb·IZ®=±êÛ¯#ãMÍ™>ä}ïÅ`oï{ZÊÞ{¬Üûs\\Eè†ÓÞ_™œÅÕO á¾”Ï’*ÒÁŽl›Ø¤KûÃû·SÊ P”G]‰:ä¸GV[~Ïå$Æ÷VO<«ez¯Ã bÄ@;r%J×GáåŒ‘â-ËÇ4ŸõéëœÃ!ZW¡ðÕMû‰A{k{Ä•¹‡ƒ²ÿ\0û£ã]¾VÖ^æÖÆŽÓîEÄ0ÛFXJËT‡'
+    'ƒùjA˜,kÉìl-fÈ]È!µ„s’N¦½8Æ<K”ÉØjñãµÜWr­eU©GçqÝó÷Gº\"†K;¬7gÛ†džhÝØ®î¨Ô÷e“ˆ_U¨ü½§?Ûð6­\\™üºÿ' => '@ŠM.½á»Mk§êký}7=)iwŠí\"™	¤Xrµâvã®ÞR¶àbÔzo»ƒŒ¸‚ÒiV#3ˆáÛ“ô4šW¬›KaJÿ\0³/¯;­¯rÒM%µŸ;›è$hä‡‰#Jo×jx7^R¦8[õóx›´½ƒ­Þx~æ·¸ºÃ»3BÜ.-ä®ã—ÓpE|Kòx™1Ck_Ñÿ\0q¬Y«mïtWAX¤‘Ûˆ;¶MJ4Ôhh‘ª”PXŸ1­3'
+    '±uíH\"T2I!' => 'º„\"ÊÅ˜ï«)šµ
+#_]G
+u5#piR~¦É¶s¸¬±–íuzä<cEù™¼”/›‘\\jXlX]Ü %ŸÜŽÕ¸*³ß-”Íÿ\0•=P×þ¯”þG@¯¸c‰r‚¾%ú)ÍÜ˜H—»Fä9OP§F—¿½ñkþSðLÝ=»5Ö•6Z÷6§„Çv•”Q¿!¶µÞ8×Ñ[_4Ê··g®õ,Bw?‰×Q
+˜˜£2	xqAPô¡ê Öš¸(Ìê €|ê›ƒA†%'
+    '^¦´ê?-xŸy÷%|ëõR{¾' => '#§ÆÀÕg«â[yïyÎÔJš«MÇž¼ma½NÓ˜ÐÛÜ=Å=ºlrTV‘…ª’áåM:³ô®‹ðþ@é‡­„ìšÈÁdrD‚S@õ¯«óo=LwjÚêÈS½÷WV,Œ¡•éQ±ªÿ\0¤øë©†Îº£6RkíÞ×ÏÆ›’hâ/
+]öÒ3âBšñþ´æL´kmzÀ¥›LsÆöíÉ-pbî7àÍV´´|ªO[¥t†[ô[1’b	V®ÔúŽ¡h	 ïZºU8Ø ?¸ð÷Æ]D-ö'
+    'ín# ¨t¡GBGZrVü´Ç7mm_ùV
+µT¦E·€Ç<­2
+_Æ½E||<|5ÍËiÐil†pDúÐZib4ylnã¨jÃÃÔF£_Ý5¥U¶' => ''
+    '0,á™…6®ÝñÑR0hkƒsÃÅ8ÊUë_W4¨ùÝ5—x£¤nÓóÐ¦¥§à6vÀO¦eG÷¨EO½Oí•ëºZÖÈ÷„˜ûofã2¶ëýÊå9n«qŽ¼BÖ¼zøkÖ×Unî¢O‘wEIô ’ÆÃ‘R<HßL¤Nû»Þ·Ý¥Û–y‹XhÍê' => [
+        '\\„E‘‡b›×Èéþï' => ''
+    ]
+    'j›e©’]^v§š…5jÍ‰:_˜Á÷…½ôÞþZÛÎQ›Öž J0' => 'WÏEôØªäµvmO˜§÷ ûjJ“M¿µ{'
+    'YáÉØ S;1
+ñ¤€8†õ{‹½6×?ŸZõOâ‰ÃÅ_òi' => 'µIï§æUY›ÿ\0©kûz‰9ñ[ÈB­×
+×ŒÂ>*çÌ0?Ž¸˜óº?Kkâ{þGí®>Xuÿ\0®Ý{u¯ÊFþÕû¶D®@Jò7«¢»qñe“öè‘ë­ÝÒúæ3ö¾|zãk\"ü™bEÞØ)ÕÒÛ\\2£´3$‘ñ
+©%–”§]öÓµ÷0½Py_¹^¬1g}e·ú›#Ü*\'ˆ«­GQÈm¶µjaÌ¦ o8L£$ÆcOš:·…:huâb_â¿#O%ŸSq¹•¶U Ó*©l`À£¿ÎvòÔ‚IšÂ£ÃZH’gJté«(úš„1 uÔ(Õ4ñÛ€î91ÿ\0N?3ñøj3Èó™d$ÈôåÓø~ZdMd‡Š¤Ö‚º„\"Kas  ( õ,I?Àj \0L¿ÛûlÍ´¶¹Kù^Öe*ðC\"þ5nf£CË]C	#¦¨Ø^ÆŽ!O•^sFj?¥‡·B>[ý~˜÷2yöùöûÛà³dP‚©Ã‰¨©Ðko‰C?í\\…’ÿ\0o[˜,ûŽúÖâ9Öâ)åH¥ Ç¤uUŒðñë¬.4þP[æ]‚3eûè/ÔG•‡9q%=ÉZÙœx¼J×ñm\'“Û#èˆ§>¯yî±}Óg[æ1“XÜƒY¤‘
+@Oƒ#ÇÌKÿ\0êüµËäq^-Ó¬yk}˜¿”»¹Šg¶†ÆL›©ò%Ûõ9æ¦ázþ¬tOVûMäq¢Rì¼Ö^(žîùçþçî°´~ ÇÛ\'oi)N,zŽšo%¾ÞDñé@ã¯uZ±hà{ÚÇ%nÂi?¶Þ[ë-Ý½¤U-Å]Yÿ\0¯¡§MwðsVZËÑõ9¹xîŽ7A‹žêÃ`ašîæG\'ŒŒe¼t,ò0ê*\0ÿ\03ÔkŽUh·Ô¬|{]ù6z>èÎdo;(Ïq-Û÷q„ö‚¥QiNŠ<5Íÿ\0b­Ã~£ °´¼ˆTªQK)ägnž4üõœj£5%ÅÚÇ”†_rkF[T Ç\"š/óÒØrÿ\0Øºjo-fàtÌ,‘‡SUpƒ
+ëÒ\'\'‡Ë¨AOî™X»jÖí›ŠApC8²0Þ¾Å·7E)˜ýšÆ	ñ˜öŠÇtí‰m™¡SÆI\0ð÷Ò¿¨õ$@©÷k¹ó=Í™ÿ\0Û½¹:ÅŒÆH¿]}P\"Ff4oôiÉ(C
+75ëý£.6?»™z­²òþýz3u“>O·L‹íúã°à® )<ñ‚Ü[Ý¿ªk³BÓä–å½<|5ÇçåÉšÎÎ«Ê6KÀìçÄøø«ŠôJû÷xŒù~ÎÁf¯#Í9–ÞFæUWß1šúƒxÐPù#\\ö­{Pn/¹åÇÑj¼úÖf›Û(ŽÝ7Š2(I¥6\0x)kAÍAÝÁš8û	eŽDú ¤ÂŽvb5È÷wÛ¬UúÆ0bîzì-c3Ù»‹`o%T‘·eJrôåÿ\0-ynGºfúU¾}NxôÞ	‚›±4v\'~ºáÛQ„ddeZŽ½uHÒ@›Ë´—Ü·r¨•Xô;íü˜ØµQ¯ä¸îY-à‘ŒÕ™GËò–Ÿuéd°)ÜE©fáÅ¬½U*µ	Ðóü ¶’Z½Jk@îFjY¸†C E•I#bºzöIh
+•×P…ù‰>–êc$«êY[bÁ¼ü ]7Âåú{X>F-e³ª¹\\ýžR9\\][*”ò‡¦½þ•ÔsºRÕé`µ·qäqÖ¸È;’Þ <žJcmk´<\\”Ž!Ý€5e©Óõî}©Ù7]ªµ .ê²?l;þÏ¹1Êÿ\0Ørò4wvª@Ž0w– *Ic\"U¨»ìuéxù3Äþº­‰Ë²ûv•³.Dž	-¤xeW¶ž1wo0§6äTù:ÚónŽ·iéýz.îê§áø@ÛËÕàb„ó0ßcå¿Ã®©³.ÕÇ‚ï|Û ôC]ÉoÔõþZÝc'
+    '¶Qö¡Œë_8‚\\Páª‚™õ¢ˆ÷¬Q³¶ÀoS¬»¤¥²Õ_pŠç¹>âáñ÷)u¹Ÿ‰â½*Þaê?py^óÓ
+ï~' => 'õ:˜=µµ7}«õ*Žãîûûû'
+    'ÉånŠbÚàÇmª½' => ''
+    'HÃ¢úÐ”j©èŽŽ™oY³îmþ>bßnº%n_¬ã’ââ$Y!_^j*¸' => ''
+    '‚Ñ«Fv‘Tn6é¨¸õmBE¼öKvvOx__c0÷¶_' => 'åªò
+—VqAÄMŽ»™lëYG\'‡Š¹2Ö¶Ù° î¦êÝêÚâÚfeÒ†H]‹ofQ@êŽx·‘ÖkÈMj=—Ù²VÍU¦—ÉüÐìþšü ¢äqVüŽEw®ä>íËV*jÄScá¯Œæ³ï¶»ž–‹D ÜÈkÅ_ZPPì^¾>Zº¡”{Ùfä’Dc1\"¬(OZ?>7dk2Y[¤	 ¹€òíÐuùhÕ«Ð¦{kÇ{«~ÓÇ-ø`žÒÈqƒJ1êI`zk£‰z`®Ï-.å¸¾f’h§–\"ü­h#gØ„nMºú¼öóÓ=šfv—¹õ¼žÝ-€òs~úŠê®ÝzôÖíŠ‘«ÔÂcU”ÿ\0]f—0?·ç…ÌEZ°•¥7\'¦‘Ë]Í«AŒ3³u²‹fÂæ„20ÜW¡*|ô(}»ì¯Ä“wcazÌ² %Ï\0ÂT^l*Ž±lu´øš­ÚøÖ9íJÅsVaP:=#“«Õ@Ä§±'
+    'ž¿pÜPxTÑI¥v§ž³SÎUúî>ÓD«2Ñö3\"´uZ•Ov®³d\\}Ÿ$­hÞá£ÔÕ@Ú‹°Üõ:ôÿ' => ''
+    '®¡µ2ïL<9nÐ¾²˜•WhYxÔ2J§õTkPÞÆ°äì²eOÞ–Ÿl†FÞÇ¸1±' => 'ÃÛ€³@¯Š«éˆsŒ¨­ ÓMâ÷\\œm)f§XèZá[2vH•û!=…Äw½››x.ïCŽ»~WfôL”SZ Txë»‡ß©–±šŸ5ýmøÖ_K'
+    '`þîwÏh]®;¼¬e¹Œ˜ã÷YB\\’ÊKûd“ŽTò½tµ¸³k…øþ]ûÎ¿Pï™Áö÷ya' => ''
+    '¸Áñ_' => ''
+    'k\"‚:¸êUz$è' => '-á®'
+    '\\N®:ŽcºkCžû‹·î±×2C*xiÍ:?_¥¡­ÂÔÚ}ß}†_tÖ·Ov6Å-<Ó¡?Ž¥Y,¤¼ûGï>__Ó8?·Ü·§œ•0;' => ''
+    'Qñ:ÙeÔ2©eß*–à	©Ôd>%ƒñ;ÖºˆÉà;ÓVCÞCP‡Åù!€xÛf€e?ˆ;jšOFZpVÝãö_·²©qsƒ“ûBò¯4iV´¿ÎŸ4GüÑŸËIåáÕë]#òÇË²ÑêŠ' => 'ÉvNDcóbâÞž§æõ=Ëi¥×¦ýGÃHåÃfá­G±ä¬Jz\0±ÝÃ,w×ËrXÇ±?Ôû¡ÇŠ·.DÓË®‰Zv(êÁÚêÚôA<-Ì—ù$ÐÅì{V³ó$‡¥\"bkÁ‡ÃJf]«MBãrõÊ\\[±ŠG{ë[¿L¨(=•o‘GT®ÕA¥4zì×ê31¦àñgqkI-²¤Ê¿º$!
+Ð½IÛòÑÓ˜`ûIT¹¸°¸¢-TGEB~\0Ž»ëô²-ì^¿nr©”ììUÈjÈ¶ÑG8Þ«\" 0>4×¨Åue(áä£«ÔeÀƒ÷Þ)n{G‰¶÷ÙL¤PÁõf*ÔÌhWRÂSfÆ~ç¾NÍìì1œ~±`\\v)@­Z8Ï\'â¥[ fôï½uÐöÎ:Ë•w}Wðååì®›•‡ÛîËi;6[»ù›û–j3}owúE`‰/¸=NîFÊOJyëÐ{ÿ\0:¿{²«ÓM<z¨ò5ìêØ,³=¦Ý›…Šó2m'
+    '
+ÓÄyˆäCAíôenªëñ5ÈËžÔ¬×©è½ê«' => ''
+    '*Ûüw-øí’@9-`‹d­hÌ:š-qÝô8	³™Xñ¶sÞOB°íBhÐá®_#;¢oä”îpsÏw}ÄioêYdYnžˆoCJž*?_°;¶ÙÐ•UžØïË_ØÁÆe<YÓ¿J­|5æ}Ã“¼†±]Y¶™pÉÍ‰pz•Šk—ØÂ´L‹_m:q±Vª|·}NØ$0F^á!¶œò¨xŠÖ¾' => ''
+    '^Eç©:n¿â(G†½	Ú¶¬ü¾;4jMÊÁÓ<’BŸWa2OÓ•Z,«âFºÙ²6´Ñ€¥š•;‹' => '×†“º{_5Û×å½’îx‰8~Ú2WÚd©ê¥Y~:íû_)a¾;­¶1lØ[£`ß³Y§îO·™éyŽØ;3P¬sÆË3T‘B–ïÜo·žWÓmJáÞS©¿¶{¯X^£[ç-‰¶žÙÅ	•ƒñ®¸•s§Q—Rá³µ[[H­×iB“æ|OætÂ0n¦¬‡ÔëðÔ!âhÈ
+V»êÈ'
+    'Ç÷' => ''
+    'HXÌ^ÐÊim,¥i!¯¤¯Mß\\G¼Rê«©Ð¯úu~g÷î-ÛË' => '¶>B¶åªªÏJéäßðMyÚ»r.Ûvûo¡Ü§¸(´O!UK‘2JÊjÎÃŸ3Ðt Šd#Mk<ÑD‰é’QEwäÕZ?á¦1_¶ÚßTazÁa$€ý<qGìÈ ,MýÄU£|Ã¡ã×Dµ“mÀ9¦º´»žkymá‘­mb•Í#Z±@I]›ÇÌõÕÏTTô3í¬½®wJ/í¥UR­é­yr.%êLÜ¦Ž´ï f¹í¼´
+	g‚Zn$ÑIÙ¼5ÖÎ¦ŒS…~ÜÔoÅ%Ýâá¬îg6WžËt0%Áä†@D¬´æz6ü7ÒÏ¶zÚÊ¿q¥Ö¯Ïçät|R,±¤ŠAWPÀƒQB ×]:ê‘à,¡À«†x€Q¨h¿†¾CÎÅÙ—%v‡üÏC†ÒªÄ×†BíÒHÉô…i¾ýtµl·ê<ËÉok	Yùã•4ñøéœ	ÙèF\'ärFw1Èþ ¢‰ñn›ÿ\0Ï]lX{T VcTy{{H q0ZÌ‹\"P2´„(Èÿ\0:xo¾‹é¨½„ÞçúDÉ­måifGú9\\:–Ô³ô„ªk±×GŽšŸ\0ýG<6úçÅ]ÅèÞñdËej»ÒºVöIêmdãîl^i²L’>.XÐ]Ejë$K,`ò©ý<ª*|µžêZ±þEÕjÂ÷·J$X’[rÅ\0 ^=>i<‰Õêj2˜ÅÅ„RC’Ù¤ACÈ/^,	ý>zêÝ%-\'_èR·«RÕ„ÒÅÈ1*cR¢¤WÔëVé¥ž7eëd™ÞWvâL,¸!†ÆƒJöÀFHŒp	
+¹¢ìKnHm¶´™†j“—ÔÆüÀöÕÜž„ÐR€yêžåt{væ,†ÌÄ¨£â|	ÿ\0Ž»¾ËÎÇÇî³RãOÌæbwpcÜwÒKaq™„$¬6¥Dì[ÓTfÙNû7†ºµ÷<¹®§EáüÅéÇ¬¯R\'cXâ,d—gw$³c!Ž9-fœM$k%X;\0v,ÕÜõðÛ]þ”½Ìór]½Vïâ1wÊÛàdf©÷dD 4¯#·àºéSq©Qf;œÈO“úÉa–è/¿n8°<v=}@<4˜œÈþe©^ØCˆi†I-­¤½–Ú5‰a@†GU¢Šr Ø|u2UªúwKºÚ¸“nO‹îGÑfìVâÞ@	ŠaGBGTaº0óLpùiúl.:·,»sÙÝµym‹½8Æ¼f{[‰ÍíÌ@ TrÁ‡§§O3ß|Ù{î»íúiò•‰ØËû‹d,;—.7¸ V	w”r¨J—…Ú¢T¯Tzùµ®O³g5þâÌÙP÷ÿ\0ÛŒ·ldÄ”{iÉ69(ög\0ô?Ñ ýKü*5Í½ëi\0Z^É ¾¨U>™Æà¯€sª“.£ºûƒ	ÂLNAâŒÐûDû’?ÊÕ_á­'
+    'Qc`>ÿ' => ''
+    ']HÙ~à±Æb®²wr¬v¶±´’; zA¥iÈí¢ÚÐ¤ªÕ·ãîàÏe»ƒ-6k)t¸\\IÎFäQcU' => 'r²gOQÚÒ0cžÒ6¹–w´UŠHd•Ï§‰_˜þ-kÎR‚v/#†–ï`ì'
+    '(¡…ÑN`ÇâÕaR)×Õª®K}ì€——h3¦Þâ4×s·‰ë' => ''
+    'Gkywh$¨!	ºv¹' => ''
+    '1ËŽžUÝQÌÎ¼¨h‚„2øu¡×±ö®' => '1p2eÈ½6«þˆärr;fIn‹zîóm0²0û,ˆ\"…\0TŒ|¼<-yZã½”ît[KCË(m„¬Œúæ”v@$U5
+*Sã¡Ù¶¼®îØ—i¤Kk XÑ#ÜTøÏIr³,Tv}UK îæíÌïvƒm‹i4{‰«† ÈR1¹4Tì5ËãàÉ«½ ¾¾/Èa^´óg–Ÿc»*÷ñM’f¢”•ý¨vèqïÿ\0Õ®®> æü†ü‚B/¶Ý¯˜°Â'
+    ':Ëÿ' => '…Ú7	íÉŽUJSŒO\"ø\0ÔÒ—ö®5œö)\\¬‹üŒíû;k\0†Þ9\"Œ/
+æ | ]ÞÅÆ}æ_ûy<AöÃM-½íÌ³ÌÁ‹^qš„
+QH
+T~#ØqÙz¤~A©Ï²ÝHï·2'
+    'ynËd_—ÔCëDÚ›ŠrOÏ\\.OµgÃºšø¡ºr©}·òY³XÈoŸÕv‰ZoºÄµ' => 'ÄšÔ°³Åä¯2ÓÈdö£2ZÛšE\01‘$Ðí°©×cî§EXØqú…·Ù;Hþíw xíì²–ßUj#ØÄBÍ¼4ÚOmÈb)_]u¹|YáRòì¶×XñSáà7L­uÇnE/ÝÜ-ç‹›9/nö»Œyö9·Å¹FI×ÅW¤ôÉ»-m4Î8‹FôÔ!¦à|vÔ µIäÈ4L¡TŠÆ|vÜé|¹»BV’S]ýwigÅ$s‹{©ÒyAx§¡•u¯†¼–\\U¿r_KýNîº¤úÁTä/Äá”Î\\Êå•[ªøš·üôÎ,QÓbï–wdH –N5Z“½Wæ*zí£³ÆÎÖiØª¬P,Í×÷*@¨ÿ\0/ÏM\0¦ÄNçºÉ>Jòí%kdrQ92ºŠÔ|¤.ºX XI©Ég2	‡¸åTˆË/»4mÊ;†©j™GJÔèÏŽº# b|œ/Š–äÚ–¹ŽJ3Ãòpjt®Õ;èÆû¢t6í¤}ö¿»íûË°¬2çÛú<”[—/¨òu£×V¾ªˆÛKJ)|†\"KL†kÂ8þ‰d›œ²²?´Ž$1’©$¬„ž$òU>ƒ¾¹InyNBµ)ùx.¾}Kã°3	–íuÐe2$~ÄákE’AþéqïÝEäxïrÁöóÚ½'
+    '2V^_•—`²©ëâ|5â¿sñU3¬«lŠÄ?$×·ÀCÈÁ$•âIÔ~þ:ñÔÓFvêå³6¯<
+ˆ§Ü' => '´ô­9–!$s£(•hdéÉUŽÚ_'
+    'IÐÕ¶>—i‚ƒ$ñÝ\\^ãÚ6_›wbâXˆùP%ŸÃzõë¬,³hPZZjEÃ}²ík<lL' => 'Ù–âV˜Ê$’‰¤jˆ€Fô\"H72ÖjÒ¼?ò´‰AËÌ'
+    'FÜ' => [
+        'ßÜ' => ''
+    ]
+    'öÊ<ïL‰·šEbcêD­û¥T /91>cL^µíÕ©ßIü#|tÞ¤;†p8_z‚½J×©âäÒÌe¨6Ý´ªW«Þ%I 4Ø~eÕ’/^ÄHÇö–¬I*:ôÐÝÌ±ÿ' => ''
+    'm-¦±Çõ\"‰iÔô§òL#TBcw6êVÎ{„_ªr¹¡ðåÐº¬<µN†1LuîKA·p³Äê¾¥4\"›ŠÃZN@d¬nGÏ÷E–:Êæ[wKË‹Fqk«Éaéæ ÕG™ÐòfUS¸L<w{$ô’fÃÜý¯¹ Q¿Rb©4£lA!tN6{B²ÑäàJÎ»’ï“û\'nÜ6:ßê¥±†I ‰É,äT,;ÓÀhÍÚö‰Õ´J­>ÍïŒÜ\\EÖ3j±¼ñ¤ÏcÈ’Ç¢HÝ€ýÔ`ß/€©ñs™í÷ãïê[IŒy•™UwwÛ,Ö!4>¦Ì9Ý*ÈÛ¡#â?†¹6¬1µi!Çdm¤ ¬Œ*¥¢E,­åÇˆo-f
+™ì»/1’„Ïm±	;ýA
+Ao†çoÃ[RfŸkŠú¯¯T¥–8O°Þ¬Ý<ºjûJ‚T' => '·Ûv“bÆ}L‹UYÝD„|C¸øm\"ä–ÆWŠÝâN_¹ÆvJ0Ú‚‚£RHlƒ¹L²Ço³¸»¹‘˜$pÜJåÈ#o_ü¶Ôï.d±;{³¯æ€\\fã[9£†C þyvÿ\0¤~zÒdoQ¢×	‹´âa¶^kòÈõvþ\'RJ’el@ø\05RCî>:²Œud50ðÕÔÉá«!HÚöçr¯}D™ši¤“ê}m·Z·0ÑÙNÁN¼Õ£³·c·Ý×rÕÆç–f–Þ`=è¶WR\\óR|Žú×®û^ÿ\0ÄS>ßRØ•su¼'
+    'V?—‰:êÑ@£)Ï»Ç—º’-”_ñ²‰™X*35B!$Ò‹Jt,ÖSì!IZaûg)xóÚ¿š?‘ÝâD,O­€\"¿Ó¬÷ nÉvÇwÞQç‚àK
+–Â*)Dë\"€¥5º4Œ_S.Û¿ÍöÔSÞ[Áuksn†áBMÈdpAnëé^:/vºkÄ¶» ïŽJæÛ›e‹#tYä#
+¶Ó£Šª¸}™GFS¶˜®IÑ½<:Ï\"C<hë0i#VV)ÿ' => 'Üv˜Õ•„K-Öæ$Hƒ•5aMª	ÓÀîü€ß\"¨ûÛÙ{ç{>Ö$|TvöØçµ*¤—2´wëTQY‹0§€ëÓE´»vtgöw».~ÒÅel£vÊLÈþä8ô*ÐZEâ‘ÆáTŸH¼ Ó],4µV¯ûÇV–£M¤«YÏ¨ržžÛütd¥…l¦þÐYO–û‰žîÛµ\'ØGŽq £Ü±*ÉîWÓíƒòšo¯Yï…‹LêõùxÇ™ÉâUÛ#»,‹H-®$y¦µ’9fäf–¦…cZü¦œ©¯/nD>Ú¹^GRÏ½'
+    'ÔB€ê¯ýÄd³Ií×aÐžƒm`³l©îñ|«Ñ:èVÃ_4Ú˜-6Œ©A¶ŠQN}ÜËd¬;­#yæHÞ,áGa µd°ëùkÏûŸÜybb§Ðÿ' => '©Û¹«6µø| ­.g{ëµ9)î.}\"34²{€\"±uê¼IóÒ¶½ž³,õXñWŠ%Uàf^êÏ¦Š¹0oÇ¿ýšº|!$3bÕ~,Bšm­Û3È•^Õ<ï?ö×‘{e²nî\\O¦cÀ»ûÃ	ˆÂÜE÷RÌLÓÍup=¸ÙA<	\'Ò‚€×zë·ÃU®=6]Yò¼
+´N<uþÂ6gïtgå\\4VÒb-ÉTIÕ„“Ù™˜¥[å é¤2û£Vô¯Iô.íl7ÀžFþå”Êz)þ%¡ŠËØel¢º³ž9ƒ¢<ˆŽÆ]Aâàn§ñ]|y u(ñÜž5ðÝÒé¦›ù“4Asíü<·ü5D3ÿ\0o¬¯%k¼s}%Ã77€PFíÖªÆ¼	ñð:äòý²·›SKxtcóµ£ØY=¬þÔÑ½½Ê¼r‚¨
+|)¯7›¨ûl¡¦šÐ;'
+    'NY¬\'ŽŠÄD\\' => 'G%Ü|G]t8<‹WÒ ’š•Ü^åÍÛf¢½µ_bÖêÞÞi%ô‚òSiêâ¾4×¢ã[¹6ÅÇyŸ¨öï?6CîÎöî£!{ÑLÅî\"¡U;üß-(:yxëÐ×#·
+Õ{Uèsyx<ê‹ÆYDÙ(ïJþä	s7ùfxØÿ\0ûàb{üC_§À7Mô`d˜$HÕ”Î©¢'
+    'Þ´éñÕ©;ç_sat`ÎÎÜ_P—vFÛõ:ó¾églµÆtx”PÙY\\ÛM;ùXE—p¢¡7©d®Ìàùøô#JWI]EìïnÙ˜ÿ' => ''
+    'åÚÖãçÙ_ÿ' => ''
+    'æÍùI®™ÃpY*]_x°oa˜µî(‘U' => ''
+    'e·½”Æ“p0OnOCp‘P|iB4¿' => ''
+    '·žŒïû/\'»Ä÷Z®ŸLþÏ÷½¦j÷·#¸kŒmÁi±S24@ð¨\'Œ]}Ð¤ô*|)«ãeU¿oFW½qÝñ×,E—Ô·üAlÝ_GsDýCä|îr°¼vë³ð~\'Ã•ÒÒ„ÜÞ' => 'Ë³á*m\'Ä‡ó×ÉùœkâÈëuÛe¿õùž‡DÖAZnl5`²þ¯H5¥6¦† hZÊáêüZ¬‰]¸E•þQî*è<õ×à[½Ö«ÆeÑ6cØ˜»ÒD“EíÃf)}d‰ŒL¦›òªõ×[’âkÕ1YÒG k‹V¸úå 0Hv${c`|©¥[pHí»1/q<pÚ¬vbYÈ}A¹€
+šíÄí¿†±j.ÙB@F{›Ç±|•ª‚–ò{0[«Õ–n\\xoà R¾Z§‰¾å°b)dŠïhñòe÷¡èGÎ¥¾=t»ßBâz™Íw,–Iw#mÇ'
+    ']ÊƒùSTñÙîRJ`Nï¼ýÜyˆúf·´k3WÛ•_uÙ8V­Ìz†º1“%eë¿jŸåúÄ«U G·¯ñ×hÐØN—' => ''
+    '«æ<5Éäbµ~­Ù¶o¹G’à2söÕT>šør«á¥' => [
+        '„nº!ƒ¶,${ô’H‚¬@¶ûŠüŽº^ÇÇû¼ºiéZ¿‘ÏçeKÔRƒ_Q<é
+L6)ò ”{XÛ\"#öVìÜV¼x-|µ;TÉ®çÛÛ>à”òÛC—7RmmÑ¦¸™#AÉ˜“ä´f>ï¯»7y¼öJòÖ‚©Øe)ôF©ãP´5Ò¯%çMŽž,TªRõ095¼ŒFõ2\' ³T1cOwqZòÝ«¤ùN§2²íðñùûëIV/qoª*£G!Ot“RÕéëÒNWQ¶ªÛšÌ' => 'ÅÄ©$‹2DVH”_‰¨]—®ÚêãäÖÖíG/%)ßhKâƒ1 f¶y,~çÔ€x¦´¦‹÷=PÅž/GtõØ©~çö…ïn]\'}à•-®\"˜œ’ÛŽb\"v^ íFäŸwn­à5ÞönNNE>Ï\"ý1áçãcŸÌÇLvœs~%ƒÚ}ÑaÝý«YÍº•»€(4§ú€)©àiÍ á]!Íâ<X|Y{ë(•ú¦‰¿³$6ÌÍ_ZÔ¹ ãNž¹îÁÐ‘>W=Œ¸wÉ]L–Ü½L6MÇÌ8€)¬6Y…ÞvG‘M¹fB‰Ú¤šŠUA4ÔLÏh>KÛ©OîÝJÇf*Kõ®ÃmjHÑ\"Ãr-,!{»£VXS‘OVv>•_ÇV‰éÙ•cÛÖþç6JDk¦\"»•Ž¿*WÃÇÇEH¡œYG…IñÖmY,ð¡¦®µKbIŽúÑGÀ1¯A°ÕÐÕ®¬†¦®«½xå¼Oû‚îU‚w¾°†íA
+¯0•Ìîv ×\\[ðWFu}6ÙýÌí¨‹äïDö’Þ“\"ÉGxd Ñ¨pTÐÐôÐ?ÕºzkZµ{/¸Ñæ2|m/¢¼Ç*©÷öV*íÆC\'§£iœœ‹Õk¸µpVtwÙM”‚y/Òß àÖ5sSÿ\0.„ÖNÞ­--®ÛkAŽÅXB–[îe¦
+µÀ<–×óŸnêá­\"\0F ‚bwgu‘Žÿ\0.Á‰½X¾F¤«¯òÙ)îÔ¹‰gÝy¼®\\£ÀjìˆÓi\0lhínÿ\0ÏáQdkÓskÎ…fˆÏ7
+Uf¨tcµu‹$ËFû»¬LÖ±e,m®ñÖÓJÄFä<-¿Ì„îIýC¦©>†VæIq˜À]Ûßc®DÌCHÖóWv£ñi#b»y·MU/%Zº\'Ú¼’dæ8líÚ6P’Ö×µUIE í>Ê9ú´ÍEïX.ëÔ¸Cá\"üÃþZ 0‰Z¢Êßï~)01÷BDã8^UyVÒF§>>>Óšþë›înõÜ·CÜ,Ý¯µìÎvÌ÷jYHm™¹Ã!Íê¶êoCñ×?ÙHþLê¬ÙÌ\\¤wwóÂ—±´%ýÉc_cf¢¨ìßüW[xáÂ2­*X6Îá»‹º-æ¼úaŒÄÄ÷\"ÒyŠûh7“È$;T©GâÄr eº¥w{XÎæÈ[dá¾³)ä…—ë*þô¤	.„cbê§€ÛðÒ?u§=é½¿ØqãÖþ·oÄ|<Î¾î[NÓ‡ ÀºÂÚÎÂsé÷§º‘`V¡ÜU˜’5Þ¥“J)Ÿ®KU®Ö›ÓÃÈ9—[“ƒÉ% çrðÎ
+…«Uw Óøh¼f»ªÞÒ-šuìv!ŠÀäÌöóÅõt³‚èÒN‚¬Å¦5i	*ª:k¯ï\\ªe½{Z}µÖ?è\'Å£ªsÔ² °XÏ¹;{×D“Z\0¨:qAÿ\0¾¸Š•[!öä’´dôÖ‡ˆähh£ÄùBý¿ß¿Ÿ¸¶KÙŒºÅ<MU	Yr]¢o˜ü´¾>M28«Ô>M.áoàQýë…¹Åf¥l½ò\\­Ä’•n#y7j†tRÜ	þµÁÏ†ônuÔû/µò©›xêê’Zv´¾O¯ÄïÇ
+É¸vy(±º€Ý<üô»S«:HÄåÍŽRÊáý«{›7åKÔ-iéc]›­F‹º>êê“dÆêç¶Ûë»ÚæcÈ-Ö`Íýºr·°ÆÊîÞáÕ•Q¸‡n¼©M?ÆWîNÓŸçññcåÚ¸ÜâONºÿ\0äNÍv§Ì[‹ùWêlâš9â•#Ž®ë£Œ©ú±;‘¥òq—t/àÇ=§ß2ñ3WºÖ¶%V»<·ÓçÔvûGÛ¿Úñ’G†ê,ÒG,wPR‹jT¯*î6ð×K‹²³¿p÷»{ßûîŽµí¥SøËÉ:è“îZ¢©¯Oº„4ßXX_[û°,«ÑIðüõ)ü4<¸i‘E”¢ÕšÕ	÷]¥±É›¨nÎ0§ÒXU~U léàéã®FOnt´ÕÍPë2kQ¸;ao—SN‚3æ0„È©®ê‘R74òÓü;vÕ˜v²rœ\0{k·î±¿w0p^Çµô0™\"³·b}»X•È’c¸-1;|:ë·Žö\\[iéü_—À!«eM9:‘´kÈ­é}q÷ æ±G(ˆðÙˆ×\'T·Õ…¿€vº83àuF»¸#rO¯á¨B˜ïá»™ØrrÎÍ*/§}¼µå½ÅÎY:¼/¤EÈ\0Ë,S*ðZ»ÈÂ 1£CÇÔ)AN§BÆ5`F)ÚÙÂ)Y E2§™ŒÐŠøÿ\0ø®˜®à¬¿ƒëm¡‘¹µTÎ¤É ˆªÑéÅWoQé£VÐÁ_b=”øWEÇY	džÙ£’åP4¾ã©æô >¥aJtÑ].Ü¾¦®È8²wÖÿ\0SmßÔ5XÃ8p[åù“ÕñÕ>-¤Ÿ}#[™æŽ9-.b¸`ÀÚ<‡Rë!w¨òÖ^ .†–DÍw½¿–ƒ™k ¶ª’ÍôóVê·?žµ\\vðf]—ˆ·y5«E4 ™±b ÀWáâ6Ñ«W'
+    ]
+    'GGÂÝÝ÷íî_\'ÛypEäQXç±ð1Ås' => '°Û²ÊÁè°eW@K›xî‘Ö„¨«J†…LŽ®PÄ~éÀZÏoŒxÞ9y’'
+    ']ÍLŠ|÷üõÝÃË¦G6|)‘bîð×è$‚E’UXngàTº‚O‚)øhÏ_“¢‘œdlì\'6×lªnÔ}:lÁI©üt
+' => ''
+    'Óh»P…}Ú÷óä®¤·,–å`ED¸’›yy­/Ê@ß¡Ó8óUQ\'¿Á0Õƒ^ìÄ^ÅYÕ0rM­ìR÷ì¾ãRRE©aÌ«œWP×®\'h_½Ó¦ÃI’‡-5îáx$öV8­—ÚU‘…$ rx{k¸õo¬Ö”²QÔ$½Ù)Ú–7y©$yqÛ­Â¹\'ÝD;_õ®ý:é,¼¥ŽÍS£ÑõøŒÖÓE;„–VV«¤bÓ,|8…¦Û~FÍÛW©i1xìœÍÞÉ ¤_ÀîZ”ëM†·ö-t»hô“5_£cÅæRÃ“#‘nd©æ' => ''
+    'ž˜Ô¬ÔØkÞû]V_5{—«õ8Çl¹{kÔ¥ÓïsÛ' => 'öL_ZK÷©xY‘äxâtä²ÄËÄ*Æ¼›ÔkA]5LÖZÉÝ·µâqXz/©?gIÜ½½æq#%wëð-4 pQRI¯Í¿JÓÃ]-ºË<ï.¸ë‘ÖŸJ(ÿ\0¼ÿ\0u/{ë;³ž9,â%sY2ááÒ§éa\'æ@WÖÃæ;tÐ¹<ŠÓFÃñ8—»”¶9¶i£÷®Ò(¡C¸¯CðÖ’)ØÕä‰2ÊµÓå‘NãòÕº'
+    ' ªåiÏ€ãuLd¶UE3L}×‹¬f‹Æ‡âNôð×:Üe¯‘×ÇÊvix“nnÍÄ†úU‰-äÜ’Ç!^Š<´HPÃdzÊ	v¯|äñyHþ‚6
+¯¡*«¸‡•|´JâºõWsÍK×íÝJ-%ïO¸Å‰lf#‘3°dâ‰­Õb?0ïzrå£µ—%²9½˜)y<O·½‰ŒÀÝcr˜Ëxý
+^–¹k—™X£Æ¶´SàÄ×Op©|Pö²ÖE9ùi™èÜxA÷ÛŸ´OØ÷×W6Ùé®­®KVÑ TA¿¤òjÃa_ËÇ]¾¸¾JSXk©ÍÅ…Qî2Þö¤LÏo?Ó#?3®Àj¥w×!ã‘‰s' => '‡›¸SRÃsoÿ\0ÚfâOâ®8Ÿã¡¼,’¶û|ô6—XùmZ\"xKîã þ¡NK·Àêv2Ý‰˜ßµ0=Â¤·²ÉÑ™`üÌE-P¢ÅíþÜÄ`,Å¶:ƒÊG>¦fþ§c»Sã°Ñ(#<ðAo%ÔÒ‚42É)è
+–ÔnRŽöUª–ôB¶\'î‡jä~rIa@”¸»P‰(‡üçÃIãçãµf>\'s“ûo•‰'
+    '’»}_«_µHe´!€_ù‚*4áÂj4<cÄÑ¶>ZòÒ»´D™_˜”îwð-)“ÜqWÌÚÄÙ¢L„qšªi_å¤rûÌ8H\"Àh|‚' => ''
+    'w0ØYc’)-T_ÞNLa¹®Qâä}CÒzxõµ,Ô¥ ½}™d%ã•¹qY*KñTøèôp
+Èý‹) ãêj' => 'ÐpUäðUVè\\íM.zÿ\0Ž¶ºì6æÕÜ­ºÌöãÛKD CABªDž­ÔŸQ:Æ6ÂÞ©!~;6kÑ*Û?*GjcnŽ¦¬¦€©øo£w>è€=ª$	qouÌd¤rIÔD©É8Ã]öüt`GCý©ûµFæ<6Fh¿ºÝÑž’©ÿ\0Ën`u@üôj¹jAuG\"ÈŠÊj¨Õ™F»›;kûiñ÷B¶×±½¼ë±ªH8°ßñÖl¥Aª¸rpv`ÿ\0eÎd±u‘ìnfµ¹©9AOÓ]'
+    'ð¾Œyd]L' => ''
+    'ÎÞs%œbÖÖe1”f`ÙkÐW®¥xÉ9z•~CˆZ_ž:Ò|v0Xn$ŸŒ÷H¦”`~\'ˆm…vêt®|ÏÈí{ÃÊ×•_—QËí¯kžåïq*Û\"#Làz˜G' => 'o—°º¶ÃÚÅ‚¼FšãßIå-iaŒ³,k³ˆ¢ÐC}pjÞÍV½¯]|V,µ³Ñv¿à(b3µcã‡·¢—\'~^nÌ€ËÊAÂ)xÐ¢ÔšïøuÐ1dŸLHÖvjY:ÚÎŠ\\-{_=w‹žòhVÊÓœp-Ô³Ëµ% Ì„oéVùKm]Jáˆ³üsÇýãcœ˜ÕŸŒÇö5ZåSqt1Y.nko-Â¬5D©^1²°,›«Qøüht;V›KÎÏÈ»½ìäzÀæ¾à6.L©ÈO=¼ˆâ\0¯‰(Óz\\€O¶Úkó$¬»»NkYW©=/·;ŠÇ?eošŠØ£©–,Ü©F£{r\09#qvpåY¼CÇet­(¤·Š5ŠÖ(×eE\0(­\02…°c`™OŽ¬£ÒÂ›jÈx¬F¡Ã)¨QîãjþBÏÜKîÅ5•çjÒQ~9kxÐÈŽíS-\\Û*)_¡ö*Žñž'
+    'Ÿ~ýÓ‹ëþöwDòhpv1Ùw÷˜EFäô«5yn5Öäú8t¯_99”õdcÞþ9¾ìÜc•—ÜÅvì
+êG¨Iwqï¸‚•®¹ZX±7§ÇD0gò<jÄôÔ ¯Ýomn£b?q‡ZšG¡uÜçþíËd,{æ(Ë$–²ÅÏÙcÔ!­E7é_N¸ð¦ìÞòu0Úƒmìø—‡ê' => 'äfU…je$Ór¨;×IÒ­¶øÞÉî|œDâñ—r°Ü\\áYxÑÞbµ§Ì
+×ùiì|l—Õ!{å­weÚep–6êÝÆW5r\"Ž·m Ž(É!	ZMÏŽßŽºX8)k}X–NCz-ýÇâñ‰ìã,í¬Sú-¢Ž/ãÄ>±/ê\'­}Æþ\'P€÷î;¿–ÂK®P –EcN1ŸÔO–±|•ª— O³nÞøôìûóy{}cë¬¸é¡(hÔ2¨bT°–±t/ö)1'
+    'rQÑ\'e£RcÜ' => '½ÛyÛ\"™|]¦B)8g…KáF\08þ: rŒ¦ ö¯dá»\'s{Û^ý¾:òŸÜ°¦C4Wå’uxåOèÃo-a¢û˜[¿û*é±¶Ìaå	š´á-•Òíî¤n$šô!—jøõÐ3aîõ/¨ê{o¸}—Ù}qÛêT}·ÜYÜ.nû4ŸµynD™{9Ì6¾èš~,¿L
+luE¨¨4¥jmdû–ç¥äqñeÇ\\oTþ—¿êtlw> ¸ñi}˜zÝîDÇô¸ÿ\0ã®¦,ÊêQãù|Kà¿mÿ\0>ŒŸuiÂQÆþþ~zKÜ½¯.±m,¶×ÄöÆôò½­\"‚ð
+¨êƒ_=÷Û¼ž4Ù.úy¾?>¶Ñî*æ12›n%ápÌIâÄÐùkƒ4[]‡¦@-Ù2´²\\{å¸Š*IBI¦ô¨Úµ×Jžã
+ BpvþRæ z3Y)0ºÕ\\5(êÓnejÜíbì§c•×uX@\"Æ]}T¯n>¢âäq\"dB¢¯!QZoÔõÓ8²á½½^”ãp	3‘|E®yžæ'
+    'ˆ]^2™}Ñ#;Se%¼N›XÓ³¾¿ÈÌFƒÖ;!}t·W<ZxäÎ‘UG£~J(_è4fñ¦¹Ü½¿P˜Ñ¶Ùç˜¼j¼8r#ÛñZÐu×2ÞAÚƒÛ’¼«,Ñe$¸Úƒ¥Ž›âûf|­6»qø±,Üª¥	ê1å2˜Ü5ƒ^ägX-cýf‚¬z*Ž¬ÇÀkÝö¬U_ÈäcÇl¶Š­J½þáî\\¬3\\G*à­Ü:ccE$°ú‘äæÀ©rÜkJÐTJÕ;;>§¤ãq>Í\"­;øŒ¿j¾ÝK‘¸ƒ¸ó°H¶¶íËk9büCˆž_¥Pm¾šÁƒ½ËúD}ËŸÚ¾Ý©îÇŸº¹™lûb|UÉ¶ÊeceFJû‘Ú©i7ªó:ß?”°ÓMÙÎöîÍyÿ' => ''
+    'À€ÑÙF£ëd_ü½0‚<êß«¦÷_Ü…_§Röí¿µÝÛêŸÛ°vþò
+}UÂýDÇñy9-cªÙ' => 'õd!d2Ø¬pCw¯»ÈD²8Vr ±
+S¶‡|µ§ÔÒÁÄËš~Ý]£x[ýw÷;ýÊã-o“›ß‘½Ûx‹·UP¾ÍJñ õã¯7nVg“º`úe=›‹\\_iÒ­Fýùn‡îÇrKÝöY;å•1Hâ	qvL9-êf•?7N}žDÞÞ7/íì4âÚ•ŽýûíøÓBê›-‹·½[›È ¿*¯ô²H« °ØüuÙyjœ6“>vïY‰%ªìC¡Ø™Oü5½ÍÛ-½²:ÛÆ#gnF¤Ð“×Ìê€½Û”¿†ÖÜ-ËÛ<¬·¿L=À°×ŠÈY*zz¸Ó@äwB¬Þ¹Õd­}=tî~ÜÛ˜ÿ\0¹íy1vÅÄ³@a·­=Ùb…A2*ôÕ}!ºë9-8Ú[´)Çå[zÝWºÔKë
+©;L¼v’^c±Ü€¾y`%“÷(®‘ìÜFÜ©Pµà×keôøzeµm8¡·éò_ú¼Yt™îa€\"¹dô–¢£ÐtØi¬œÜE5_©çéþOR×s½¸ Ñš„~l6JéÂvô…^F—fŒ­#eÚ­:Ž`5*K|?-(ÒùxîjnKXePcå,M¸(9#âú·Š“¤Ø©f›‹5(Uã=QÅ	ÇCº¯CZ‘å·b7;Ô–cñðÐ´d“Ÿûsì¥äqÇt\\-¬ÎáàÆ[vaSOriíÆ¿åêué9<¥E§ÕàLX[ßaÇ-Ø}±ÛXùrVö2ÎöÐŸvA$®]^ŠÊñ×·]rß\'%ßkc”¥V Œßov÷uö´I\"Ú..‚ÑBžva†èÂ¦±µ?â4LyoŽÒõË¾5e,©’ÊB0‘Gbz\\\\3”~Mú…v éëg­}Bëzí>ÏÚÛd…žK5¼æ/p*ÂT2Ó~,íNc¡J~¯÷;–ˆ¿õ£v5*vOkCÖ*žÊðãmyqAo?)ª…¯™ßËBîvÐÚÇòÔ—‘KY^cî{Œü‰çe•*Kð/#O†‰Ý÷]DõÝØPPËý½“ÈS‘¨¯l~:èc¨–K2r\\ËVVhš²q!ˆv-åø‘ÓE€i…1<uÈïKÌ×h5\"´JŠý;ÓKäÊÓ	\\in,ZÒAužh¤ãnò‚Ãrü­WcMþ-/?V¬[ö‹ºæîNÌµ»¹q%ì$ÁvËÑ¤M‹âë¦Â½°àr;ueœ•÷÷´¬¡û¯žº¸°ßÇmy\0ŒÑŒ“D9Ð|Y°ÐYp `ûbæ)#¼T‰™4‚Àú½r·iz×sä:é|ÉºÂ1w*ü_ÛëŒwØcoá‰ÖÉÝÁ$Ô²Èå“›E-(õqßÇKããú»ZÐíÓß,±´”_eMj:w®{·þ×ö»Ûvýœ6Ù¼’µµŸÊP•,ÒHçÔÂ2Þ>4}VµP‘ÎÍÈ¾W7rsµ…ÕÕ®JÛ „ËyÄW*ÇÔÏ*H|K3Ìê«¸)Üï÷áK‚­ÍI–R²(sâê~VZÐŠ³6ÖŠ>Ô!ö¡™²¸¶’Úî5¸·”q–V­xSI¨eZ©¨{Ç}åûf|¥µœRÝfx¦VHùröã¢¢±BªÄl<uÄçòiTëHv¶ïÂxü}l¢¿ÇûöF[K%{<{òŒ†;þãq;VÝÚó—ÖÚ³±ÇãcÇX¢‚D¹L•Õß%u‘J~ìs¨d’6\"BüšŸ§¥5‹=e½|CöV\"4
+Ù63!Žš(cìî?¹Gcÿ\0$QcV…b»…ë×[ÇÉ½}-ú1ü*ZtÕ…ð×˜Œ]³ãñÆKviLÎÍÈÏ$Ž\0gw©«yWWŸžÝ\"­¤âà*tC?'
+    '‚Êø4¼÷-BJ»QŽÅ÷·Žž«Ù>îºè^N$¿¤“o“Sm,’Ì²{NÃšìHåøk©ÂýÁ^Ë<·MÖÚtm|òðßrUOSrä—æ¥P¨e#Ä†º•÷Š½cÓ…ßìM†õ	_]Æät±s)}\'PD´Ò0f¬fu
+ƒ_GF^Hvd' => '=AÕ2ÊÏ	Úøß·öýÑ‘ÊÝ™ln.dÊ\\Þ7úf7D4ë#;ÿ\0£ó¹?{µmÛX3†­•Ù¾ûºÈýì— |}¹;‰î#‘<Ý^PÆ>	íªé:½B½Ž£i@øŸ-Á¥ú×mB\0{™Z<Ê98È¿å;WCÉ]	%Þÿ\0o3Ý×š³ƒ7µYË{qÄµ§¹#•@üÏMs¾Í¾î‹Ód;\\•T×tZŸoþÎöÏiÃÌÑÇ”Ï”ç\',tN^'
+    'MU>-ÔõÓôÁT/|­…;»îWlvÚwï]Šg®MöWjµ±“•Zé_SÇàäË²„UÏ½½Û’‚wÄÚH}Ç–tŒÜ*' => [
+        '©â%šEªÄªªÔ;ïÐiKf½ºþGc¶b£' => 'Å›»99}œ°‹Ð$ŸJèiÊ:Pc¿ùøkÏ{Ÿ3µö¹:2\'J×·éÝø‹½Ã‚¹ÉÞÃr—´¼L±·G@’W<4<^ç^ÅVµÿ\0e,V¯né–´ Q7Ô¼_ÚÒVÒRdßßwvõFœF»Õô×äpéZ¬uªúº”ïÜ¸9~Úïv[”%´=¼U!˜ò~*«J
+‘ 6û¥3¥ÆâÒø¦ÛÈÝØŸuì/]ž0cf%¯ñ¤ô*x™à\'n^c£~:=3Nú1|ÜWù}íØžñ³L¾'
+    ]
+    'd‡__{ºV)™hU\'CÐ‚<ª5Œø;µ_Pç·{°>Ûkôðø÷j`»¾×ºVËØÞå‰æ—#ypÁ­e¶-É£
+¼Ç#ÆŠH>éLt·t-,w¹\\ŒÂív¯‰Âª_TüKòÕ®	õLôãFBÞ<CTøë­YOh66Y’-Î:Î}¥‰IóèuÉæû‘õÑ\'â´c8ùY)³ÏÚÖ2ÈìŒ?' => 'p2þÍÇÿ\0ãÉeñÔnžçn¨ŒÝ¬Cm  ýGþZåßö%Z zºøì{•#cÁÚ6áH,›õô×D¯ìîCß-WÉ™~ä¼òv†:5‘UÝRj{Š”\0ÓÆŸ–º¸lv¨¶KÙ~@­îe$dýŸyA$ÈcÙ?×Å@¡üôçÿ\0®a{»~fW¹_È™m‚´·“œ\0©©2tõy×Wöþ,vV«·õ~uì¡‹=ß÷[µ°íà•rYJ@CF¬<%”UVž o§rä­t®ã_mË—Wé©Lw7reû–æ¿ºú›±{Â)\"¨„¦ÒÆÊ
+¯Zu$õÒÕ¬)lïaÃ\\ZUBÿ\0õØŸhïîM¦K½æ°¤yX¿µQ•\\ƒJý#óÓØxîÚÛc“Ì÷:©®»²ÎÏw·,ÒK¶_}Ðý=HW“ŽÛÓø·Aøéœùë†’þHåqø×Íh_6Sw3f¯³¹<ÎFCsqtv’F¤$qêŽpP==wß­uå9¼·•ËG­á`®%-kö’IˆÌ Ç#„P*ÐHüsW0–ã90¦õé¨©Üö™\\ýìx“‰ƒ4÷H%³U,´jû\'Ê”§¨±¦º~ÙŠÍÍ%XW•“iêúGoµ_`ð¥\"fr*·Ù²KÀÍë†Ò¿¦CÖãÆR?é¦½Ž*4½[žC6DÛíúKX/çç]	Ÿª!®y ‚'
+    'šy(PVI…P<É;FÒÕ”Ú_ˆ}“Å÷<ÙÛœ¤?ûnöè­äªêÖ¼' => 'Ž0‘¹xåOl-?]v×7ï]dî”ñŠUÙYÙ¿Hƒ÷7¹;g¸î Êc/$i#ãgqi,\0	naÎÍ×£ivjäjÕÝ/éß¶U©Ökj7*Õ´ë¦n…ì·739€¿Ó(ýù¨VœFãF×5ç­wÜïß=‡d™­ÖÞÈÛÈ’Go¡ÕAâîSñð:\"·u¥nÍJ!×³;Vë6÷=ÄùKU¸0Œr=¼ÌÉ	.K|£ô†pTiì<wk¥yOà|ç÷-¸öÊ«‹·]lê–¾]±G‰Àaá‡”vXË(Ö(ÚFâª‹°©=O™×yvã¬l‘ÄÅŠÖjµRÍÖ—Ö7Ñ,ÖW1\\Äû«ÂêàÓÊ‡W[ÖÛ9.ôµ\\Y4n«¡¨$hÁˆ1{Âg‰^@EZ„Pï×UÚ· µ ÅØÚMq}d²	g®K;HÌÀ“ËÔMý:ãóø­zë¯ˆ\\
+©üH7YÙ ‘T8å'
+    'Æ(Ô»±möêNÂºáÿ' => '¹;zöâDÐ“!‚G®Î>@zéŸ´¨ŸvÞE\'©÷f`¾èª,±2ân\"¸ú™'
+    'Bì­²H$ðØSq¡ß³d¯Ä»ìóÿ' => '×jUüy Ô×^O#™ñ;Ñ»Sug;ÆÒš•—ý>¡o?ˆÒy!„NO¾¤,’ÝÈ¼¨dT-ÄÐÒ£Ô<Ç–`¨%Œw„òŽ\'ëÒ) §œ©_á]Ë}V…0Z»<Å¤“Ì$‰r7£$òP¬G'
+    'FPIþÉvêˆ˜Jb^Ì\\c’0ZEÔÉ_˜Sa×ã®gf°M°dÖ‰^UºiBÜ,®B„**´¨;Ô“«ÉÆ¥’«¬^wé)nwC¹ÌãÚíäAski(…hy¥9Tx\'‡#¦W7{uVž_ãåäÅqå„ôoP¦3\'ipÎÖÒ¼¡(dRÕù«ãé;yk©ÀåÕ_FÞÏóþ‡;‘ÇµV¨9Õß^ÃudríX' => ''
+    '£‚*4Ô˜3Vß}BªH' => 'F¬¢µÿ\0pØ›ü—ÛÉläeþÙ47·püÛtj8oÛfðÖ.´5Sš»jiñ×VùH?õpL’ÂE(loñ#Bƒpv®\'/i—ÄÚe­Mmï¢YÒž‡©j©ÑªôHf$ëD1öšCÄéÔô§ÇTÙˆÆâlf”ð¶¶JÍq)¢…K1>_ËCµÕT³T£³…¹Q÷ÝÆná°]¥opíuÅ-®mÕZijähÕééDŒ’|v§ž’Ë‘äÓ¡ßã{u1.ü±óÙÌoÛžÓK”’þë#w÷ÚËöÜ\\ÿ\0 †ågf‘Õ}¿ÕäN…¢Z;w„hÿ\0@—löï|f%b-þšÊöm/ncÿ\0·‚æ;QÅMÄ|Y\\IJŸl¶\'}e]·ññŸ6,nm«Z¢ëìNÖÌvî-,²x#,ÈÔ ƒ'
+    'î	%ª9nAá¦ðcºsm?ÌäS-¦ªWºM‚¤Ó®lô_Ù~b}¬Óu' => '±ZHêü„0'
+    '¿‘Ò\\ËqòV_êßMBS¹' => '–P“4« ƒûm^ƒðÛH{oÙÖÖè6FôZû‚;ûŒlÿ\0ÛŒfñPµ¸–¼9Á4ëN»í®¿!7]5©×cœ{›·;ß·'
+    'ÈÜ]™dLÄRÃz8–9O6_\\9Œ†4R6ÿ' => ''
+    '@U™' => '5\'æ>z,~¡g}³û“I£µ–CÜ„ ^6ò°1¸?¬SÃòòÑ±Ú3™Êâöë]‹¦Ãºl\'¦¾‹è'
+    '·–I' => 'Qª³SýN¡yyôÓ]½N|‡cš9#YcexŸt‘HeoÁ†Ú²ˆ¹…Ý¬Ö«„—Ìünf‰Ñ~iþ£ ‘Í|øï¬ÚÍF’”NeöÂüüËÞx§¼’Ñ²¡\0oN@Ž¢´FÃ\\ìþáj¶«I^'
+    'ðqí’é>Ð¦FÚuZ¼ºÃñÕq' => 'Á_K}Mø.\'RI€ø‡Àë¨LHZu³?r°X›©­%³¿šâÝ¸ÉVìv¥yv(kótÒ×åV®!>Ù“%U“ª«óï~ô_Ü*¦±É$rOÙ	Ò8Ì1lÒ©ª\0úzîzhíÚÛ!Åìõ¯×É7ÿ\0p»›;)†ÿ\0\'tñO4ÈÕ¾ßèÁ:’§‰¦;ì@ÒÏ-ŸÔÙÔÇÂÇ‡ZV»ï`‡l}®ï•´‘Î{
+Ûßr
+Í4hK7`^?qØ“¸Öñ`½¶Ñ\0åû–¿ùÙlX–x>Áûo‰“-y,66Ê).FëÕ ¹Ü¬ »¥ÇÆ­5z³ƒÉæäÎõÛÀª;ÇýÕßË$¶Ý•[hE@ÊäÜ˜Ð|ÑÛü‹ðå]ÙSî!ÚèÎä.rY,„×y{¸¯q!.î¡‡¢›åòŠ-q¹™ÓÕî>ÝãaÜSXÙ5†Nïê­’‹žK
+”]ëPj5ÇÉ‹½úWËù\'™\'=FnÄÂg{ád™ñÝ¬®ÑKs±{²­¼p­ÑzOå]tø^ÎŸªç7›î½º-Ysvïj`;s¸ü-ŒvV‹¿µù‰ýNÇÔíñ:ôt¢®Çœ½Ýœ°¡>f§[0kc¨CpŠYºY~òÆ]fñW6¶×FÝäŒ$i#7ÓÔ8orTJ4…@ÙkO=>¹X±w¨’†ïžæ“•þÏC•>«3$\\[šÑ‘- ,@Qêj“ðâäãÖ‰Õj,±­ž I³ÿ\0Ý/¬¤»ÇGõÕÉo~Ž®mã%c?«ÜÔ..Ú8ð:žÚ2(êX=±6SpÓ©ÉEH–CEcÊ€Á¨S_Ž¸™è²Y­y¶‚µÕÜGêí.âŠÒD`%Ô%Å(QTïã¢ñ›W¯kèjœ›Sm¼:?Š#ö¯t÷·™ÌÉî]…ú¹çò°OôÐ=kãZuÿ\0Ù½\\ËLææáR÷wK¶zWD{Ü™Û™/Òâk™¯±¸~@³Tž
+¤×zqt®| Õ¿˜Ö*v(HÝ—Ó–Kn'
+    'j‡ˆ€ÈV cNšæç•mÊØ±;k¼%µˆAqvní”…Ž%¥T¥*â›†?†º¼x¶5u_#„­­T?Ð~·ž˜VXœH¸eèuêðæ¦J÷UÍN' => 'èêáèÍˆZ6†š!‚¾û½Èÿ\0o‹#d[é*`pŒSég¸¢†*WöÈôïÐþ:ärx)[º¿Ní¦NŒT¾2öÿ\0nanóy	28Ëç÷’Üzæ·«vR¨3\'
+z‘¹/‘Vžƒ(3Úølm®:­%ÿ\0Üv²Tâç’ÝçÚ5W!9Ó]€Òù›w…ù¥Tj<XËŒº¶xíâöRh¥€Í@O—=®½4Ó@›™ïßa!½.kµZ¬VÜªÌ•ÚG¦Ê4ôÔ=ÿ\0™VjtØõ=Ûg3ØÙZÅt·VTI ñcWy%`¼=#£k¤|Ì­M9¶½•tñØÅyy5Ì~—0;HÈ‡¬u
+ª¿«¦Ÿq]‘žû5-;{·0ØkëÜtbþ[;v
+–r¹¸.XÔ¸N!cQ¨iç ejÏU·æ©¥¾ãrdà™%-µ…Gs¢Æ7*XŠl:iKäž†•c©Yßãìo»’àÚ†K~¦²ääÂˆÿ\0åå^]wÕ×#UAû|X7kHá½·¹\0Yl¶Ñ02î=ÖoësQZRškçGÔê*Æe®ÛhÖå˜B´–­ò	Úšwí­ÅÝžÄ§‘­…Ý›7GÀ\0@ ªv#Èè•1a>öK–ÉW.Yë·#¾Çô§ª\'dCœÛ¥Ë<25Í[„-BªÎÛ\0 ŸóÕ½ŒÆ£ohwFQÄ¥ux‹kx%H.n9G$21S•j±“]µÍäc_Zè5ŽÝŽV[«¼\\­{H®mˆ¢<ÔUü½Ã!2¸§B.8VPU¾‘go\"ß™”ÐÅJH ÇÕ²†¯Qà|||žb§`}±ÌË—ìlUÔ¡¹¬fíÕ„\'€jøÔº<‹õhLûÔQ»£¨§K\0¡©V£ÊÆ€üiªA©°¥-ý·mXÍ‘»ê²B'
+    '’ÒÑNÕOþá*ãå«ÛRN¥;œÎå;ƒ$ùL¤¦yäR”ÅP‘¯EQåüwÐ' => [
+        '’1¿íaëîë;k¸Ûû' => '8ÜŽkÇ”q0_m%Q²Ôñc­öÕW¹©\"³–Œoû¾×
+ö¶Šá.Y]VùB‡§Æ¼½$Pøë4á[ vZ\"ïš©Ãí'
+    ]
+    'kèb¹³˜K~‹E¸eÞToš2‡ù>ºNÍÓG¹¸“DÙ	-îYæ!®' => ''
+    '—Ü”€–©êVˆÔœTk)/sUzæ‚òu†âÖ1qE¤0\'ú‚#BÈŠ§Àt%Z¿§#dV_òÖ‹p,¼àK9V1ÊV¾•–5­Hó#AÉÇ²úóñKNæáÜ‘¤wq‘­Aëè`¡i@
+òñÐ(í' => [
+        'Í[V^¾Új¨rÁwÀÇo|†‘H^OaQ¿ˆøøxë³íþá“TÍôÛé³üàåóxu²vÇÓt6ÚÌzÔtØÔW^ÓEzÊ86¬2_' => ''
+    ]
+    '6bË©r´‘©Ý€øWD2m¹ž}Œ·w_#Š%2JÇj' => 'žA`|}Ê3Â«r‘ð!Y™jÌ8ŠxøâÖUÙŒ«z;²BòÜ´»?ìî2É#¿îEKÛÅ!ã…Ç(â¢ñW©~#£7Ça­Ó×ô£‹Ê÷K[ÓMá}Üv61˜à
+\0¢ü¹ßÜXpÍ1© pZÚØTÉw”îhˆ5ñ×šä{Ï\'?^Ô3LB½÷{A¢)îÒ9€ŠîbÆƒˆ®ûé||<ÙSj\\pˆg¿,Qk%Ò ­iç¨½¿,ÂL¹D#÷sã²Jß¤ªž=|ôÍ}«:ÖcæeÞ£ŸÜÈ‘c¸3ƒk\"ú%$.â½kÐmM1Çäò±6µmt*ØjÐÛîœNbÐ[]¬Rû©ë†¡Õÿ\0‡Ç]Þ/¼Ó*ìËXb—Âêå¯~}©Çÿ\0¸;[œQ·î\\Y©uuV¨e‰Ñ	j£cøë¡GVNhö}WÄ{Ìÿ\0•Õµœ7öVööK{VÖÍeYkÙ3™½ahíJ­ ¿]{éMÎ…ÝöÏ¼m³V‘cr’ÆùˆÑÕx©Þ4c¤¨Ýq£)Ó²ÿ\0‹8ÜÎ/oª¿HîM§t}º»‹»;2úX±sH\"ËâäýÛNmþ›¼GÓGùK-i¾·vÓ¦ÐÆ¾Èÿ\0pž!ËÌ¸­)$›WoÇ ø=ÕÖÓ¹n£”Ý»‚Ë$WV±Ë\"ÝãÚ'
+    'æåBhêCxíøSX·ŒÞöÅ¥~Ÿ‡¹Î°½H!hÚ;hn>­¢‰Z\"ÒõåÎ\"ÿ' => ''
+    'G«v__ôÿ' => ''
+    '¤Ÿ0:è9~–ŸPÏzç,—6“˜¦@!Œ©<›–üŸÿ' => '‡«›·T2ý®ìkÏ¸=Å7÷v<-„¾æD
+…%·KT5¯'
+    'Ü·’þZwÆZFÂ¹¹-/3°1øË|u”6ÐÄ°Ã
+,q@ƒŠFŠ(ªª6' => 'ÞÖV-uožõÚôŒJ§üÍÒ¿s¹>áLz-lmz­ä¸fºŽúKKe¾Žvº3°ýé*Ûúˆ­EzšãßŸ¬õ§.‚nw¸3÷÷¾ò]»G!\"HQ‚¦V<UÇšüÔäu»gW^­ö*˜o['
+    '‚·šò¶ð¯)_”ƒ4JHä©½?Ë°;žuÏË‚½²Îƒ¼ ¿pg#ÈÀ‘ã‘\'_›¤76Ñ7¸«\"EìÇC@ªÌXùôÖ8Øe[M¯ÌMïlmÆ5îÒWH\' ºµ‚Äõ e¯é#jÁ×C‰uoKZ£9Ó®¨' => 'ÛqOn’ˆÏJ	ØÖºçr¨çF1†É¡öÎˆË-“ˆyÐpµ<˜|uÌÈ˜ÄÜØ^EÜ]Ýª#erx•ñ ñãù×CJJV;K%•‚ÎaÎœ‘¢õ¨´¥| ã¦¸^á“f©ô¾ŸŽ yzdßqòÞþÚeôH¬àÈ¤rˆê5îðrqåIÕ¦yü˜­Gª7q‘ã•°J¥%‰…U•…`zƒ¦7Èöý¨u¬M†Ž ±ÛKIôó( IëŠFÄÿ\0q¹|W÷WèþØoDÔu\0âáÊ.FòúKq5ÔÖñAjWÜŽÞ#Æ©·¹ä\0ëš­fü\\ÙT=ý¹áÈƒÎÑô´J”ÃÅ«ååª³t}Íþ€¥@©”lâf'
+    '¹‚teneƒ
+°N$·ôÔiZò,ßsú‰Û¤1²ÝãlÒ' => ''
+    '^Lü®(ZT_Kñ\'¥|…tÍµÓ3ÆØˆ§¯!Ä ,1Û”I9Aê`xþa¾³“' => ''
+    'šJxŒ7¸Oÿ' => 'Ç¸ÅÅ@âYˆÜšF½:í§2bîmÝ©7\\°’Ce–[ ˜y±·²(µ÷,kGHäer9%HßÞº\\–ûnºÓÍ	.þî£'
+    '->' => 'ýÆRöìä^Â†¦!Ëˆ”W¯Ä£Wíïõ²CõÛê-ËãýÅ§Ô¶Ð‚ Š‚:Pëß'
+    'š”pY˜¨ü5¤Q‘_®¬…	þæ{e#»Ã÷|ÄÎ:ü±xÇ8þ)É?!¡d]MT®{sû«æ¬¤Ä3G‘ŽT{i’ƒƒ\'Vÿ' => ''
+    'G±ç9\\«f´/¤Ü' => 'ÒíÉcn(?Ž¼¹ûæNU»ié LX~%šîU‚)%fŠìÇHñøŽÌaÁ\\å»Ï y‚GT)]à|k¯EƒÛ±Ñë«k‹Ç¶ûžþI$¸ˆÄT{ßoZ†Ü_-v)luP€ºÙžÛØÇŒ™$ËÝÉý°Ëô“%·1Ììì¦B¬ª\05a¹Z#£ºô­|Yž¡Ike{‚Ve‚?pÂBJ^
+\0euP-Š±AñÕ[ë_T3UílúÚˆ­žC¶äLdÅ”K[ {mÊ0›äI:Å¢z‘2Ïê­/ZX/Þ9Ö6\\‚ª¡ä¬G•T×t¶\\UºíjQ¥#†ïzÄMiu-•$JD„{ˆÇ›|ô ý>z7_{hÛ¯š1jVÏQVû-‘·È®rAkg,ª÷VïiÊ7ERBûÑ#ŠF©—Õ¿\"4î ­”éøÐom;m±Öl†.2ÖÐ?ºT¸œK8–5-ÎRÊ9Ç/¨1ŒøÐïM[s(uöÛÓ¹Ò¸¼OuöÂ\\]Û,¶Ù(½ý´”'
+    'Ÿ_ÆÔèCWð:{»«®û3ÏgÆévŽiûØ«Ù9_¼}Ä¥ã¸ZâzÍŸõµ§‘Ç‰økN°Zr„;ëûåauqhþO,‘ûuEeï>ódà{ƒ$Tÿ' => '±Æâ¿vwÿ\0~Mf·Sgï4ã41H!Z“¶Ñë¨UQPç®n/.…Äå¤‘†ï!gcñ%‰5ÐlõÂ´$ì ²ëÉtlÊPP£å4©>ðÕÕÊÉxÒ^–$y\"Ò½5Œ¯CXÖ¡V±ži-í-•¤ÊÜÈ#¶‰ióHáS§–…Kò	}Úßj;*ÇµpX˜Â–·_rîsÖk—¡’Cø¶Ãàºu¯m`æ^ýÎGŒñ—àWçø×Zª22FÕ«(ö Šÿ\0\\qžÆ™.mDÃÜ…}MÕjz€GŠøëŸtÁ[º;kQ…Å»IÆåmß=î-#ŠC\'5â” jõ­	ñþóÜÏsËÈúWm?‰Ðãðë_«R©Èe®®nNcÛ‘ªUM–RÖ£j•[	yU¡¨êO†¯Dh=¤Ž±$M2n³ OÔÔ¥9ƒ®Õé¦(’R÷`.jþÚÒµrìÄ=äÈx“·ú`øü<t÷o¹ü…²Z4$aÿ\0ìâŠå®}¶r@ö ßoŸã­Ý÷6 Ö=–EºãóöI²­Ú˜Ä’Ù¥JÐ,Ô • ^¢šäÛ»• ä«!W7ÛïÛ-¼†|-Ó¥ºcSô1HG-#}¹>úÛÔ·þ Rì~Ciä.\'t	%©B‡ê5=4‡ 
+Hs¥÷ÐCíµµô, ï1;3†ùh7é¥pV’´Ð	ÛÝÁÂ\"c$“–-±¨>Ô„”}¹m¾ôé­æ§­´÷5U(7™¸ÊG}gyg4BâDÁIS0SÄòtÄíé4©ñÑñúZ´êú­Ñ˜”Ô=¯ÝPäãŽ7f2¸%”/ âž<µè½·Ü»íö®æëgâ¿©Çåñ{}UúF ô<”ÕzvÄ7øëA·‰éDRÒ!bh6õÂW¨ð× —Áª›¯ËñÓÈgfôbÍæC%s2â !B©\"vè€SÕN­QÒ½uÀÉÝmÑÖ‹pDÝ¸²ÝÇõY™$Q ‘Ö| †;–ù‹~šÂJ¦ûBðGŽ· =Ú{“ÛŽoCÈ«ãOé¤I‰Ö7l‹u ºµ¹‘x4aãX˜àŠ-Ê»†×rõ@ûµ.®ñ‰awxâÞÝI)Â 1¡¨\'‘cÔq\0-túè“%_ßÛü–~}¿/bÌÇZQy¼Ÿ 5	¯Zzu¬tU¯sÝš³mÂwkA“íØæÿ\0ÉZ Om9§J) ¯^$=?-H~L5ÔŠœcÅ‘»[kŽ6ÑÀ’Zf¸FY\0eöNëS_ÏNSmA.ð—·î²^3µÃ®î  eaP¬vâTŠµk2®Äûrk¶Äý;ý:0IPiZúëAç]ôO»*Lö?öŒ6vy›‹ˆ¦ŠØ“2þÜ›¨cV
+¤To]	ó%ö$O±
+XáaÚ0%ô7þÜw6%RHÒEáÄqéR*Š×§Ž–·%Äu±óKa›îÛ.Ã­º9™'
+    '\'ðD`’“‚{*{½òykÎQÇ’ºšð¤–‰Ü˜ÔWú’‹]C' => 'Â7½ÁvÄ 0AOLhw§€®©Ø¨2Ã[ó•ˆ«8^•©?üg©£¶»_/·q˜ø€	kk|GŸ\0[ÿ\0¨4ÅÓÈéª,Êº„2@YBòs½|€ÜêZîË¯k Þ’_VÚ{EBQjVÝÏ‘þ×ñðú‰}RðTóñíÈû¹>×ø×‰ÚàáÓ¹…{µ-gµ“7¼0_-¤·8Ø9pQ©O«æk½E)áå¾º~Ûíª˜ÞGõÆž^yYÛ²¢R§_è.dñ¶ñËõ±0’Ø±-%•Â¯¦¾•§ã®o;€»‹!„±Šî/î1[Í¼ÒÛ3‰¥g\"‚0¼¾cOššg;Ù¯Kƒ6ºKqKíìÙ…ÆC1<¨ÐÃíÙ¬\\jìíRí@=3îJ´­q¥«Ô»6ÙdcîñI«•›Úš6âü6CÔQàÚãöYì8ü‚Ü¬¶Î±Ù†•Œò0fÛ©Ø°ðÐþÞº¸ñ2ä_Èq¤òY-¸#ÔbœÈSu­Vƒã¶™ÃZÌ\'?#-¾¢¼÷Í%ä\"i}ÈÂ“$m$ŽëM•yŽÚéU$œOPÞ;%¹×k#)î˜˜’(jAvß†—É^íÛüÂ›!‘Ë^B³·¶°lBÔ¡U;¡E\0¹Ö•kŽ®Ã[Ž’iïULÂÖ$22ÄZú©ât•©kï±¡;1÷c¹žÑšÞÉm­®±^OG˜«µðUØŠšéú{^4ýN_‡@6Êú-ë±rÐä»c4R™¸ArHÀŠ²¨¯^ºõ>ßž·ÇÛ_ðÑœ^M¿Ä`QÈt:~­=…Ï‰Öˆ%}èÆÚÜâR¯f!½ˆõ Á*ÖŸøXëZ®åöÊúú>ç¶±µ‰fº¾˜ZGÈH•¨Ì(v ßB©«©G`Cmém\0¤(mé]¿Ÿ]'
+    'î\\EõÍ |}ìÐ\\Û†XÊµ¶Ã‹¨<I' => ''
+    '›Ž±jøqsÖ¶‹$Óö?eÅƒúœ•Èÿ' => ''
+    '8R)D7ˆ²LU˜I¸äf)<¼¿ÒÝM' => ''
+    'c%Çr4þÆ2ÄÜËí‡‘$å:Á·æñ›INjµ«RÙM³L˜®ë·º{|Ý¼MlÁ!Žä<‡$r_Ô(?ñÕz#ÒZž¦·ÄY6Vç!ï³aÒáŒwkÅ3G9H`\'‚ï°ZîtZÝÂQ©Q©±oÎ>V…#%–2Ð^<fI_Ì} #äÁ«Z7•4e‰_VÙšÍöjçé»W3' => ''
+    '?âG½ˆ†eUw–HÉcP£Šïã­×T›L6Í' => [
+        'aÃìOrGNï$ªËtxÜi¸r*ŒÛúÒC¸YÁx¿Ç@žá‹º½ÞOßîÙ·Ëö4yhIuƒ”1joôÓÒ9à‹k¡e¡Ê®‡5O…eä£ò§' => ''
+    ]
+    'Ý|„´' => ''
+    'ââÞÜ´ú‡AP7Û—ñ×50ýÌOï!XÇŽ•qS]7Ñ_¢>bgh\"	öãŒ±pZî*øél•–‡¸ö„Á·jÎDÏå®…|zS\"fËÄr^Ê€9' => ''
+    '˜ëÝg lx­gPþõ»fs{*FÅš(U¸¢¯ééOç¯	È÷L÷³õ¸“»N6:­\'3‘»Ã,wqÊ#¸žN' => ''
+    'ûû–áÚVPÊï;(2™—åÕØÖ¤ï¹' => 'tïYœ€7”û ¡Z
+ñ¯—ŽÝ4âZ¶H†	..c€2û’:\"x­XÐb@Q¾çRªtE¶c•¶Šl¯*ƒr®'
+    'à~FÙyàPoâ4ÂÇÚºMv¶8À¢d‚#/6å)©ê	\'ÏU|–ÚMR«ÀÏ¹å¶¹°Hç(ÒÆ¯3Õ‡ˆ¦µÅm9Ef†x	n°×Q˜n”_ßT$’*_Z¿3,‹T¥–mŽcuc5­Û-ØºonhÂÖ\'…EFûøró×_±ÑÎÃ©¦øû®ÝÉC{fçCq¸cVŒôá8øWg?7ã«Íe’‘)éqÐsÁ‘¼X¸B¢hêóã)@6^¡~5ÒnÍö¤j’ÖÎ{s\"Œ—Œ0¯¤l
+¹øè»4´$GpÐvü¥!–	U¢•ÚNhÊÂŒ­Z†oVÇjh˜²Âj' => ''
+    'BÚ–µ	ØÞ}6gß÷U¤~Õ”YªZ»Ö ×Zû¯ZäµþÀ¯Nê:ü‹2Õã	Õ%PÈ~}{üwVJËf¤ó—«N´Ð¬¢HÜxØUYH£)DhÆ
+ŠòÖãíþbk…ï0×n÷ë™¦f\")Ø`ú^žÁô·ëÏ{¦Û«-š:œlÔød‚ö{ªŠåj‘±!£' => ''
+    '#~<^§I]ÀÕPvÓÅ\\fäÈÚ9–ä\'´(}ÅI#n</ãøW@½ì×hZ¤µ	f!¼ŠÄ-¼FOD_¨(YšµHëç¡m§¹Q`2/uhl¯€Yñ%°Ò…K4CÀn‡ŽÞ_k¶ñõ_1*äègƒîK Ì%rY*Ñq;°Üz›¯òé\\¸h™GylìsÁ!Ç(ˆÈÒÃ¹N`@ Rcå¤F\"DŽðÏ.HÙØáý»¬' => 'œjóAÀyÔÐM-¡ ×‰ý[ïà÷lÚËÔÿ\0€®kL*êˆý“{œÇw/ë‰\'H¡šOí†FX‘¸•æà´PÇcÓ¯†‰É­]4Qær¶¬qÀ÷5¬ÏÑZÉdlP˜1¤GÛxÈn.Þ£JúŽ¹ÙðÛ«ß¨ÍnŸA½³w¹ ØÖö1Ð´…‰R¬¥G%B¦´s®¿h¥9LK“’t¾Îö{ßw<]âñ—Çï H¡2smÈãÏÐ|õÒIÈí¡gýûîØ»wíµìbqC>N>Ó}ý¶¸qMöM¿=^FãB±­NIâžÔa¼a}%é^=wòøhfÙº$qåJq¯•|5R@ÿ\0nÙ~LjÕM›]w#ØíÛpj<€À¦d¿P‡ÛêûÝ(‰\'á¨X©Ü0¹ÿ\0¤®$Šþzæû¿#ìñÝüñë7‚ Ê_X]]_=ü“;L²½œ±™¬C©ùHØøŠxž5ªæÙvÄô}®©*ô$Awv1\"ë#zò9‰%’B±ªûb8ÔØ7\0M3|ù/¤¸ÛUª@ŒrK—¶·‡ëd·/vmçXiÆHÞ¥]CŠÒ•ÎH£zN†wEUßx0]Åz?ÔCor©3JO6ynMOÿ\0=z._»OÏÍ^× ìs\\vöa®ð“4Öwq¯Ô[ÍºšxÅkém7¹±ößK-™Šet´Ôr ÍâRYµÀSº¥G%$€90uÆ~Úñß~ä=^_rð
+`»Ï¸.!³‰.ìÑÀ¸	ôò’» ž”ÐóqiU®ŒÝs;=»‹»LsKadI0ml€õ4~\"½Ž±Çâ¶¦¿6KåKpU¿wXû|mm$VEa$µáÄ6ÂŒ J=3n%º°k\"5ÜwYŠÍ]íÖ»Pr­X~ «óué¬×‹6„Í÷èišï7\"½«	­r%”¼hËì”UêB6ÿ\0ŽÚ%ñ×½P×êEge¡•€ŠO©»)yr?ÓFªÇcê GJù\0tçÒ*»QºÓ«2ÈY4Œàúm„€y2¢•§ÃÃXÅ–?÷jÉ~v\\÷×xœv:Ò'
+    'ÖÞ5’qÿ' => ''
+    'î”¾×(ÝA¨@
+ây¯ÜÜ÷‹ew°~69´”¯yw6HÅägF‡õ1é¯íüW‘ùŠ' => [
+        '1š»7$Ä™•yoOË^ÏÇ¯l-…ívA±µ»¼0RCû`-X0<tÛªZ#0aûn;¹á‚rc¼I
+ûT±PÜ9Pnw ÕÖ²Q\"Ã\'r™9²6¶c-Â ²[{Ó!‘bö‚û`ShÞ5:;S¹KÈÕŠâÞÞüÚÃ ' => ''
+    ]
+    '’IŒšþHín1VÆ@Œ)o~YÉâyI¹
+6#DUuôïJ™Ô\'Ü’÷E-_®' => ''
+    'kkEAkÖånx*Ì°<ß›/¨ŸÌºÎ%^šš¼†îñQã1öŒµµµõ†CŒ‘ÛÅ8g–$JÆ_vˆ³Q¼y|¦‡C«mÂÜ°±Ú³dÖïÙ\\›_žÐ-mcEŒ‰”¬à/' => ''
+    '§AñÓ˜Ýâ61h
+ý¶û}ÜÙF¼¿i§ÅDÁÙå~RÊÜ¸¬i1©â”£ŸÛEVoDîvkÔ¿ì{_bÙãm­]	*ÑFªT‘ÇÒÀrm×LÓW@vÏ{nÙ?\'ŒL¶_Š”sKëIa¡ñfCÇÿ' => '\\>¾#TC<'
+    'nï¶;†Ç¸m£iE«p»¶ù¶ò2GùŽŸkUpÌ´Zýÿ' => ''
+    'UcàÙYšP@§(!ý¨ÏàÎ†âÑ¥/¨‡*óh]ZæR«í©¥G¨ù-2Ø°£Ü¹IÌ±ã­	÷%Ù•6cËåZøWÇKç¿Dz°bÒi`ÄDD·ì¢{ÙzñäøëÎ{æUJ,kêÝÿ' => ''
+    'v·þ>#µ¾°1Xçs_ÄnJ”âA>T¡;s/£	cvGz–ïôéä3û›püÝ\\u¯1ƒ­Ìw‹‘ÊCqo’ea4*¶¯eÆŠÐ)-É]½\\;Ô~fø_jöüä¾íK_¶;ª?¤G‡³Q^çO:W}¿¤èÜuÉÆkõÆ¿5ðþ‚|ž*ÉªÒßÄyŽá%
+k³' => '\"®¨|(ÒüÞ?ÝÆ×UªÇÉÙo'
+    'T	ÝwÖ–¾Ö:Œr“*LÌdþ£Èf?y•‰u:ížÛ÷VBiÄ7dxÊpy#-J¢Ôzƒ]_Æ‰\"WkEÜèo%' => 'B¸Ô!ªqCMBÄ^ýÎÙ[£c–OrþåCGnž§*¾J>:ó¹²7Ž¸ëÖÓo%Ðê{f?_sèS9œ\\-³ºîCÊÊiYž¥R¤Ò |Ý(uÂ­_ŽÃrHŸgÇ[Yß¸3Ñ¥	QÖ„Z…¶š6<æ r)PgÚÒZExÖÖÞÛ–Ý¡Tû\\¥¡©$ì|õŽJ³RüŠu~ëa=Ëì„Ž‚–î1õ\0VôÖŠI¥ºÕšø0ŠMEÜ?c[ÏWºš[y[ÔaöÙ…ô™Z¾úw75«iªL:j3ÁÛÜu¬Hd§V…'
+    'j²°u`@ªŸ®uù6»o¬,i!z,Lù;©m£–%Y£b ³|Èhh@Ó/;µpØ%D›4Øb_\'—¹c7³,0™XÔØ' => '
+éwÎqéÇ=ÂVøØ½ÄŽÝDôî ]ëC¤m™Ä½F{<	¶Ø¥•ÉÍ§5ê…|Þ’» bµÇ[ÙûmdÝ×Œ(€7*ôâ¦ ï¤~õìÍB~ÖË!í÷…Øî¼ñ£Sÿ\0ð×­ý½w9é)þhã{¥bÉùaïy[¿®0Íi4v‰$7nÊ-Ñ£O¨úƒðáTß]µÊO/oÂyc$y¶—–w–éqi<wò¨hå‰ƒ©TnµÓªÉ©AÕ“ØQûÁv-~×wšá!¶Aæe•vþ«½\"²ÿ\0m¸ö›½o¯©U²Ç²#õ\\Jiù!Ö([bú¿ÅÏ–šXn\"1EoCÊã÷y´ŽÏDÓ¨\\­5ÒÍùlL‡…”l®Ç‚ðRNûñ¦¹ù9›I•Ní…ï¼äÄ–•×Ïÿ\0pò¾÷!%²CÜzÂ9ÛîNRúL“FÈ=˜hboøë«ìøj©=Y¬­‰ÐGcsµä’=ÌŽÇÛP˜¸Ì9`Üù
+p¡Û†½:¥]7lÏ)”gºh¦ÈÛQ}æ<”0‚Ñò-ÐR›kT§Ve¿\0æ
+æ|¶RÔ‹‹ëå’#-Ê ‚#î\0‘²W>»ôÖÝSKB•µ#ã¬Úùoòëx–÷à…É“ºÒžR*4tVà>m¸èy/ÚÒ‚êoÅÇ-‘žI®UbF¯9 HÎû¦Þ>:MK«ƒæºIrVÓ[;¾à»YÔµA\00 V>þaªUÒOR.r÷$x»2“5šm=ª†NIö¶åZÔþ5S‰‚›R4÷vjòÿ\0¶1Å^_îÖ×OŽšˆ*›eP`™cEZÔ¯ZÔèxª¦ »18w66vâ÷]ÌV;·Ü˜ÑjLHãÙÉEWzši•‹ÏCÁ.ÝúÖ;q:LafÅÛ£2ðed(ÓM²üéQãÖš-ælÙ»±2™ÞhÞ:¤Òqµ£¬ŒM`GâvHr7ÐÝv:ŽÇ |riˆº³ŸÞ[e¹’ÿ\0…-XW@õÿ\0Pøùk§#Ñ4*“‰Ó˜Ã`)v•ñ4::(ãÜõ˜·Êä\"QEK¹Ñjw\0JÔþZ·@ Vê@?ôÃ!­ãWVZzX\0CRžFšˆŒ³~Æ]ÙfqYß¶Ù·­¬Ñ=Þ5«êTz	¸|QøÊ)þm7ÅÏlWW®ëñ\02Ñ^®¬›ØéÜ¸¸2?mrìl/à2ŽÞÉÌŒbš#RÑG ¨$\\@5zw}ßLô\\ŒNgê]WŸòbü\\—JË`•¶C»0Ý©|Å¼±Ä-Œ·,C ž$^\\õµæq«-Î¯/ìÙ§O™Je,œÈÒ°õ’XŸ‰Õ4	0|h’Ò)©ä²ˆøi\\´‘ŒyA™[)­ÛÛ`=8Ÿ_š=G]Õ‘õ–2\\­å®:	€¸¸š H¢d`¤ÓáÔèÔZ»…\'q`1vØL–>ÝGo
+*(ðD^¯ð¿=u XPr¬åÉ5‘b÷2DQ?üo¡e¿j“T¬±Ó¸-ìrreo‘æ¢¹€T³P¾uÍ·.´õØibv]¨ƒg“¸—)s“¸ˆÉ=ÏmP Uâ…5ãù¼‡–îÏvÎ¾:*ÑUt'
+    'È2÷Sñ_Ô€ÑQOã¥T½Í¢Ý¾:>a' => 'µ•Á^mÆ›
+üÃzÿ\0=¬Úl€1³qî½Ä¨Ük=ÁŒFÜœp\0­FŒ²ßdÙ‹U¬û3, ôöêÐñ!\\qÛmÁ\0PSÃÇJ¼¹,ÊvH‹˜íœKÈRâÆ\0]B‰gðéCËÂºµ’õÙ²hÊË½>ÛwW©Šä#FªÞ¨Iè²â´9k«Â÷,izßk_¨¾\\Mì(ÎîëFQ>=‹á£bë]ö-úGŽºO›‚ÛXÅuº#Ûå§Ewd@ÞÜÑ†Ð†_ü´Ka‰ÞO›1vBÕÕäô´•
+¼ Zx—nžªí¡×²G} %­Ÿ.m
+ðj„âÔêjtÂ½¼AB0¸À4±£ØH‰8Ýc”„,kÕ¡#Èè”ät±_oÀÕ€ÊßaòÑšÏí9-2I
+G£]NNå£íƒX²:[Ô>ã»é¢·Ž [w $ƒ#‚\0\'©Üï®_lîsf<¹)ô
+Ü÷ÂÀc¬’Å ŸM:ŸúzÉèiäDø»•nšöµ‘G)9’ÌÝyFÔÛòÖ¯VZ­¤K·‰aPd”s‚„T,Üh4,<[f¿jÿ\0Â3|ªŠYgØ˜%µ‰m‰ ª\0~aÄmË^ïRªKd?w.B T•$þ’ ñ:1‚–Íý½Î[æoRÆÊIìŒò˜:CJxÔmå¯3ËJ™mTvqZj˜¤·’CqlË4LD¨Â­\0Z„ég,)íÖ=-®~¡\\Ék7Mrõ-PVŸ§OrîÚŠ°XqÜâ.kKÈá–2´^µEáó£‘SFäxÓmsí;±Š¦eÝÙË|<1Fñ—·SQ¼rã;Áø·OH#Tµpˆ”) ìž. ôÉQIš‘¨ÙG§bG5ÞàaO½Ð#'
+    '±ÐSÅáíé!*„†' => 'jGÇã§¬„nìbŠrƒT(\"”ü°ËFüT_E
+LÀ4A ‰iæCpðôÒ»‘Q®_!jÇñ=\0=ã\"´×6«\' ]¶T#³qåîVûhüU¢f3¾€¼UÄÆ¥5n‘Zº·\\9-üè÷ª[Þå#½G¶hßê8	´G-iû”zt#mnµƒ°óö‡µ'
+    'Íw%°X\\b­Oy?Ì¬ëR*Æ†‡å' => ' ,ì¶-ß½]÷ÿ\0¶»lâ¬dæó(cR¦oh}//À·ÊšÝ™š×C“¤Þn
+ Ätè)¡›FJ:Ô øyÓP´‰x…áy-Po\"Ö¿Õ2_Ù‹æï‹K†âÂæ¸U¨¨*W¡ÿ\0>·‰jfûš03œ—sçá¨C {žzÇ‘ÛW4e/cYÝbx7€Û®¢E¤S¿uláL…žMg’Õå	MõÕ$HM9n¼×¼×þÅ¤Í×à_Ð×˜$ãî®øÉ2ÝÜÛŽQ4hªdŒŸ
+Spzo¯<¡Dht“zæKŒu•õ­«´Ü¥‚Xdå rŒœÔµi®Ž5jÙÕ¿Ö•\"î;¸dÅå$H‘\0y­G¸
+È	òÐWEËÆï®¿˜Þ{Òèe†K$¶RMlÏ} `Ì<Ë*µEòÐ8´ûmVaêëÓâÆ[ZÉˆ³†ÚÐâ‘áqRé·9íÉHñë¶–»}Í¶SPÌ/;oÙòè²É XãZ $0¢¥O§oËXû­h*È3¹¿²-¬¼chïgáH¡›Û ½\0¨¨ u¦‰ÇVoÈ—ˆ!`{^îÞÎInî}ƒw göÅZ°ôÿ\0âšÞ~mf˜'
+    '<¨çŠÄáo-iÉ!z$ƒ™\'’Ôƒ\"Ž;PmA¥»¬Ós>Ü0VoŽ±Ê›hm¤Z<KV_BXp(A©èzøkîím´áÀ|`ûk5ùÀ*ÑH' => 'ˆô“SÆ´¡:ÅòJ‡ÕŠÊÍmä[ÛpynŽÙGPj:šõ×>ùev²^ìG\'¿)fŒrcÀp~J6pÝA®ÕÕbÝÑæFêê´ÙGŠ*Û\\KÏ;¿4«ÊU?­ùÒ¢¿zj½×ÜIhãSÏûãô¨5v\"g³sIÛ×Em3ââyo¤ßi`Šb±õ(âq¥kËˆ®»\\z¼Í¥§‹øt<þ<vÈœ~e¹€Ácpx˜1¸ôU†%äUUid?4¯ÇbÎzw1ãTªHv˜Õ	¥	öÊUù·öª~$1;~CW}‚Ô	þØ`AcÜwõ™í¡¯ùV6ñmU	bùµŽ#žá=þ“à=i”ˆòF’WÝ_AÝ‡áQ¥ïÇ­ß«cJílVÝØXI ¤møkå~à¿þÕ—™ÔÅ±@w•Üw7ò#
+<^“QÖžZô¾ßGZ/2²1'
+    'õcw' => ''
+    'ì–S7ž{rêrs]	#{Pñö–%FŽªˆ#_Ï—ÇRª¤³l•mg’L½Ž9®#ºhž1î³röYC#,t' => ''
+    '3ÁmnÓ†`Å•·' => ''
+    '`H\'m÷×¨Çô£Ÿ{;Y¶¢NeîKÈ·á	]ë¹Þª×Ç¯Žƒ2m0?ÒÜM0‚$' => ''
+    'G<QA_S4™¢îÊh\'_*pa@jhwurS4Úeò8l­–wÁrXÙ' => 'È˜úƒŒŽ£ª2Ô7ÃR®
+²:Ÿ±{ÓÞ½¯NÕHnöÉ½^ÅÒQŠŠø~¤o-1[u@Ú Ï¼É<¹[Ì´2AcW†Ø·:“Í|)ù‡€ßLdâ]b®_ðz|ÍRô~Ÿó’¹Ä7nåD±\\Ü)R?sßvôãFë®}îžÁ;ÕÌdþÝ_ÇI-§Že}ã¡§5¥C!é¾©VKY¹sÊ@¦ ËI?K]?
+WXx¼B,±±\'íwkN>æà¸æRäÈþà Å±5ñD¥ZkÀ»äN¯ÄëûÞ\\’0h)ó¨Q@4à˜ƒÞÙ’õàSû6ˆyWoU*Çþçso¤xa©_¹/â@ËÁ…ZDSQ±=ü5åù<‡dŽž:CûzÅ#<ÔgUäÎiÇ‘Øü#\\tå±‹X‰Ýyh0öÍ5Ì‹¸@ÀP¹%¼)CüÚÝ1ÚöU®æ¨ÒRÊc?ß}À×„mk·í¯II¶úï`öìNºêÀääYq½ópo~ŠáÈµjÅ zT=K°ä?-aðUk(‹4½FýÑÜX;KlŽ6ò;ØšUŽrÄ1‹@;zvÜ×ÇJ¬½¡ÊsÐ-Þ„‹.ãÏ÷?ßDSYÌ·kÀµcT ÿ\0MvñÐsâ®;BÕ=cÕpd-VIùKï²Æ[Õ³|ÿ\0õz~ã]x†Ura=¥À {~o%vzÉ?¨PÐSÂ»êVæ¡1K¸û·3Iw‘ÙÞÝRX.àJÎ»´ ÃæV?txÞå—Nf«§œZÙy•VKíïuØ5,Œy˜’âWÚqúdSÀ×^‡¹àº›MƒþÂ6âä[zˆw˜ü¾8Åe–°úCvßµ3•XÜÿ\0Ý¯ç£cÉK§j>èül
+Ôµt²ƒIq­F$xû®ê
+Ö¾ŸyÓZººØ•j5Éc‰ÉÇmŽ¾» <7(A–ÕØT_K§NKÓI¬—ÄÝ’ß0îŠú2%÷jæñ
+Ë>>K©…\\Û‚ÑnŒ|@ Šmã¢Ó‘LGLÏcKbMö{!k’1´2OP±WÜ
+¢”PÇæ¥w>zs MwA;#PžÍg¸n 3Š°õ=ü _ëRwAu`1›%	…XU¤o™áÔë»íøRÇ¢ƒ›ÈË6°V‰oˆêÛ\0ìÝI×Jª™Zëe2n«pÌMªðòõ
+ïü5Ä÷kîOXCüwé*žÿ\0Â^]fõº}<©ydbLwÄAá°â² =IÜkšš¬¦;]„Œ~€L¾ðù!^CzÙW«1:'
+    '_à*ð_' => '¸öW©–PŸ÷ìnIýÂé4Üô©ü4ƒÆÖáÝºWÜþëŠoc‘x9fgu'
+    '«RÕ¥<wßDãaoÔg>HôŒØ³àÖâPWÝ—Ýõ“ëèøŠ_½n5' => 'N^{®àza,m}›«hs;s†ÀÓ~Ÿk-R1È¿w¹0 ò²Smá DYbhrsÛŸÝ¹‚Ø´Áý a‹~¯ò‘JSIå®£xž‚¯rIq¬pT»þñ1ú‰cZ S­ŸM
+êc3{q‡•˜s(ek!åÐ)ßoðß[kPk`ÏÛo·ùnìî5€±·±NOw8Ù™¡ã]ÅkM1J¦-vÖÇN_]ö¿Û®Ñk¹\"Xí­ÀŽÖÑ($¹˜
+$kÿ\0à7Ñ[HÂRrßu÷S=’¾ÍdÜKyvÜ‰àª¢‰•FÀh-›y¢·Ê‰Ô-PË\'µÜô…±“	j­\\Ñ©É›n¿ÃYe¢Ôû/u]élkîÁ4)ÓÄ_'
+    '-Ìßc¡¦ŒÐËÅˆÕqs]Iªõ ­_çª’²W–ÉNò_EY§ÔvIIª©eWÜ2ÿ' => ''
+    'P	ä7Ý«S]3¯Ú' => 'Ë«³ÁqöÕE}Ù\\P ®ý4ÖÈ´è]®«¹¢Îï%wr·ÓÉè`Â^DŠ§ú¹1:Æv»{<6óøšªêM²‰¯nÌöâ° ˆË“é,~P|wÒ¹eaîm,«Ãr(‹U¨¨\'ð¦ÇHÞ'
+    'QLÈObrºˆKD–8¢õ\"' => 'FÜ˜m¨5ÅµUæÛFÞ}d˜Ð]Éd.£ìŸ£EV³¼¾àðÊCÄR.\\¡Ý¸TUHc¯EÃšáÕïmŽ#á[›Èûtq¦³²H	q•¾hï'
+    '–Þß#\"‚:×Œö¢¨è‘þ•ÿ' => ''
+    '¹_Ú·ª<_½ûfL_GnK' => 'ºy
+_îO#ív–¿ê^^´ïN¥`ŒõøVA¦òlq*@ÿ\0lÀ7qãÎÆ¶×*>4gü«,_‹ÆÑ¸ª¸âÃÍNÄkfO\"ˆE‰O¡’@ÌêÛnYT}Ø[È0×³ZÈaš:75<Owß_1äãª÷¬¥3§úx¼¹¿ÉÅ-ÙA:@a[¶æ±ÊLÏÀ*)Ý‰âjT=N½_ˆª§üP]žfl1öh®Ð¼Ñîd…*!·í–ù‰øÿ\0¦)Sž`'
+    '¶Çå­ìr_’BG©Þ¤nj7ùkáÓZÉVÔ—©ã¼²SÁÛ÷˜‰n!’ä)ãMÊ5äCÍ—ÀÒ£ÃR·Ò:È…“º¸íKÉáÅ£Ç€¹Kø®C´³´jë·¸Šþ®
+»tßC¶j«¯' => 'öè%¼1ÂðJÇ¾Ëjñ¢IN!H­Io›cB†š®Gfôƒ1C3>]ìä·’ØÚDÑÞÇ\\=£óIòâÀÆë¶±’°‹LŸwuŒ¼ÇXLÑ4¶äÇs–äd’~jÔ>ÖÆ»|Ú»žºx{Ë\"Ëov²ª9j8ÂÆ«\"Œ%zvÿ\05<u~L¦ggˆÉÝfYb¿\"Æ®­*…Œ„rEéO®ªí*©RJÌ†ð÷œ¶:ëºå‘±öâGÈý3\0dGZ‰9zy#Ón?*¼t;BMWän_QÏ²q1\\^ã®£¹{9~©å¶ÇÜÜräûLý|=°™ÙMõÏäwYv%«Ð5\\)æ¬sódÅ•¬Öni3(hêò=\">rSa]ŽÕ¦µ}ÓàJó1c«Ÿ«¦…‡wµÂöJÖÊ!µž2Hâˆ<AB)AÓ®½-mQË–õ{”“CÛ*2ÕYE†çm†—
+.d­VÒý™c
+¥ˆ‰’¥@ØÐ´Vi!ºgqcÏÔAÂö.(Y@ëN¿ž¨ËPÅ¼Ÿceáw6ñû‘/NµÜŸ…5$È‰Û9Žðìãä±öŽÖ¨{†Ê‹çO‘Ö¾†ÿ\0†·[C#ßºl»Cî•‘Ïö¬ÉoÞ$žÊzG<±¨âc™W²H›Vº¼puÆñ[ÿ\0·oÐ^Ø¢ÝËr£ÄØØÜd.±y7“™·­l¦J™$cˆŸÕäÍá¥¹ÝÛUj>êÓ›fá¤[XÈ—€W».lâà±[Ì¥dJõÙ€`Ë¥±Ñì÷–Û7¥¥žBÜMjââ#¸\'æ\0øÃ}]ªÓ)3Ú±k>ðÇÎAUTò>µ jWsR]—LŠþëlª¡¿  ¦•>EÖy.åœŽd‘÷ý;šË\\žC•aºt±ÎµøŠšmZÓòò™¶:tZxÛ‡¶m]è\0øëŸCmjWq2Ùø;’(RçÛÅ¼ÞHÂ‡÷'
+    '¬}@ª°R(GQ®—©º¡§äÂvæ\"_H›ÙâÒÇV‘êçÞê¬Xn´óZïÙÛV¨B¯tövÞµ¹†ÒK	o¶ðUš	±–F¯' => ''
+    'ù…tö]âOÔñÖE\\¥ëXËm‹’í®B9>ÃÑ’:éáRzéœXûÓºPÚHvÓ•ÈØ' => ''
+    'IeÝ‚åÙC{_¬n ¨§–‘ÉÈ¥.èþ¯ëÔb©Øi·ÌÅgŠúÛÉVÕ®÷QªK |‘Æiøkl÷íª˜üj6®’–N‹ºò¬>–\'’)” {‚¬Š§z' => 'M‡B|z­z$†î[Î3VÅš)#«MàVB)Uÿ\0¨ëÂ›ßR­hZwNÞhý¨«e¶Ïl¡.=R×ˆñ?.œìªê¸!q•YÝ¬2Ø¢ö÷a¤6Ž=èØS~TW¯Zè.­z«hkä[‡£{³ì»)ŽãZÑœû“ÚNüâTaÈÈ‡ñ¡®»|zvôäSæ¿˜ŽnZÑ‹?û_¹qðÂ¹¥…8³GÍ(¬ ê£Ž¿#›í1LVê8`óyÇÅXYE4é5™ß\"]á‚ ¨ýjhß–¹œ…Ufÿ\0å1¬Xä‘ÜQIsGreûqV —?1úŸ3¬cÉTÚ	lN‚\\ k®^ýË€R*z7ßÑ_z0ï÷²9ù4n¥¿ƒ‡%5¬P£Ýj³:Ž(è>4#^‡Û¬û59™’VÐfµ#‚ønO™×D›Œ-M«¿ÃVY\'nKiÐTûm·ôî*?!ÍÇ0ÆøÖÝ£³Z•‹DÄ1ŒV›Vƒc®OÚ]vv}5ƒ)yZ\"2˜À,Ô#ÓËÔ[ÊŸut%ËÙ'
+    'IqfÕ-ã˜,Lâê¦›' => 'íøÖEÛ°·.Ý­2ß»cÇÇ …TœP®üB9B§sdØâäŠ4æH¶Þçæt¾}‚cÜ[ìèZãº¬ã»…¦„PQÉEjÕðñÒÈ5¶5wü¸Yrèd¶»·‚Y#ZîÌ«U ÿ\0£òÒ\\Æ8û	ok7²äoU.„ÍKXMY–'
+    '`È_P' => '°_˜÷<|~«)Õµ{t)Kæ/jH ­¾z2
+
+:íæ5f[j@8=yF­iµzj‚G]™R”u®¨ƒoeßœ³É‚ki:HëÓ’iÿ\0I:ºÚVRŽ®¶ž)âI¡`ñJªñ°èUÇ%?Àé$æÈÉŠÁ_åa…n$³¥Kvq‘‡Däz¡åÈ©WgÐg‡ÇûÙkþO¡Qc¾øÙ\\]_¾VÊH¥D1Øû^RµÄŒåd Q…G_\0t–>r²vkä9îþÔø~¤ûèüµŸ1¿#$Óaá/nÐ<¼g?ÉÍ~VeªŸÈÓLÚÓY9Ôb>vÚO¥gE<¡u‘@­jý5çý×¢|×àÙ Gˆ«’¶ÆK¼»¿´çpÁ.-B¯¨q  %j»oá®o-•RON£91­Aƒ.æ_zîÚKyå
+–0Â#ewFâ¦¡x#>Ü¹(ÛÏOZºhåuîñDÎÚûwqeýÒþQž¹-4°(4,NÕ;
+tW“î”µ{W¦‹©¼\\xr÷.ûjV²³–îa$²ƒ,¤U@m¸ìzp¦Úäÿ\0±êq·AÊ¡û1mgŸ½´g–ê(¤ÚÀ Áå	çâË·ËÓ]Zaµ±§¢ñwõ41\\fÿ\0¸ò½³•/Uâxì><GËÔáðt¢Âé£P1K'
+    '´%annï™_$O¥¶³Õˆ¯½3ŸK¹æZqž±š±…5»·èWùwu\\YÄöv³¢J	aIö}ÂBÇäÀì¾tLX’Oé-_½EœE›-ÃÄÃ›FYÓúƒT©rvcøêgËéÓIÐ5V£3`’å}ÈçUŠF©!_ÅM*wéMs\'µÃZ„XXAmgìDÊñ(\"I6,Í_áùi<¹­,ËfIhbH >±O¸í¶ç}Žú§yrTšrÖv–Ö¶×W5†óÝŽÒÞCí©æüº*óôá®–>%þÒÉ·sýQ<üªÖS_ü½Ä’<V²§µ‡ØT9÷' => 'ææ^­°PvZw±ý*Ÿíj×’Þ6HÐDLÈP·ë®áh»€|uzž±§Ú¾Þ†ÇWÝI®ò‘)>ÑåF¤ñ@HËúÇž½·q• Ý2ì|û÷>Ùs}¨í®?Í¿‡S¸žáKÎûÙmÚó~ì¿Âª4ÕÞ§ŸKCöý™[/¸1ÄÔX²p=¡ò/þ¤Í51½Idtžg1oˆ²l…Ðsk¦5æT\"£ÀW}j÷í5‡ÉnÕ¸2Óî?i^£5¦A$ M\"0d ±C!>Jƒ¸®©dLiûneºýÂÃG–Ã\\C,©w	ödê„‘ÉX|5á?qcû<šg[I|y‡Vr>bÂòÛ!;ˆ® ”UØ#õz‰ ­á®ÿ\0-l¼˜;¦™5ó÷´á¦ú[Y!÷`…‡/zB¥(ÜEjÃú¶ÓT¯i–BÄKûI2ÄßSmé÷…AW’¡£(?Óµk­ÙÎ„®š‡l#qõM{	ŠÒÅã‘Ü²F×”n\0£H]w$“M.6’.·–›¶V²2{©Ò9]ÐF%¥G=Ø•ñ›øit›6 ÃÚ——–×OeJÛJÍ(wUE@†@èµ-R¢»ì:Vº=g~€ô!Ûæ^ÎE†ÞªÉ*È­ïÆŒKø2ŸÔ:ëoz·©$s’Ç!>$1ýá—-Ìq´%ÚªÈ8%¯©´²´8Ô SÙyÝÒã–ò†F‰à9WÔyz8ùyhëT	£MÍ´W%'
+    '–)¢»5ŒDïÿ' => 'B\"¦Ìvåæ»ãŸ ÛH%÷­¤ˆ” Ë¨àEwZ\"eÎƒô˜ÎØû…\0µÍÆ‰ˆŽd
+’?ýÈ	ØÔüð·â´Ó8sÞFÕ4.åÜ.Îgš°^åí%?rÝJÍ)Û—VVóUøéüXqe^—Û“Ì³[ìí|ÇmeàuíÌ¤O4²,‘bnÂÛM­Y# »ƒáÔiNO%«oŸqte1‹ÈXÈ–-}”	fR‘z…	_¤*¬‚Òµ´Ë†[w®­‹÷Ô¼T?‘§øiÆô1%MÜQ›|nEº*A\'ðé®V¥ŽbÕ¡72¼¨õª¨ÃÃ®¼Ï%htñ­GHòBE·Xä”¡rHjÇ\\Ô ?h\'în
+ó\'Ž{¼x--”‚êÙI”°(ñŠuôî4ÿ\0-)•ÏÓmö·]7@ÜuÙc-$!,Š‘ÄÉÆ@ôôzuÛCÉÆµ­éÚƒuÎn†*û!%œ0Úaá{«Ig•£_x<WŽìÄ5(¿žµ‹ïTO[n¼Œ]¤¤¡åšó#~ó­VV\"œFà-zµZã¬=ŽKnÎK_¶®ç¶ÂYÜ^3Ç›\\EÁ’5a¸mÅ?ynf5l–Ué·‰ÕÀâ©²nzLV^(.­ŒvSPQKÊq 	ZôðÖ8Õ¾)Vÿ\0$#VÛ åÚØìSØÉ<1ûò!_yƒ¨*äöø¿ìÛSJæ«{›V
+w<xÉ0}`²$lx4W‘`ÛÒ»©Jn)¸ÓVÁ…%lr¾ S²m1#gsï±2 zN@ñ^4©©X³N¾h»8YºÁwÌŠñâÜ‰¡QÔïøé,ÊQtaHå´¼µd€Råí¸ €Ï¿»šN;trÂ]IkE»µ0ßN†4ß~‰Ê»û•èÔ×Adêºƒí»\'mcEº—Û~~Ú QÁ÷×rÆšÎLÚÉ¤ÚPAÈöŽNÞÊeµ“êÒ2!ª¹Eëá¬Ó\"v— Náïµc…1¶i$iÚ 2	ò%·Øüt\\iÄOS™Éú›,F ¯Ã¥kOˆ¦½O
+Ð‘ÊÈ³U7ä$Tk¯Ðuc´M”(Ö5,^îYm’ÞK™E î<„€Û<Kv‰ÖsSº¢Âÿ\0sb’?Þ¼‚Ùj²´ªªÔ5òâ^­è‘ÐPŽa»‚Ïée˜D²F¡KP>g¦Þ–ÓÕ`¬1v6jòË¸ì•cœØ]Hc6ÈJ¸dŠ®MiúºøSKrI¾¨67:U¤ŸQ’šòP¨”Ù]ØúœüM4Od¬ÚÖ}sÜU\"C‰ŸÚ–Ø¯Ã§]wÛ9n“·âEg
+¬„qn^#@³’ê ÛÚ¥93z ³íÆ¬6ÇôþZ¤0—eg÷c/Gº¯¢IxÁ\"ÊÐƒÄýÖ¨ê}ÒßŽ“Í­†p¨¨…qn¯ƒÁI¥u¯\'QAPM=`Ñí®ûŒÛB£„·0ÛÇ^­ï?ð­)£SpV-ÞîÇÃ*\\Þw=Û_YÛ*Ã³ˆˆÖD¢\0‘|6©¯Ž‰}ýOàU4ØLì¾ò~ØËGuÃÉÛ÷s7¹$ŸêE!jröÔQHº™}ZÅ-Úä%«*Cî¯dZØðî2…Ê5%7Kk¦¨)ÿ\0—/ÌžGo-Êu[%¬2­²³NUÁªzŠxŸŽ²h0‹\0PWqáMFBR\"QJNÕ'
+    '”' => ''
+    'Uõ^_Ø¬19Y¬s·WÑË$ŠQíìW‰ˆ¢\\©ôÔÓqÿ' => '65|iV<Ø½lÕœ—'
+    'îÖÂÚK˜BÉÉVˆ#Xr—üµäò¦í¡Ðí?t÷\\XÛeDçÏqËeÓÓCá]5Ãã<–__NÄW˜y±íÜQ_Mp¢Â)˜ˆ‡/xË*z™uâŸª¦‡Ë]ì‰¬qþ)F¤tÇa±Æõò(¶ë!ÁWˆ’š' => ''
+    '\'>;ëŸ{Û¶øHÍ™œ¦\"ÖúTaïIy,J‘AQ$`P
+ªîTmO' => '^<7ºQÐ.ˆð_É”šöù)q;žâE´n„ÓÕ­Yª×±‰¤º‡±öŸO0{ˆã»´¸@ª‘2 ³ÍÜôN 5ÏË“¹i5²ü¿òTŸe-ášE–¤C9H¤Š7_DbŠõ\'–Ä~UXPÚÓÇÄÐv„$àÊ†åX{…ÒÌ ,êñÛIµ°6Âa sï^»AŽ·S5ôÅ‰Ž4]Ê4£5h5ÒöÎÞ»vÓu³þ_ ÈÍØ´úžÂçu^b37Ð•Smn¥mý1³G€\'Š%6—ëêXõë§ë“'
+    'øƒü´' => [
+        '×º­ÅwK -ÑHIuy‚¸Êâ/(fú‰‹ Ë)ÁR(íä}ÈÒNh¥7ZW‰ê4‡yëéÛ‘W\"—§ñÞKínyó' => ''
+    ]
+    'ùùdñ›<G$ni×‡ËçÒºæsøË‘‰ã{î¾>\'Ü°ý¼‹\"úl!ýÚìv)²VpVí\'nH7¯å¯)íËb¿ÙÉ°®å%@¶8Ç´‘‘MÅÃ V‰ÁŽDœõâ¨p
+ÿ' => 'zÓ‹·žŠÞ»êeÙw%Õ»,3»¼	*Mmè1’MËãâ5§YZL5.Vûéc–Êœ‘ºÁ8…VG\'%d©-êñÖh»YmÉ«ûVl„mý¢Ù£6°\\L¦Ýn¥AKžmÉ‹p`y14n×«pŠKBÎ][Yµ”!%ñú–h¨_oH$t©¬ÛnKO@Ü˜¢¸°†¹´†(Ì·V!šâÞG²ë)QZøo¡¼rŸVo¸—}sqq“žTHc¶
+ÒHñ2Å¸èDF­$mN»RºÖ:¨##XYÝå.Uæ‘,‘kqt©N†Ò²91ý^—p´Ô•RY6–ü–Æ¹wÆÅý¿pÍh¡’W<‚±#u¦Ý4-nïÂ¨¯Í›Ûu·Š$Åã¸ÅcÌm5¼“ ­Ã{Á\0ZÍÀž,ÛŠšÃNÕ/s§‡UŽ¬³~Ëvœ×WSwNBÒÉ7Ó(
+ˆ¯ÍÙcOB è½žœÁºÓÑrÎ’ûkæ?çâÆfdönc2ÚB
+BAØŸ Ðî6Óî’Ž4•Ïtv•ö>o­³î±ª Êð“Î6¯5’¯òÒ÷ÄÖÆÕ¼E•‚HsV!ZªR›ŽžzDÈ¹\0žÌnÏS’Vµ#ñ¯Ž¡Lw³k{Œt­ 
+ìzÓPÃGÓCjŠÕ\0j1ù€]¼6Ô,Ûm„ƒ%o\"Ü hªJ6çÛR”\'¥uº£bfKc¸hä‰íî˜òÛÑ½,ß§ˆÑ$Êc>àålX[eâ7vÃÑ±\"à(ZÓÝ4úµu±fý•ö·¼ËOmK£
+ò·\"Öà1©CûnGw2õÒeyt@ËÞÇû¯€Rp=À¹;%\0Ea~ ž @îrn¤0©Öþî(µaø¢šh»ûêò§kõq¬W­ûÑ©ª¬¡G%ðä6Ò¡ë±K}ÖÈ1ÎZöükíûè·“ÊÌT–•cAÐü|õÉç[·C·Àâ«by\'É!Rserö\0AâX|ÁOˆàf¬ ÔÜ3Ñ÷š§áCOºçZº6³·ö8’§Ó/íaSÉO«OMŒ¸ÔÕ{Á‚; ƒÖQî)™gŸ¥ãÛ®šv½R]'
+    'J„Ü•÷zö’Æ­erb´`$žÕû' => ''
+    'Ë¹è„žJÄSÌk¯ŠÝÕL”Ìô\'zü4H2_÷Â¤ý£œ†cHŸv²¾SóÛ_¦äG.`;¶Ù\'ön}x›%Û¤c÷î%uâw;' => ''
+    '¥º£,6o_cŸOpË·x\\sbªy‚Oƒ×ÇU’‹y’RãÇÛ9¤¸\\ãÎ}éã¸†6—ÃˆŒ´ÿ' => '\'p@w$èM’H¹ü¿l`.¯c^oo Ü)iå<så^_–±kB’UK9$IœÉ3…ŽLO™õ1¯ZžºE±´	Šå®Õ†ë±Eÿ\0,`Ôšþ\'ø\\oûwÉ¶¼Ve®xU(‡#'
+    '‰s6,çŒÞ¥µ²@4ì' => '›Æ {\\MYKP­ÓãªÏmRÉO^nÞ°ÃàòqÆÙîæT†$¯¦HIäÑ3oºšƒ¶Ûh7n5ÞM§©7íŽR.áÂd;êUd¾´cˆfbJ´f°ŠŸÕƒoòŸ†™ÃiÑ™ÏXÔªr6×vÓ™[šÍ™HÝ]‹)üÆ´B1ÖDB\"¢»Vƒ§óÖK$B¨Ý€êH¥(7ÖK
+Æ´…Z¦Žjwé_üõYßcï£¶î‹\'­/! ·(iOÁ´l/ ;®¥¿šÎXáqÏîý:¤ÃJÀ¶Â¡zoâvÖ³f®:÷[`2*){p{«{‚‚ôEÍ¥Ê²[\\\\Ha¸‚äš!hèÌðPže~S®g =2ÑGç³Oú—•¦v¿Ëb¦½‚{;Ÿw;,y‹¨#Æ†u¸‹Ûš•’ÞT$jn<úï®fnúÛµíâz>íUŸŽ¯k:åëV´MxõÇýÚÂg|eû$W1Žd™Ô¬2| °8U·^º-2s'
+    'áÉjYE« ×gÜw“vuû´Þr¶Xe“ÜP­ã–Hè(È_Ê”a¾“%±»JN¹\"|šþ§oÛòwÕ_?U\'òYÚâ/ía|‹hP	†`' => 'F” Ú£HwÚ¶}£·R‚¶xñÙY?~Fµ1rPšíÄ«lY¼4¹~åvÔÍtdkœf#/9»répªcx=ÉÙ‹0Š
+tjëx¯lk·§ê]¨­©¿#‡ÇÙZ§¶IšEXãª‚ ¦ ‚™µŸ¾ìãñó4¨’odÌœŒ‘…»ž2Æx•xG^ƒÁdÜQ¼<´Å}uz/×ú­`´YnšêiMÇ½i¦e’‚ƒzå¶¦l­.Õ¤0µª™m°P[4óÈ}µ4XÕ€o”ÓÄør¯Ê­œ%ñT³ãbßƒû~Ü.EWv¨qA¥odúõ6O•ÀŠCîuâ¥–€n)Å9Wo?nfI¶Ø\\­ß/í¨®ó\\8TD@ ÊW;PxŸ-5Äâ_=¢«E¿‚|Õ§ÔÅb¿¸@˜ky˜ø_ê.î`\'˜¯`:lƒÇ©×W7®.þÝ\\ÞßÓóÍ—³þË}OD¼ãpEÿ\0Ü6/Ú²Ÿ	$¸ýÈRÉ83S‹¬²ÊO H9 F†§‹iQ¯IþÎ:UW·Ò”G_‹ó<î
+dådìÇWkïøþÐ²~Ó‚<|‹o}5Œ‹mE\0º
+æFE¥kÄä M=‡O´’Þ?ˆp»¥¾µ)üB=¥Û«‚ÁÛãª%» {Ù†âIˆ£_Ò)EøiŽ>Š¨.:´µß©O}öî[|ýÈí[YcñÎ$º–3óÞ.À)èÂ*ÓñÑ.Â¢‘›±¾[;¿×êŠPÇŒ‰âAó#ÃBf‚êˆ”UeØIá¬–Y_cûÍ°ýÑ*y‡öÜÁöŸ“1	sÿ\0“ ®Ã—È-n–èfÅƒ÷‹´œ¬}Ï`W6¼u®,^)ƒ!¨11\'pEC¥¹4í}ËgüN×´òwÅmžÅweÜënà“¾-`È.XFµÕÚ 03GË~(£Ö´k·M)tß¨ëß7O²ü4ñÐ¹ÛûWtàâÊãÈ–ÞáH‘)º·GFÅNÇ^{Þ½©å_×]ÑçmŠî—(o¸?m®ìä[¼j*ÑËLP°‘…v¨®Áz×K{W»§èÉ?ÐÖJ\'±^*ÇðÙÜÂf˜Ê‰o\"È\\F1töÇ¦NlE9¿=zœYªßQ{-HVK9»-jgkxÌ’ð­cP@.WjÐìGç¢Î†bC)ø[‰¬.Œ!6ð	KÎ’·Ð¢•QCüõ»WÇs‹üå‚C,3‰¦.#[xœ™#€´¼äx)•T.û]*Ú#d‹|À¸f2ˆ¸˜›ÙˆU
+‘ŸG†È?ÇÃCÉMK«W·þ²H®m¿ïm Rò,¡¸ž74gT<‘:<i¡\'¡¹<Ìa¬­f6Æä`íù_éç¸ú‹ynå‘d‚rR›V´å_]nöQ%ƒ1–K£
+XLf¹0†V`‰ì;p	5	£žñðÕå½R–]*ÛÐcÊÜKlu²EÆG ’yYVN[æÒ´¾á^TE_b•[ï\'C=%Œ=«ØyŒþFÒÂIæÿ\0ÚÊ>ºâÕåäÏ4|> /'
+    'eñoç­ãœžšþ<ÍååW]£×±xß˜±¸Ø1–`D]ª®Ü_M¿úºk¯Ž‰(GÖmË©â8ôa¢™3ŽwF„«Œ6:¢ÁYnÀÇæ¢{ÛKL %ŠE¼ÍZú”CŸêyøçbÕŠÃ5g}m%ÅÕ¯³wÒÅ0÷4ò§àzik' => ''
+    '‚èÆÛpØ{NB‡Z¨Û‘QüuHÀRˆ°>ä`r©†Š	ß Ö‘L?mn°DQ*H$Õ7é¿«EJ2_GmK¥Hv)XÎãÒA' => 'uFDÌ¿nÜXÎC7»g!\"9I¥Tì:ê\"H¿>ÚXÚD.².ê8 \0üwÛZL¶h|Çrâ?j×))ú[ºµE$ñÛWÜe—ÚÌ¿÷NÑ¶¸vW¹Ör»jÄ¼ ¢Q›@o»mm{’¯íä6¹kU kt Byp
+xü­àt¿ ºž§C…Î¶Q5·OæQ××WÖ°Gm—™~²Íš2•5Œ“R’†ÆOIð×›ÍÌ$Æ0çîZ…ð<Å›d«šuÞZPñó¯‡ã®^|9 m‡ñÝYh;`#Y,ÒÎªì· *£ú—}¨JŽžz_õ·‰2k¡“‘¬nm£Vr:¼nàÕE	BM­6 ¦®Ûôµª£pe…ë^<†3qÊ¼âg*¡¢¯?H_€ñÒÝvÐK¿ì©g’kX$à\06ôòØyWLãæö½Q‹b”i²Ìæ{RìYebqQÖÞ.ˆcz©\'ùï­eãS:î¦ýI\\Žª,;Ãa‚»ÆDðË$	p#{t ‘#V’0G.C°ß¦nõ¶¿?0½©­
+;Þ992RGok¢[VÝà\0¸wˆi	?©¼uëðð¨ª›s?#•|Ö’kwe¨¼X¯¡ö9\\×äª÷\'o†•æð­Û5süMâÌ§RÊ²{kÈ=ËB$FÞ‘[ñ:ó÷š¸°ÊÔót¸üœ/7©ø²©I]‰\'Ãã¬å¯}\\¢†7Úw±Ow\'¾q¨Bí]ÁèºFØ¼:è¹û•„q6)˜ä®ÐÅ°ÇîEPñª±ÕiøhôàfK½¥Ø¼\\8Úî„Äw­Ž
+Ðã#·÷…x]ºD¬kBû\0Xþªi—Å¾Kwý5{zèîø^;xÖîX®ïùóœC/»onŽ£…´kJ_ÖÜ–º•Æû?ËÅ?ãæfš©èìK›%e-È‹û|1™.È@:
+>o-JdI¦Ø¦dõKröÅ\\Å|>¾^¬[‡õ| §øW#3Ê’ŠúkãçùœìÔûk·®ì\"*£ð×¤¢„'
+    'Ù‹6´dCûÏ“6¿o2ð¤‚;¬š®:Ø’' => '8ÜêpZ‡sŽ”4~ÛP2î€–ÜZk$	Â­[mêM)á¬‰G^‚¤Šnç¨@ÿ\0me.ì²—¶Ü=ûiØXx­Ì «£†Œµ\'GFÖyLiY#÷-.ã¤°¿Š¸ÝM<Fš½“OfÕ5¥>æ`°œÕ¥‰ž|¹B×Få£Âÿ\0#	\0Ef)¢ïã¾¼÷;LZ'
+    'ä÷¿³ë–¸,›îÅ:kª~-í-Yd†ÖÞ8ÊR²#
+’G«®Åt‚o«' => 'wh?ÙK;ûgXãYí][ÚxËÇ5?DœhYM=@èµ·]ÎW;Ùøü˜ï®¾ Ï¯Ì%ÿ\0·,³Q¤˜I½œü¿¿cÀ§¼¡™ž{JÕ\\€ÁL ƒÄxé‡JÞº9~?å™Óãæµ'
+    '-K4L·ÆÏBä_­Å¬ñ²£)%y(q^n¸¹mÎö½ôL“>BX±œcQ2•ŒÛ<€	>¥5ê«J†òÛX­¶¡²cm—C±Žè™£àÌ\"BÉN^® v' => ''
+    '”Ül‘$²“PÊ' => 'd@¡›p¿
+ÓóÖªûkàƒ%¨o€–t¸Že¨ô<J†]øæt†~J³i¯˜ZÔa‚eú:$frÇ“p ÄMxsí_VºLŠÙÜ±¹a ¿RÄ›À/—Ž†ßƒ*C–=¸¯l·6¸Ðœƒ:ÒGzÇÌå|úk¥ÆöëYwåoWÿ\0µ
+ääÃŠú­øÝ‡ ÆI”‰­!,ðˆËXÉç-Ã§Ë$Œ<¿J†ºœ~=ùuxøÿ\0õ`OÔúÛñù	dÌ±z¬û²~ˆÝÞx`{BòÒÏnÚ$÷Ò! Åëph‰$#¯¶6nšô«ƒL;1×ÏâÎ~(äg­r¸­¬¥ø\"³Æý©ï•¢Þ¥†Þ÷îe-$
+Ô/Xk_qÇ‡ñ¦‘Çí™mdí¥SÙÛÞ¸iûU›WMñÿ\0«ÃÌ»,¬á²±·±·¯³mÃ#SÅ•$ëÐÖ°’]›-²]ÞÛÙÏæ ýÕûnÚ¶-{‚é?qÔ×é\"qóŸÿ\0zÃä6­°eŒ·÷ÌçÐŸ(;Ôùë,´‰‹8ï,ÂÙ%p=H¨|iüu†‹Àž7’)¨³ V@ÐK¯Ãü±¤Ýo$Ç1²CŽ ƒPj<j5	R}³ï›.òíÁÑS–¶ŒG”¶jU‡Ê³…=VJoäÕ.–Z˜Ö¯B±ûØ·ý¯•9;Úëq\'º«ºÆ’¬mÁ'
+    '”÷' => '\\}¾uþ¼yy)jZßÄõ\\ms(¶—GÝ¡½ío{Š˜åpóÁnsË±,»pxßÝçÁ’µV¯MÂ§µÊ×ñ°^Og¯m×m”ö¿Ø‹ÿ\0nwv)®ñ’¥Äl8ÏÙÑˆÝz‚5Åç{<ÿ\0öbôäð8ïÁnÛ¢ïÎÊ½žK›~bòÎ>c“p#Ü^JQCÇ‹~­9Ç¥ñbªÉõ4b{ž‚µå‡tZÝM”ÇG;ØÜ¨…d÷£aGˆ  ã«ÿ\0c·ck¹j_k‰$â®×$ÙYr–F[¿cÛÒ­mÈïÁ@]ø¨7M1—%›N¹ŠÐÂ,v°fK¸IkhÜ˜“eS«šž§mi]îŠi0Øü4Æ·°)´Ž) õÂ0ãÉ†Þ#f¨#[­§Va£ÛŒöB›sEa;Ê·ºÄ	AZq™ŠzÏ€§N‡UhƒHÎöÆþHy›AúLdš÷š{eû€;9!èA#A«×Èb¸mm¢8Yœ\\ÜÅôöq¤; TžNr÷J¨¤|7ÑØæÝý¯öîï»òl¶©=¯l¤Ï%½ôë\0T¼ix³IBÄV‹¨“vŠ†Ïž¸k¯ÕàŽ³²ÃvÆ¢©Täìk,Ò|O‹å®Ž „yì™Ü±m²2ÝÜÉ{9ìß(ðT*¯à4Ð3qœ2×ÇÇYlÒFcOÃ¦ªKƒSjXøŽ¨Ë\"÷hc»žÀÁpDÑ©[Kà*É]øHÍ=G‡Q¬Z²‰[A^Ã‰¼ÄÛ¶2êÛÍ¸âê§ÇÁ•¼TÆ•†·72lEuÈ#*V¡ê*6_OQ¨PC’ö›Œ¡Z\"6$T©¨:Ó[V) º{2W€JTl7ßÌxkf#ÞCÁ1¸†YM\0¡ÜSÈZFDü×mIrËi»|ÉZºÐSpkQñÕ\"ŽbÝHåÀTâÇOøêÑR:ýÍ›|î'
+    'bBMI¡CÆ•Œ”§þ­SsU,ó¼Éâ®,ò°K4˜À¯FÁ' => '2‹þ¥`<¹UÉ»ë\'¤ÿ\0õ¼¸²vä¶ëu´øxÿ\0ÿ\0ž‚æ	v8K…b@£$µ ¸;ƒ£åÿ\0·Mz’Ðæãœ9aüË÷¶[ØÉZ[Ç!ÜGîIpñ†#àväuãrÙÄùÀ|™Ç·ËË<ÑÆIi!—›êãn\'b.Ý<4Ò¦€¥XÜ€{C?¶Î.`,ý_©—‰ÐëmÈeW‚šv¢ûgÓÈ°©õùq­t>Ù.H£‹»“Ø¹µKÈQ}ª’ŠzcÒž_Èêcm='
+    '1_#ˆ‡¶­®eÇ‡´ÊÌ¼17pÅTð>À/¨†ªø7NìwëE«ÿ' => '‡›;{ºµ<çä?q‰™€=zëÐeæ*Q6¢zúám¸dÜfÚ•^R\\/#P2Ö£IåçÙC€ôã ¡ÀÉbÈö2º*P…Š×}ü«¥ÙWú_³Û±6Ó0H¹7Ð´³ŸM»ª­K1õSB¾§k…ÔÝ-âk»NàÊÁíË*ˆŠ!OJ× ÄþzÕ-‹”µ	Ûfk¶íØc¸SÍkR‚„Ðô#Rü·º-`ñE„´·XÇ\"n²q(z­<AÒÏ“khö±¤I²ÆËèlUr`åNêé
+6ëå¬Zí)[ìK8RË—¶;sÛö3Ü)Jó]±P*UjÆ¿ƒOðx
+ÙKÙÂÒ3•ézy“o;×µ íyrÖ³™lÃ$~Õ¨¤ë4¿£†Ôp*Ä-zqøÿ\0fÝž™ðÝ3”ùª;ÛîFþÏÍÚeìîî-eCÔ‘D¾¥qÐ Hº³îÚßµñÖ:¸³´²ß%fÕ Ô¯ÅIë®¬sçû…îV¸îk>ß‰ÿ\0gn’Ü(=nn‡#_Â>#á¬äp’As‘•0ßER!>·@HÇj°­	ÛX«,·«#Í*Aí5¨nG‘Sÿ\0O×)¨Ý“š	¢’Á¸<uPEÆ¦•>ÛYïL=xÙ@t?v>âZÀ!³¿k\\]°ö`ŠÃe.©Ë>5Ó}öU„Í}Š§ª.K¸³ýÇ“^ä®\\)à‰<Ï\"ƒÔìZ‡øj)[¹xoD‘§ˆšæöd˜
+´È}'
+    'ƒpvóÒœŒŠ‰±þ’É~e‹˜í»r k‰apnmZ‡Ûò…jÓÒ¹Ï‘zéÔé¾;K{¿o¬ûoÿ' => 'Ýö1„~<I<(¡xªÉú‹b«þ^\\Gá§©­NNe9Ôó·[¼H\'m©½i¬³#=¤ŠÊ
+’¨À5Fý|5E…ÿ\0ò×Ò[€­xÓzTø
+jˆ7v\0ä/ŒòÄæÚ'
+    '—™¦ë­Öº™µ‹—9è–ç¯R›WGL©ß¿l-ò’e{27\\`÷\"¶r­%B5aë@4‡3†­7—¢ØõžËûáTÀé^Þèîë«þ%' => 'yg$U—Ù½Ë(ª‚À xü<uÀ¥Õ¡Õ¢M„¹;ëldH¶ù	@­0(ÖŠÆûëXñ·nÕÔ|µÇŽÙÒ”é¯Íeµ„C¼0K…îKYžÖûb>žYÜ±\"DyÔôØÇMnÝÕ²ªÒÈøw»¶¹wõwË•où\'¬Œ¼7w÷-óÚ÷62îîÔ*ý5ü‹„ÖlL‹\"‚–ÕJþZn¸2eÒõùšáò²ÖÚì¿íœö6öK[Ë¯³$‹K˜Â‰øžêzCÔ ~òüœµ«qßÁÏèÏU†é©ÜÜqd.,……¶\'èˆãõ†5YÊƒò-*WâÇYãå­\\ÚÝÞ wYØ-£ZÁíD®¦¥¦ìIëJiŠß¹Ï@Ê†žÒìÛŒš‰­±Í8ƒ‰rŠ‚_ŽÆ”¨ñ]aáÏ–~Úv^@òd¦8îi²8¤SAk>1íç’ZA%ÈE$¡\'Œß-B
+“]ºh6àfÆâËµ=<™ªr)e)Ì-»~éoZK««*ª$–ndZ\"D	b-]x4Z_-j—Ÿwä‘‡žW¦¶§ñXö·§…\"üydr@¼MA†ÙIÿ\0Ã]>?ÙFnßúòzWÉäW/*µúíÿ\0Ó_æÿ\0 Éý†[«¯{#?Ô\0aUäê:Ò¾•òQ¶º ÙrfÊíÈ·uh´—ü‘Î·5V±EÈ0‘¤hT*®ÁFÃ^*ÒªµI%à ìÛ–{Ë§…4C\'Åµ)ýÅïË>ÏÃ}I>Zæ©Œ³=‡Y\\öÓÇÌí©0Z9šK»Ü¦J[‹ÉZâæåš[‰ßæg'
+    '¤¶Œ,j6EÙul¢DlIÜŸÇÃY4‰0ý¿¾î_ÇÆ0|F{(Èÿ' => ''
+    'h–UHd_W¹u÷J«ÑkQOÏX­eé îu^ÈÈ»«§Çãä_' => '‹ÝQw”LÙ<\"MÆ4®YP{/ÍT<÷çC¸RÀma¦m2U[Ï©çù¼Uƒé·Èh—³pÆŠ{tx‚1HÜø “ö÷{«*ß/ölTÝö£¹ì–ê.Ø¿…l.µÌe£‰ÃÌPÊÜ¤ªª3)<V”è4µòâ®GÝ¬u[¤´\"ÿ\0ý¼ËÇÈÝÜAuzÐˆýqì²‰W•J•ª5ºó*Ô%¡§‰É\'	öwº22%Ã{—6ÞåZŠF	æfcNƒâtlYÜQH ×µêÆžðûAyŽÀ]çn2Ïj¡åÇ¤¥#(s@ÎÍJô=tãÁjÖXn-©“\"«Dñdo$ŽÓÞPÝÀ!“Ý‰¢ö.ÜUšfBH8~¼©ZWA´#¹J¬i»Eaþ…ŸÛ_gòÙ¸²½í}-Ôë@¶FV”TàˆòmÅUIô§ñ:f¼{Ùú´G/?¹V©×
+ù–>Bÿ\0ÛÄVD‚€Ö0€©ý*:‰ÓÔÆ’„q­gg/r»Ê÷C3uõ7GŒÿ\0§·_‘TùW©óml£Èr`QIÛzjIV·¨FçbªM\"DR™Yc]Ù)¨F9ØÀ µŽ1±ÇQ˜$uƒ{‹¹{X¨¹—þÙÏê©‰¾áäu‹ÖQ¤ÊçÝe/ï$ˆÊx2ÂšÒ…Aù´«Ð\"1 È§u¨<‡˜©óÖd\\nC‡¦E1n5ŠŽ„Th•fZ
+,ÛÆ\0%xíAçZƒ¢fš°¯í¤âA­¬ ~cÈÂÑ<MÌÔû±”ëÔÓÃV‹HY²ÂØvÝÒßÇ#Ý^FÕÙ¸¤Ô(¿=|Î¶ª\\–†wºã´ì‹¬å¡«{\0À^òû²¬‰Uôòô’zj²ß¶kâ®G\"˜ÞÖzëyy”b­ïmL3˜äG‘K•_iºñF®ô\'`7×½ßt£ê|”š†¥mýÄlŸkÜ/¶î=ùŒwjÂªŠÄwŠïA×OáÏÐò>ëìŽ>åeÚ}_n\'Ü8,Ô[Ë!hi2[ÊK,¨? ×òÖù8qe£v_?ÎáÏj8OBÚÎÞY÷mC’ÇÛ%žJÙýËËg?Õþ úªÛ’F¸Š_µê¼N”Ê’2ÎÌàUeS]Šôd=vøk9qvüÍVÒ7â³ks(á„j}
+IÚ„Ð•òÒðÑ¦‚)f·9’3†„Q˜´„xƒ~Z¾×±b_yçn`{y!»öí½ó cêT$Š(²°¦Ä†<[Ç}t0ÒË¬èú|])ž¢s\\^^æEÝ±	y#òYUý°¥¨IäM¤TùéÔX]	6‚Yr	–šs*ÞHÖ¬Ï¹i×•Ihy¨Ö(ðÔ%îÛC<J8«JÏâà‘ý#\\ÅdÆdå'
+    'úTIfgI}©	öŠƒOm…*ŒE|tòÎvßÍ' => 'K•†œŽäsòßÕ aœ{®Ã-ð~5—ú€ðÖiôÀFcs!@œßpB¸;…;mäutRCÜ>Z;l¼1¤¾ÝÔRÆÌx™U••©lc]ÚVn4\0øÔ‘M=ÇãËV{~5øoqåÅ»Ïú¿róÖ÷PØØA¹qitJ wbmgöÏ(™=ÕoêGžº
+­|<;ÏÊ­Tºƒð–×–9Hûjåir÷Âó»Æò¤I5~*$“¡©ô¨ó:sVôx±,Uîj¨uÂgr¶ÙUÇã0'
+    '_7fÈGì²\\_	L²˜ã©¥Q<:iþ-í[vªEQŒv²p–ƒÁåDþ¦üNº£gw¶Tå{ÿ' => ''
+    'ƒVŸüµhÐÝƒÄÏ•½Xb$_/%ÀxN²FË‹‰‹a´!@É¶§' => ''
+    ';±;èÈ\\;b²{,I¨\'bu¢`¸hh¦¦òÓª×üGøkIÓeÛ' => '³ozÙLu¼w’;LÓªÔó™…IòÐëÆÆŸrª‘ìžåÉ½>Ý²YÓhž„•ÁáÓ\"Ù4²…r-ËØ@$nTåSâM:ëK»¡wxƒ|ÜÏÚw·Ûÿ\0Œè-=®~÷½®ÒòÁnðËHcº(Š iaõGT’ó¡fFø²[;•4ØäFG•Êš#?beqÝÀÙƒ}Ä2Å²´ÐÆ`sp¬U¤n,øê¸Üb´÷Ix°^–nWö
+w4Ó­Ý¼qCŠ$ž•øëÆþïÈÿ\0Ú¢«ÕWø³ÒûuWc“è;VÖI{È”’=qõ,Ç©c¦}»öµÛVÎáGÓ:ÿ\0c9}Æ4¡ä½Û2¹ilÄ¤ø14íÓöÏ½oÿ\0Èÿ\0êfèÌ.;kag,–Öî€
+˜¢•£ÃÀéröœ\\N=²UäqÓ¿ûÅÎÉ’éZ?#è{W4i\"‡0°ä‘³
+OÍóWS‹ì~V*åWÉÙe1;x•pËFÔ)AK\\m¥¤k*è@\0ïñô<?mÁÇªTªÓ«Öß˜†^Eò9l‘Ä<ÀŸjÆ»jÈbZš„;ÿ\0îF²ñÂKÆ9[…­–9ZŽßæèŒ~¦?€©Öoe]ÍÒŽÇ-÷\'ueû‡36g#qõWSú}éÆƒåŠ5ý*¾óÐ»¤\'lql¢ÃyvZÒÂ<É4ñÔ(‘Õiâ<ëªe¢çûkŠ{<7Ô8)-ÁñÃE­a³Ô©>ööÊà»¬emAŸRî‰²¥âSÝ_¸ÌèWPÂcr„H¨¦¤n Mú~èa~Á²5ÅÓÆÆ08­A§\"7¯]Fbú—\'owÔØ ˜ìÈ{‹0ª«)¥ˆ(®L‹üÆˆŸFRDœ÷Û^ÑîÈG4Q\\34¾ä*HÂ‡ÜB*µýT¡:^üU½N§ÝrbÒÞªÝµ†þÓ‚ÇãNßE
+ÇéùKš›‰ÑñÒ*¤G“›îdµ¼Y5ÏrrÛ^ÉpokibÈ‚;eQÅ¸9¿¸wnGAäãµªÒÖz½ÔUvìõñhS²µÍÏ4øLšÊ¹	`ia¸[už5(Ü¬žˆþ]•Ö»r³ð jÅiê;3`ŽükDöÙþ<Éö= ÏÝW« Ïý™­Dinñ¨_tŠ4‰85¨ðt~?µÑo rò ö“Qß?ì>\"ÛŽ†ÂØ³A„Fò‘€ñwýMñ×S*ÑB9·»µ›{³ì®\"×-c.>õKÙÏA4`•,­*(FãW’ŠÊ¬Y^;wWtAgí^Ö¶0Ã*\0?O(sñ ÇZÇWdL™o}lÛàûñ‚¼¿šÉ#“ˆîŸW/¨py	\0…¯E]ÉÐ?Úª´1…Ãn²˜;=ÝÝ©$Æëû­íÁF[x»ð~ŒîEmøÿ\0k7;šü	‡…’ïÃâFÿ\0ó™)à6öica!õ;,”=*]rrûÃÿ\0tqûMRõXÎû-¨Qw ,jñ”^?ÒYZ„×ËHd÷\\ó¼ãàbð’8²›‹ëGÕÜ–•~¥‹uêÜkÈ(ÿ\0ôêð{®U:IY8x¬ü `Ää'
+    '5j5ã¬ãä]èJù×Ï]þ7_¹*¿äq¹{Q¿øv·àñYÔ§/ùé±Bp5Y†gÕ–)÷®›_n8}IT»¥GîVŠûXØélÔên¬UÐ¬Y—™§*ÒµÜ‘ A£†â]OÌÁ«¿¤Ôî_­\"±—Í\"f_ËoPð¦‰Va›Â—dUØò««¶õè4DQªîóf†' => 'Í(Þwø|5´Šñ™ÌqO”µÇÈe8ùQòÉÍkÎ?òò-LwVn:nI}ß–V=ï{ÙyŸIr±Ébd–‘Ó”±7*†åó/çªw]Î¬z¸ÝqW%^³ùy‚~ã`mñýË{´	¤Ä\\Z@Š:\0íñõüµçyôìÌÒP´ƒé^ÃÊyøµµŸuÖ–}fzü…ƒÜ@³´ŒâÌDŸMvpG«Ó¤æ‡VëÄ=/aYçf´´¾ÊÛ.Nà½ÎûŸ)%3±>Ù¢JÅyDaMÁÓ8Sr¥M—æ|g/2¿~É.ßS…óØƒÝ=½Ü½¯‰6÷±F–ÈDå¹ŠT½
+l„7Ž‘¿¶þ¯ÈíãËÝ]ìF-Ý'
+    '\'¸²_šû ‘ðÚž~CÚ4ý)Œ~íìÈÉ(Y\"2ÁÅ„MQÊ¤ú«à4’rÒñ	wRð\\NXC•™ne(­ìÅZê
+H§*
+M6’MuJ$Êr¼üýèËåî§›“\\\\Ë#G_€!?¶Ò¥mŽ˜ÏÈw³¹šR*‘_Ã¶Ð©eG“çTôÐÖž†¹™y¾¿HzãÐø3o‰º°¶$wh#*‰¼só	ú¼ºëx½ÆÉê¥' => 'ÌÛ
+ù“ì¢’;HD¨¦åD«;°¶ûŸÏHä²vq°jÌjzÐ*»{h‘!\0W•vmÎÚ¥m5)šÁÅŒ–¥@#æ\'jšÿ\0\'Ô‰‘Ä}µ²Þö§ô’WÇDv]z›L'
+    'Vßß¸áiLq¸Uò;|íé;×MÓf“O¨\'\\i®§Ý§Ü	Û–·wÑo<¡¼O7
+Ç8Üž_Ÿ˜–Rw­5ÕI÷JzŽÜ›öÕü\\7ù\"Zæßž|a•n«%%’^mÆäŸudâ©êu¤í\'­¯í~v´Ýãêž¾0íNànÕ»k¯íÑäs“Ké¾¹”°OÍÂ1úÙSšc!U÷%1·å½ƒÛX©ÿ' => ''
+    '°7¢KÏ¯åõ7Í‹’Zµ?Äé~ém±‹5¤çsä­38\\Ú­RÚÂgJn¾ÌaÃÂ£EèýLU¸ÊX`¢´™%_I' => '“
+ÈXIÍeZ8?Q¶Þ:ñ”É—#q«=çÙÇFÈ›¶ÄÞF·P±öÂ¼Õ™Nìjñ®ƒfÖŒ2Æš”)g;{;³ÀÌž³@ÂŠt\0õm5‡‘d/¶ÔHžæKøníhd‰Ï´ë^<ŽºÔ¯}ZgÖì´× Å7÷“[?W3rHbõ,{A_ÓÄtßm uZ/Å{_Ìh¥»c¼ö²EpX,sJO>0ªþ;é'
+    'ÔèOPž*dÅ\\ÂVf6ÄL ð‘' => '2/^•õ/˜5ÒÜ¼2“[Œá»[ìCîŽîˆFl¬Èd·’*uhØ1¯ˆ¨ÛZâqÞ­ìc“l·‘»¶;úå¯D7ˆÜnU‰V®õ^”ÛÇJä£¢mtVÛ=f1Ïrà­µ­}Á\"Ñ@ñ5>ÕâÎ¡/æáiüAÐ›{Ž×²¾‹ý$.#cã¸J‘O
+µêøÎq'
+    'q9_ýÛ–\'5Û­‹ËºÅ’~ÓšLcÝ*µñ
+ºiÅ«Ag_J#ö……® î{ÙÛ:4WøÆxYkî  Èt§Çú´<5í»FïnêO™CÎŒ“ÍTv þ–#z|u M±öBkHÝJÔ(<…w êIh³¾ß' => '§ö—aÇu†9H©å]Áéñß[ª1t8FQxŽ4”üõ³L´mj¦›Ó[Ew„øš’ÃP† Î6-qÜ5d$[äbgöeeY©Ê•ÜŽšÙ$šª!„Ò”OHÛhÔìi~VwŽ¾•7zUx³xë/]º¬ñÒ,†æð«ÜOùGññ×Ÿößa²É÷ù-[/‡OŸ˜ÖnJŽÚiRq:õG•Ô!¢òÙnmÞ%CtaÔ¸Ò>ãÁ\\¬ÄÜO_>pät²²=ˆ2DˆiUP@ð/ÇŠ´{Õ%¡›Ú[g§M<:„<$j_îNøí>Üš(sYkl|“/(„ïÄ<z-Wr.×}ÿ\0¹ëX‘¬û:¨wªœÔèV%¦ÇÙ…¨Î|‹Ð|³{ÆÆ«IÜ¦ïòYlÜ²\\_N'
+    'ÈÍû—WD–s]€aËÃj*ßV4–z_,b‘Ý¥dŒ€èÓÐëQñÖSiši@JÞí£¤ÈAVZíÓòÓ2' => ''
+    'ÐVÆ÷ß%\\‚´ÚŸÇVSCÏgv¬—×)wr¬¶ƒäS±‘¼¿iW¨;' => [
+        '¡uÚÁìÛ¤Bƒˆ?ÂP)ýÜíVî>ÂÉ[D¡ïl×ëìO»n?ëÖn´7Wæœkµäp<u-!*G' => ''
+    ]
+    'ó3©i€¬qŸ«X{ö³ƒCsh€?æmƒj’f¤mnø¼ÁÅ½õ÷÷K–ù©Ô‰JW' => [
+        'ˆ0ÏcûÃ	”¬˜[h
+ýHtE#ÎC¬»ÚB—ïÞ;Ç6æZ' => ''
+    ]
+    'ÇX__*§Û7ÖŠ†e¡' => ''
+    '>\'Ï\\¬™Ýµc”UZ\"%Îbñ_Y?SAJy…Ög´…UAuþNCÌ‰\"Ú• Ž´éÑ¶?f×†U•~b×ÜlºEyn' => '‰…Ê‘(Œ3{tôñ$øéž*î-A_”ºÌç}ÜµÓÅ$¼¢/¥BÀZ~_Ï]cT¬U
+VÍÚXÛsrý³•Š)âgk„Š[V¶a2²|¼z(?¤j°÷O}th¬ÖMv½™jãr ykèAWªšÈë¿ƒ/Ü¢¶Òpsct³¨R)›ŽÇEdËk™ÕkUòÖ“)„ä··¼¶šÊäV•(ßàumMÍ»[ÞMm;Ÿ~ÑÉAêä­Jm¶â¤Ú†,vÉ*¡\'HÙ[u¡ë@|umI¡Š_u*Hdä#áA·C«LËDþàÉ6rþÌ’J=ÓÆ(YÂ}µ=*)¾ˆïÛ¹xéÝd¼\\ÍçÞ{,†.òÊë4Kwfb-€ÿ\0Ü¹§¥¼\"¦õëá¡¾Ji¨èu­ì¶Û»¯èíê¿ÃZÜÞ­©ú KˆºÏPò$œý‹rÛ×Vb7¦ÕÐp_·T\'î\\%†Ë³Yéð%ÍimÜVvÙ¸K¾~âîáâ‚ÞC¿VÎÍÁbõ\'†Ãsª¾IÕî!J½‹«íçvÃžµÞ6–²çlÝÕ9(pÑ©
+1íNcÇ©cé™EµkÄw|¸u¥\'xc„‹ƒ“¸aÎEXYZÆBà§·JSed$0ñøj­Á£È²mät1ûîuÇx_«ÂÏu¬ÿ\0„Ì¿j}9ŸŽ¼ŽlN>RîÒEÎKG›ÿ\0%ˆõ<^¥,ÑžK±×\'?VÎªÞšëÿ\0´óæóæ½ôõ9~VëýCÝ„ÈÜàgÇæR ›yÞò9¾¤ÍSVVV§ ­èGŽ°½½äÆÕµ®é§#žßžôZøèÅîâûKHýÜYj°Þú€;€µßò×åÓ'
+    'š}õšø­ÏIƒ¯õhÅ¼$LÕÈUŠÜÈ4üŽÇHåÎ¯£TL‡»úËŸyíB”#29¬ŽUx‡‘êo-€Óyr«Di§á™T‚62ÃÛº' => [
+        'Ée†HjR1RT²ŠÖ¦ž}užC}½«r©®¡€ÅÉ¢ì¿?/JÑºÐŽÚA¨
+m‰‘k	' => 'TÝ¼Hè:jjP7)†)'
+    ]
+    'ˆ<²Ä…ÍIo_½á¦pbv²ODÁä¶’\'ÃÜYNB²FTJ]âãÆãÜ’€Ç%}gÛÓáüuÝ¿±1:äs%Š0' => 'Òåæ±±7….„²(ôþ‘R¬KùS\\N6¼´è“Êû}%‹WÙî2—’gñßJcš[	ÀR$høª6à
+(ß]Œx^*v®‡˜¾L™ó*ÿ\0•­	|@·–÷s\"ÇíÚ{‹ÄEò uôÇ«S=1M ;þ:Kö¿g¯®©ÎK/SþÞoqpKÛ]JÌÝpáÁ€üªZ„Ÿ¾­$á£ ÒÆ´Dx1Ì×éçÝPjœ¨A•5|þ: ·¤5kRÿ\0û{–Ídp²>I^E†Aãñ¬ñJÔ±S±b5ÞöÜ—¾/WÈùçî69ã)Seàÿ\0”øÿ\0r{ã·òvŠã¥É Œ>NHÅcI›u–ÛÆ7?t“ƒ†””röÅýÀ¹··šKj×ä$…;Ði¡:cOiL,ûr<ÕôKúß¦¸’:pq¯/ÒÇÃ–Í­ÖºI‡¹ )ŠµÌÎÙ;¯a¸±hËqeDACE<jkòrÿ\0xÜW¶ûë-Óx¦¼±Ç^ñµI$ƒ™I#V'
+    '6-@­ÅG¤“¢:w u¿nÁ	,²¹Ùk»…á1õq¥Jì:xi»Z' => '£ ¯]^€[ÿ\0·ð¶`np^»¨R‚0X­ké\'¦ý4þ.U»ÐC7
+½ËrØÄ`q=¿E6é*X.áƒu·Ö‡®¸ùóÛºlåXëÛPŒeŸy7Ð4q4SICçQB=Rn#ã¡ ¿©h]©Ð«;ÞÚ~ÝÈ/¨’[Y¤Ç]†ô1ù}kàPmñíñ{r­:oýŽW'
+    'ÏO]ˆý—' => '@~:ô¸è»RG–ËwÞÛÜ\\Èã3pâïà“ÿ\0BÏETPòs7A¹ONÿ\0–ge3´“º² Ùöã6 »pð]·ýí¦%^x˜èf’«W?¤ãÇDÇõÉy-5oÌ©»šÜÅÝ9˜1_\\ª·§Ýc­°PÂ¤FÁKÄƒzŽäõØSYe?oååqn\\‘=ÊÇåjuë¢cf.=²Ó‘V¾ÛáM:ÂF10§¥O‡MiJØªFÞgóÕñÖ¢„ž”¯üu/gm]®MÌD‘P )ßo«HÌ›qâ°I	=Ôð>dšÔ‘Xf´¿³»A$¬ t¡b†Ñ¹7™¶Qç1Òµ>Z„>,5D>,5`Xyêð×ËóÕ™Îað¶my™½ƒh•-5Ä‹ü¹Èþ„)^ùÿ\0s66â[NÌ³úùÖ«ýÎô4póŽÉO6â?aÝTg9÷[¹{£/.[/w%ýôÂ‚W 
+@‘¨¢ªéCîF»H6¸«é%Xƒ{OSN^\0 ¹Õ;£JŒ;‡í¬d·°>böå,ñºkHÄ—)½jQ™vñ¨®³KÖuØÓÆúu•Ùñî.2îq\0ˆ=Ñ‘}ÄðàÓ€|tÝ>×OÔï{«¸ðV¹/¤ÆtªÔ’H)í©ðT\'çøÓmñ:H{².1q¿÷‹ÿ\0ý,EhÔ÷%”ô^>CÇWF–¬IÙ/g÷^#)}‰Ñyu¢üF·Ü˜F‹wj'
+    'ÈØ¾ZÑò;åªeœ…“·ûÏ5ˆˆ„8Ûù½wòÿ' => 'µÀ,‚8«êÒrÓ–†÷Zkw®O5u.'
+    '¢°„_†Ýº8`ÎŸ©O†±Ìå>È_H^_Kú—Rb¡K9O¸êÂ8Dì9j‘ê¥X¶¸7´º¡ËŒ‹dóI7÷,¬óUö×È]_òÊØÄKò7­ýÜ’ZHJÉnÛúJ·êÃWˆêê\'åû¾,eÑ¶ô4(~JjASÒ‡Z®ö6Úêj·î¹¤´k„³T¶ˆ{œâsÍh6@Û~º®ú™vBü9ëÎàË–¹‰Ú(Ã0’' => ''
+    's	Ö›ºÔi0‡ðÖŠ_o¹Üq]ÍÉ²ÖÃ0‚¦' => 'GDÇYe2½ûÙÝ™…ÈKˆ³–[h I=èÈV˜ËQN]x€)O¤ùyì®ª¶=³p1ßÉe6<¿¹E…‘QÄd,ayQUßÇÇÏC:í8ÐÊÎîv•ã‰›„¬Ð’#E=×§ÓRÕôÀ#‘LIÝîƒ/x—7#Ïmˆ‘ÜB”ÕkJTú@;õÕ5ÔyJ 7¡ì¹üÌimqÁ†úÙŒÂê#ÅýÊõ»¶±GêÐ{¶ ©ÐŸb>êÜ÷N:òÓ3{¹{9Tû*‚'
+    'ö
+€$¢ìÃ—R:v±Yµ¨Ò_R`,Žf|¯½)k…ã% â  §H‘b7©:âÕÝß«ÓÈ_ì®îãmÃ„ºº{I^Xo[œâf%Õ—eáOAëQ_Ž§‹\\R«³3‹ÛnáƒLÜŠ)b(I¤yWW~6;9uS¶Ã %–‰‚2ýµc~2qAˆ>@yßqýµ\\šâ}¶þ#Üpµ4{	9¶² 8Š_wÝbÜ\\½:TkÎgöÞN*ÇwM¥9Ô²Šï¸{7¸±ªe0ÉÅ' => '%UÑËðþ:'
+    '_Mf_»_ž4zÕÈ/Ÿxf_;Ø¦‘Q™' => ''
+    'ÈÌêÛ<i_' => ''
+    '2›†´ß´s1æÈè–ªtkÀGÞ½Ê¹0W³º¶Ÿ<÷Gq' => [
+        'a 	úaÆÎ§¡z{®<‡–½EQäR’¶˜ÛÎõ™ÈåŒ„RKV “ÔêØClcË:±¤q 2©ô©4þ¢ä' => 'b·{Mu\\X¾7%¼1BÐo×›³8áàzÔúF–m4ÇV(ø·Œ|	µ¼Rý4|#¹xù~Ü r ‚U¼h?%K7«	K¸÷¸­,;ûi0CôæDº4ä %¥wøtðñÛÃkgä¥šµòsóØu±É=ÌSÝÜÛ¬‘Û0åÍ¨ˆª#XE	Ûó×/%¶ƒtnÝŽ¹„Iˆ-¢5¸ýªž\0ù|iêÑøÑkCSRò·Ù¿¨¯žkŽëÖöç“ÚÈ«#Ð
+‰ þ˜\0*ô×^ Ç¯¦»þ58É<öi¿§ñ ýÙ]•³•b9—Þ–`¡J˜™ÀÜøuæeæ}Ëk{Ž­WQkºñÙ8róâÌÞå«Ö[Zšr¾UcÓöØPWLqoF»’×gøó %,ý,°û3'
+    ]
+    'ÆºÑ¢BÎ¢§ÜW¦Ú„#ÍŽz½~ëhÃBöO·§,ÒÀ ’}Há¨ÑP/_á3Q/Ô\"›a©§Wà 3]-žÝªCc¬¸#å»—3´ƒû~jYîd«½Ë¥*¨RtÝZi0OF\"çþø}ÇÂß_„¹³–ÖT\'÷mT·0Ô¥T¯_.Fž±Ñ4mÃÿ' => 'EÖ‘‚ÉH%‰Ï%QÑ7êÛr¯ÇM@n‚lÔ×QÚØ£É<ÆãPYè¦¢vSˆÔÌÑq°ÆÑ\\ÄÜ£98RkPh:x×Q4ö)¨ãdW²z9oéèLôê0b.ãk€ÀÐ0¢©ênF­Ë»í¦<YïZ•‘½µ5êsüôT€]ê\\ÖdhI\'uþÙˆ%(¨YÍ_{¬ÖÛîäòE±ÉÙÚÌ\0Ø{Œž×óhô½÷¦ÅñýóÙ˜n.æ\'_¥‚ xP—u@]†ãnD–>¬ÜŠâªv5‹²8Bm÷Ýl…ÍÛC¬rnP³’ÉúE\")#âuÍËîýüÇ©íÉ}LNÈ_ße2“½÷#£Ú’Üð0;²u /U2»9Q§‰UBØ•ÊÝ=¡Kßû‰P~Äñ
+4¨|YÀôé¦í—M@WºY¬4s$1X¤_u£b(„ž‚šo¬36Xìi[O-Ìê(æœcRFëþo=®@]@.Û1>>Q4QªÊ(UÈä½kéòÖí‰[pjî¥£Ú—¯>*ÞîêU[›¡îÖ1¸å²Sðãò—©¤vøÒ›Ý–?	Õ¼7†I^JLÄ7ð©\\|¶iÔ:÷*ø ˆîZI\"ö›™$ó\0‚‡­t¯Rdµuñ™lÕ¬MˆµáQˆ–V`ÅP-Æ¥ŽÚmÖ¥é\0ã…¥X5rép¥ƒlYÊ(z||4l=`H^çìl­dÜtxe$Šƒ¿Ò§ÄèÕÂìõ¾HØõîÒË³ö8å´šô’}ªl:ü
+kKvHÞ\0»ÂŸÛ«ktíL‡r]\'–Bãz³AŒR¾nwÑî½]¿ñî–£vmFøÛÉ$_rWH 7^U.Yäk¡5©ê;Å•bÜŠ)×¯ü4ïW’\\=‘–úÌLhíY ô=w4.ºíÐåä¬1Ï 2m°ßG@BÚÑBgÞoÖöä£ýLt°Þ!ñ
+­Áúÿ\0•ô<ŠjjRºìüçÕãL—i-\0½
+O
+ÔiDàÞÅ…¶k\\,,ä‰§_yƒUe;)ÿ\0¡6ÓUQSªþþäqÙØÙOlJPf†ìUHTn>Ñ#¨cçÓHriÝuðás/‰5W£éÐ¡„¼£\"\"y²“'
+    'Ô4;‘¿Ma¨' => '.<Ýõšï×Y£ˆ9p
+:¤6ê™(<ùS‡äN«C‡îy•ìªµUþ'
+    'l—0Èd”š¡¯ê®Ã‘ÜÓ–°ß~ˆS{œÁglf‘Õgq@Cs€_ZÄ#Ê¢•Ñq~d½ˆü·oæ!Îc%{9më5¬¤m$d•<—Æ7èAë§šø€hë_´ßx°}íÔZf`÷˜çj°ÿ' => '®¡(¤Pë6ª{–ix™Rˆ¨ý$ïOÒY8¡.êø0µÉ¯€:|êUš[8ŒÈy,†5ä¬<kNºå_Ûx¹Ý¯ò§\'-z™¾2Î$FŠÙTQŠ®àxQi¾”Íí8 UjcïññøÇSUäÝ¸v6Çä›þØ\'p¾šøi¾7³Ê×Ñ>
+_“¯‰½,­Ð-kÖ¦µüuÕÅí¸)µgã¨½³Ýõ#å±yL]Î2åiou…Ù\0äª|V¢•jØªëÛãò-‹%rWê«J÷)öj4²ŠÓW™a‘ëÎ¥Š˜‡™éJk‘—ÙÓ´ÖÑñ=?÷C«o%7ÿ\0÷öcÕ´¸÷îÅåýç~DNª¥h±×ÕJ±'
+    'º‡ÃXgYlå{Ç»ÿ' => ''
+    'e¡Þ¯%MGˆ Ö™e_o%ßfÍÝÕ¨½¶•_Ø…«ÅC^L´`¼Æô×j¼…	Ã' => '³ã¹jPqò³÷½Å¥šDò»ƒF!Ô®õ4ü½]t•è±Y¦ö:\\|Ï*P·°£“»a6g qy€‚ÜLcÀx|‰:Mò >Š¤;ö;T7/ô*Î÷‚Ö.å•-ƒCÅ@\'÷ô~zíð›xõêq9©}ÝcÜx{nÜÆÁ—­÷ÓŸ|µysnŒÂŸ2ŠVºàgÃw’Ý©º6Š§kC\"f³ñg-[Š‚qn[œ÷\\‰Vp:…ê›S¦˜Å_¶“zx¯[·{k1RlÖ9o,£fæW‡„.Þ5Ó_ìW/¥‹[ÅêªûWºlšÒ'
+    '‰”¯Y};xë“ÈãÞ—c¸rW%EºyHò3Z}¸Š7H­Å‰b' => 'z|5ûxÕzž?5Ÿ#;k« o¾—áû_lá%£O%ºToqÄ#0* M ËsÚºÁè?n*ÓkÛ¢ýÙÛ±®í­íçŠ{ÐËnüØi
+\0|¸\'-¶Ó˜k<Ï\"ý×‡¸¼_‚·ËAJþ4=)¢1ÑûqF¬àJ\0	ñëçñÔ!;p£(Ð–oT[°­ Z_ë”Ðz3ÈA¨¨>4üµ	((°)\'ÔÆº\"2fjIó$O—ÃP£ušþãn(£oÌëU! ëd1#ÇP‚®zÍ¯£•ØØÒƒá¥óñþí{f¦N×%cÝÓ\\ÛÎ–ÈZ5||4z®Õ\0›–Uù$v÷ŽKFCÂÉN­NHwéZŸá åM¹Âô±Ëoyw3´/ÄMBx/Ïé©¡éO=-™º©JF±$ÜcÄKxBÜM9MQ^6s†'
+    'ªÇ)*Çô56ñÐ;ãmCª7¾„|·ÑÊÖWNóÚ7Ë\"•”–' => ''
+    'µÔðNÞU
+ªd8r÷‘<¶>ª{„Ÿ:@Ì‹<•‰ºHê•©càIà6ë¢I˜3Ç,Âsqmîò”kˆ¹³±bMI\'Ò(xjYé©*¼	9ÞË*J–qÌFŽÆÕ$ššÒµX£–jÊ_õ2ƒê@}T' => 'jiã×N	­=iC@XÛÄã¨ˆÎû8íwÍ©	(~^JÃÂ”ÑÐµ·.h”(
+½P~ZÑD”]¾>:…”wÝK$»ûãÚ0švQ ¥vK™ôø
+Û…®Ä_¼o›ºî l„âi±kD™±ÂK±ujt-Q×\\þjmÏC¡Â²ˆê'
+    'ÛÞ' => '–††Ä‰@Ù¦<J7Ž¬»¶ÃcrôèD´½¤ÓÛ]ÇÁáÌZó¨
+~¹jšÐk©Zý5Ôˆh^¬ÌWú_ç×]<U„ss^_ÛÙ¹)mïàTo‚²í­õ²”]øÆ«§c§ë°‹Amh pÙîÞËYÿ\0©²¸Œ~'
+    '#ùFŠG6}²µºÈ÷v>Ê4åêd¾_š\"š¾_ÐÇJÖ²ÃXéË¬q–ÃÛJ}K7¼µ ¥2Ô g2ýöÏÚe¦‚ÖÖÞe›#Ãy,£Úý×£{B7Ï5åòv×6×Nðk×t½¬©²6n×¬“.åßÙ”r‰‘Sÿ' => ''
+    '(êÕðaç­ÞÏ¡*‹ó°?Üñ‚DÅ÷Œ$„y;u¨#Îh†àÿ' => '%špnªJŸ¹£Xïâ¹„*¤«Î.4 5¨m¸¶‚Ù´‡Ì$íwamzˆ…U¤eêêüF˜V”i… SõDžQ™HØWbhF´Œ¶U¬Ó¨ íŠš€v;øj$a±\'ïœ‰eh¯s4³•QJˆ“Š~4yu®„OQZ/¶™˜ûzã!sýHCÆÙ•–B„ª€ªI\'æ¦¼gû´³Ñì{ ¥1âoí|mŸmYÞe
+=ÔŠÜx°§rBoCéð]\'ËN×q0;ÃšÖ³½à×aì1©\\Ì¾ÒIQ¸Bô×ÌjñQ­ZÐ4%¢m™á;ÆÅÅÜO4áAžJ\0~œ†ûütkfmi°5†©ÏVïŒÍ¬ 6'
+    'F¢­QÝ]Ú$—´;Q|5¾_i´Yn‘ÇŠÍwpýÑ' => 'µÄM4ku%B½Í_\0@*SqðÓøýÉÆ€0Þ,‚ßÞä²›i$r›¥Gyx–h“­ÆÛN…ÂâZ{šÑÊ¢ô§«1íLDÃlÓF$„žFÜ0Õ#Ô¾¥Øêr9˜«w:ƒÃÇÉØµ‚×\\?jÞbátÆ¥…Ägþê¤ŒyHþ¢nº<l˜rÓºšxœÞMsRñg>§lbðÖðB˜ÛH¡µ•CzTUÉÞ¬iV¡×G:Æˆåå½§VÏ<pØÏ$Ä%¼pH÷\0‘\"–rIÚ§ ø)î]â:Œ›²KVÞ…-az{ï¹-m–€«áÝŒr ^5¥³Å=ÃKq1KÞ~\'w—†üJ:·¥¿5ÿ\0–Xr\'ö#Æá-P¥­œ~ä¤b¼#Sÿ\0Jw\"4<ÔË1öòOv‘T0_\\ŠHÜMõDPTP¥TPø‚ÇËóÕÓ`„÷
+(f¢†¹§M¼t\'õ5ÛÇ!`œš§jOÇ[FXY¨”6:!“gˆ»ùšZ(“RË\'N‡ZD7° î5¢ØBò°\0Ëã±³-áeàHäˆŠ
+¬Àn•|µÀä¢>áá{ÒK·µ[)Æ	
+½»Â¾à™”Ð<¥9PÒ§¦…i¤x‹Ö½µŸ¶Xî¯1w–ñ¸)Ñ†VØþž#ÃâF…’®ã²Éx÷¹IÍ‘bÆáÐÝ™Õ£1Ô–ûi;¥¸æ6æòe\'Ãåˆ´Œ/×Ò62¢±d‘x2ÕÁŒ rëJƒ¸#QQ^ºô#¿m´êËÙ¥­üRˆ«kNí µ$ØS£c´ YiÈöÍ®cÆG³8Œ{këÆµôƒÒµ®­îb»l%¾Æ{wLØ»ôöÛåpÁŽÄ!=C
+Ó®ƒt­§ù ÔšëÑ’­-Þîö\\~6'
+    'º…CKl$TY_ˆá©MÅvÍ­
+m¡iK„»I ‹÷¡1Æ‚†$×¥tj°vA\\_Jkk›i¢‘}Ð' => 'ò¥—„E8Ób¦»ºjw4ç`¸í
+îBkˆÕ­mÝ!)í ’\0ó\"ƒøxVºÕ[’ðöîãËÊ¤('
+    '¤_ùiÖƒðÓ•ØNÊ_Íakèc\'f_ššô?ñÕ£,éß²½¾ö¸‹Œ´‚†ù¸BŒhwoÍ´Åv¶¬³@ë«(Ø¬Až‘µ5L´Rý×I¿Ü' => ''
+    'TSq:F„Ã_PÃ–Þ' => [
+        'ém‹\"›i¨9²|Fkµ3ö‡ Y\\ÃÆt-R¬…yq»VžUë¥åYh6”4Džt¸¼–i­­dS14ª–¡*þGYU…æm¥»Ÿ#züÔ%Œ¤*Å…ô ÙW¯' => 'LF@À^›ë:oÈñ2Æç²Ø¼”2á/f°ºVÏnì„šÖCFÈëuÓS6s¡jöWû„îžÝ•ìóó‘\\;Ê’òÿ\0ºGaáúuý4ü5xòñ©/o·_wû{»ñèË<6™E%gÇ5#£(n,Êß¹ßC6¬l?%Â0MÁ˜qª!ï!MY¹B3Ðyj5Ú¦í°ó¥¯µ• L‡zö½‚³^åm-Â·hÁý<A'
+    ]
+    'º§vmRÏdÄNãûùƒ´’æÛe6^îÔržWý›hÔÒŒM’ÿ' => '5äµä¦ŸŽbN·¢÷éÇ¸HRŠEÔì)]lláJZ° øùSVd©>îÞ‰³–6¡ÿ\0ôñ#:fìwZèJ­Cåäº³>®SqöÒDô–m—Â½¾MÛjÛF}í%ð*þéíËõî‹ xÜ[ZÞžwjQY Èfjxk¿‚ý˜}Zµ°².×£Ü-Ž°³Çd\"¹‡‰1N‘´Íó\0àUhvøò:r7t-A¡òÖ'
+    ')øJÍ,g„ü_åV5­‰jã©{$´*•mŠ·˜‹«üŠD\'nCŽDBÄ…õoOêÔÇxø˜Ìáë°‘}Úw6y6³I\"6©È™`!Â°¯%6;é÷ÊIkõúãs§ÒX°vGj\\v’-âÅ-²ÅÍ¥$‹!RC!ëP|ºéšêîéêjõ­—cZ{' => ''
+    'k¹­ N^á„˜yð©44ùøŸ™EÜã¨Æz5è4gq·Uk‰‰½é²Am_~ ïAÓLû~Uº?ò^FJº÷¿ñ-ìè-`…Ø3AÆ´Øl7:öéÚ£ÀñùoÜÛñ¾ødoÚßk¿Néîd' => ''
+    'Œ¨{çÀsQ¯×?Ÿ–_bùÿ' => ''
+    'ÊíÌG@<á­iåGmèE@ëÓòÔ_GI2’kºëU_B€ëD5Kl¯òz_U$ ÜÛ7ŽU<H§ñÖ“#rvüYâzã§ÃZ	Ç[ˆçhd¡SåÒƒðÔ0k\'´Tž6<:õßÎžgZV3drç{b-,»ŽøÙÜ' => 'Í“Væ„I#h=öä©\'¸ƒ©>;®e¡8:ô–¥“ñwVîÚ›	#F·{SEs,@2«ï\0C7åZx¶É[cÈ¬¶ü@õ,²SµŠ½{Ž‹¸Ó3ï.d>õ¼f¤È€ª½;zÍe}B*ÚµÐ7jcÈd®b±÷e€;h¥`\'	OJV”ªÓË}ÏµK	Dìá­òBVQ	…ªõ^ôåJŸUO†·3S1Ôóû3$¶¬8¸o]I!¹wfÜ\\JÔ“CdÂFŒ£•’ÞQÈH¥X(;•ÜìG–­›°ÿ\0G%Ò[†\'—­ù“ZÜø,¤o7Œœ¶Ò»¿ º…‚5œŒO¹_›ˆ\"ª<vÖq§ñ5v¾bÎVÞ9oÌ¢N
+\0ã\"Ž^\0ð­)×MÑè ‘jykk
+É#ûŽ]y1ØÖ´¦ÚØ3·ðöã±6Vj(¶ÐG¥BŠÿ\0=0(L@KzjÈlðÕ2à¢//óýÅC%k½ÒÙ´ôÛpÿ\0ö˜èOsh±2pûGŠŸJ5óxË|…±Ç\0'
+    '9)¸?òóÐìÑµ¡Vå±irc¸Œ,Š(¬Ub4Ž°3\\Ä‘m“²—~¬¤RÅé3U×qA×Õ®N|­ý;<“§¨ƒK™–ô¸žJ0ŽP¥Þ©°S×R™ZÜ%±ÎÀè2ùˆeWëÿ' => ''
+    'ÜŸÛÌ’1yžS_µâ’f´›Áì·Âd‘J´RÖ  Ö„°\"›þ\'V‘›ÜúÍÒµÊKí!«¾' => ''
+    '”aÿ' => '0\\1#>Iín¡™$T Ô¹•ŽëZøÃB¨L›®í¯/®'
+    '•Ï5÷Ñ‰­$A±$øÿ' => ''
+    'X”ßHÌÚŠ | ü£ÊºÊ²úMGQ´û_òú9r3ÆñZZFngvháFåÜ©âµ¥Gê óÖmfö7Zõcv_î7{E,M†Ê6;¼6³¤Q·úó™}ÒIv®‡lö®ˆ¥' => 'BcýÇýÂ²ÈHÞÇ#\0ØÍ$UBG5xÚ:©¥kÄiŠæ²ZÄ™ûu{“ýÒ÷$fD—bòGMãy‚8§=§ûÀ¿²3ÿ\0ºžë–'
+    '6ØÌ}³rUWv’cV;ž¦ÔñÕ¼ïÀ¯¶ˆƒïÜ;ËÛ•ÉûÝÉ%m­cKd1£2Ñž…Åi]›C¿%½ƒcÄ–è÷KÔ¸Ÿ5;}j¬ë’ÜÔ°©E,Ì´ãFê…þÃñÈÇ`ƒÚ]†;…‘ìcíÊ;}YUpæ5å\"õ•<öÐëê´nEëH_ø×í>×š(2Æ$¾€Éô·æQOjAÒà)ôóý5ÛNcU«õ
+âîµ¡)ei—¶ŸLûmº¼A8Ÿˆ § 4ÖŒ“Ü{Ý—
+[µ¼Õ;ÓŒ€Wá³k96.»•d ã¤*)Ä–' => ''
+    'âUVŽOiž(×*†:/' => ''
+    '5£ÙüËåaÈõ¡»îkL@¦šÆA_vxë#õæá¸“Z†‹l8›Ýˆ÷æˆˆAÎÎ›c`¢â?Ú—‘÷Xó,ìMMHj°êN¹ÜŠZ÷m' => 'ºá¯ýA{‚Äc
+Þ\\Ä(“éãcÉä4 òºS|öÐþÅîôZ‚YÕw0ìf‡mo4±µTŠ*HÍ!ß¢×}]ëo¹,\'rt…¡kvŸhÜE’›;”^7síklÛ˜b`Oõå¯IíÜ\'EÝ}ßèyßpç«®Êl·~#G*l=m(\\³Ô
+q^G¯€;|­ZÓùœµY\0c1öÝ‰µÈÜ#Ço$ŒÌéy–Ùäu=*µÛðÐ×; =×êätmæò)xþÚ’- bcPwb95†Ÿ­Eä‰j‘˜ÉãE$–;P’Ú¶Ë%{Ñð<jŸÓá_Ìk%™ˆ£™°¢õ­[­ ¶Ú¦ˆ}a‰h]Çé•¹–¡éü·Ö ¦Ã0D*¬\0­ñ:³'
+    '3KJP“½@Ã§ž¡F³2Š' => '­\"
+Ådc™YŠÃ¨#ZFl…î\"¤uZ u§JY††KU†êÜ$‚ tø|u	/þà;#.Bß=\0’|P·X/BÐûM<KTŽeËúžÃIçOºG¸ÖQÚTøÛLNoÝËCq$AI–vö¤÷ÐYY~WE©ò\'c¥rÕÚºã·kÔ_’;%îiàIÃÙÉtÔ™ŽÎƒÔ›¹0ÛñÑTöyÀïÂC°Å>÷¶Ä[Íoë1³z‚‚Júö5  §Ž…hÙ…ª{£«[\\=¤±ÔFªœ•!ß“8¯—Nzº'
+    '¤»Ãƒ\\x‹U¾‰%ÖÎJý1ädÏRì' => '5ZŸá«ïÓÌÏbŸk»³ŠÑ$\"v,[ÞH>’EMi@uº¹1e0fÆÏsÂÔÝÛÝÇíÎ¢C¡è9\0|uœ¸»ãXƒXòvÏY4\\ÜÜ]Ü´Ó,6ãŽâØ$½LÅ‰é­Ö° Í¬Ù’icŽã’4`˜¡QQíŽ!ŽúÚÜÃfìN=ò9{|Ëw<PÆA­œ
+‘ðë¢% Û;pÆ
+xl4aTf‰@5<’X!S,ÇŒ1)’f>Æ91þU%ÁË]³–gïAŸnL\'È­Á-BB<üºùñm©gEä-\"s,n½Št;µ,‹B–JÑí¤¯Î‡¦Þ~ZVí­Ã!g;‰·ÉZ”j$Ëò=*AñÕVÅìU¹{›ÁÂ„6oÏRûÆõ6à/æ·»úYQÖE¤žá¥
+iÅ‡–¹ù«¤£¥†ðàeîÜ´ÊbžâÑ„WÐª’9H:{‰Ò„x/‹‘Ûh{gÃÜ¥nVÄ¼±[ÇÉo{k 2\\r {ŠI^ƒ¡®¥mN]—r‚Êÿ\0û½‘î®Ð—Ü¸îò¶P’¹òB¹Tê$ˆ­LŽC:k<”´}d˜%O„­ŠœÇq3@É7¤$F€¯*í¿€ë²)€¸(á¸\"67énï'
+    'I_ÜŠŒ‡‡!Yê7­tJÚR@ì¡¶FX”•uRŒŸ ¸ðê<4Ì÷­â*¢' => ''
+    'ûq$]¼5N²j¶EÚy´¶úËM£‰L“_mÅw¥‡lVðÐÕr_Œ#‹H’âÔ±v†_4sB¾å90R' => '¾b«Ôùë·‚­Q'
+    'r2º»·RqÑ-íÂ€UI}‡FÔÈ]Y³±q‘Ãsu4_ÒB ' => ''
+    '<‰·_Y' => [
+        'FŽ`uV\"1ÉŸÔù¿ Ÿh[…ÆR_w»ç\'½„µ·šqgpô¥pŠ€»ÔýZó¼Œ}ÙTh«?™ÓÃé«l§î2ØÂÒVnäjŽ“‡ `XµR•Z.õ5Ó˜©ékjk¿î‰ÝM¹Y$ÆÄÀ—(ª6¡`£øh«lÃ°­we#¬“HÆjÅîÄ‡çˆÀmÎÞ#ÇMVÉBBì!ÛXv—#ýÂYÎ#CHA«È)VjÐn@­vÐ9Y4ìF±Ö\\²yd­Ý1È¼' => 'zëJ8fò=@«dù»kÛ€²Z\0L6èÀzW`È–¡?2ïØš[ƒí–O¶Á,·0ÛËÅ$’={‚8øðóÐm%u5Øn¸ÄCy?¾‹d%mlÐò ª¢•fêÄôéá¨²B„_a¿¸oo®Å¦,îÊÇw{`’´g³R}Ç×Û>5oÕ£ÒÉ'
+    ]
+    'ü
+´½	YHmn9' => [
+        'Úƒ:ÖÞ.!DŒƒÈ•)m÷ðøég}d*¨7¸,0¶¸¸dÇ–L ‘J¤e^©ýN£‘Èkxogmv/%Zn
+¼žÌ\\Ú¥ÌžèöÕçP¦6WcVêHózaÕÆ€§' => '›jG=“–GoñØ±>ÌYdí“*Î]±R4L£MSî2~@ÇðÓ¼Úo o{íîªÿ\0/äZr[ŽÚÎZ*’f¶Ø0àõÓ¶8E1˜¶”bç%äN²éÅ‡PBÆ“$.Ë“ÚîKpÍÄLª tå¹†·]ÍÛ÷\0Äà5T îCTx-2ÁÉe$³HG·\0i$'
+    ]
+    '£eµFNy¶½Þ^]IY$r-M¶«oÿ' => 'Mxœ¨pºžþü\'e/ ±‹Å\\EÜ±ãÖá˜Úò¤eêâYyy´îk®ÆÚÜS'
+    '²ö§±kaaÍ' => ''
+    'éfÈˆ¦™ÞEPŽË
+‚ZºàeÉGyKc«ŽjÂSÛcç²ˆÑsìÄ®v1–0$¨›T«~qÛö3£XÍ3IÀ1d`VŸÑ¾ãˆÖÞŽQ›¹®ÄkµËûX-ðÓ\"YA3·)ØîŒj„ñÜ”ð:êàÁ|­Ù#‹ÈåS¥ŒØ/±‘_ZÆ™›±{ôó' => 'Å¤HyT sgùÂÒª(5ÕÅÃiËüŽ.nrJ,<jb±\"/bÞ8Þã9âkàNš®
+\'0¤O\'\"öQ.	—=ÁˆµÉ\\—	õþß½%°<\"éÍ€ùAð®«\''
+    'µ²¯R«Ç»§|z|Myv3¸lÊ›¦{6™\"aBž(iÓ—Ž­%’,™Uu<ÊH¶¶iai@P_D£Ó*' => '	Aç£Ul\0ñ) öÁ=Üv‹|4R‰\"?J†àÓr:ÓzŠëŒÏÛ‘Ì\0*)J–¡Ë‘‚ w46è<5HD\"‚„Rvò¦¨É¦á€4SA°#©ñÖHDžUýÂvâŸå¨C]QªÈw\0R´|)ç¨C~:aì$–!‰Œí·O?ÇW]Ê«­ðBY÷–é<-
+ƒ«)ŠVÂ	ŒRn§å?S3ütÞÓ{D×É¼Æ­3'
+    'žûÇÃ•ìŒåœŠÌÎYcàx°’÷ce>:c*ô°˜­G#G:­¨Šò_ê ˆnã“cEª¡_~²¹×9ï¡ÔžŒ	–¶ös
+„¢–­UJPH®ýAÑ±¹¨Š,1àqÙkˆnkÇ÷–14JC:×tWv' => 'f¶osnŠt!Í}“–‚Fx\"bñEÂ¤1eZï¿ôî5ºÒ»‚voB°x›Þ,\"QAôÖƒÎŸÃ3Y\"•I\0AAí²Ôy_S2`àË3·V'
+    'ŠE~ju' => ')­\"å%‹FyIš*ù*NÚÚ)–Ÿûríñ}ÞÒßK’,Ld-Z$²z#4óë¢cZ‚Ë¢:t(óÑ\0ÓTÈ!}æîˆìë¸á$]eOöø~•qÎgüSóÐº›(« G‚Ð/jÌEv'
+    'NßÓMB9Šš,×nc²i¼·Ñ³7QÁÁÿ' => 'µ× êÛ‹í‹ÈÍg<öÐ=`½ Ò´_êÛË]%m$CµÌûsë¡É¨š“2Q€ÜTÖœ>:ÏÜFþÛ.lü¯Ø“Ëk³Æˆ°æ)ýTÓ9çí8Âÿ\0ìH­?¸ˆñòªÜªKÊ†›±'
+    '€«n6Ï\\ŠÒ^ÇNÖpÿ' => 'ýÉì¼Æ5$ÍâïQiO¿fä8j DXr==CÀëÍqóU¾Û/Õ´Æ…]6G5;ËÍ´'
+    'QÁÛ‚–Q¿7Ì´;í×Ç]jZ©h,Û' => '|«à­îïd^ßÌÑÚËq \0ZY!ú©EH/Â(G˜#NÒ²¥³zÅc¾È_ºs¦©mîÌª“ÇŸÔAþ:™¢±*¤Û²fleú{`d×›\07ÜKS<Ž•VïÌÕ[B÷sÎdÉ´B¼“öØê¨T||´ßµÔG,f¯g«Èê„T2¹;íåÇBÊ¦MÕÀvæ—ÖO4LRHÂûà)ŒŸðß}%_K~¤Ë÷IH×Š¬÷Ÿé½ðR¤ì}(¾¯_ç§1àÒm°½òtFXuÍ”Q[ä	ú<¤†ªÞ¨]â¤ï³/.£¨ÖreV—]ê^*Æû1Ï#Ù6¶ð$‘ÄÑÈc4PÂ±°\0±£tßËH®KoÌuá„0ö‡kvÄkOw7E•…(»Ô³WU†ÞzW?#\'ŒcÇ_;?ØÖ¹,™««Ä¼žiKKk‘Jò«4eZ¼@¦ß®¦ï%RZ	ß
+£lGÎed¾‚ÂI(‘Äò-”ÔF¥ùzk½i§1R$S%æØÃ·—w2	åRBƒ]¶|tŸ\"ê4Ùà£’ÑÇ`¡—Õ[m†”U¥¸q×kEc@zøiÛÔuÐÚvsVÓ;ÇqÊÊ5·%dT­kQòé¢åiY
+Z¾–KÎý»ƒû­Œv’Ã‡‚k<Ð¨yX±-R¤úŠƒRt|—µzN¤áfûMÇmvïmÉcŒ³°æÍ¤Is=9¸M4ó×w*¤Žnlövñ±ðDÛ•ý©•¢qæSZ`ÑDwM¤–c#lìHS*×ˆœª<t½ë«	W\"†øYå¬g Èiµ(Z„m^µÖPC£»P\\IR8š©¥>CL'
+    '
+ÇŸsû–,/oG¸_¬´¦Ý	ê\"}É›ÿ' => ''
+    '
+»²ì±™;<½±' => ''
+    'þã#u' => ''
+    'D8ûÀÇ¿CEŒøkUq' => ''
+    'í¸;¼ò6³á_cÉmpÜM­‡6RÛ' => ''
+    ' é¦qûc³—¡ÏäûÅ)X^«®o‹°K8	eJ–‘©É‰Ü“M€øk³ÇÀ±Wµk“È¶_»3NFç)õPÚØ[ó‰·¼»­' => '¨Çô:'
+    'öì²®\"b¥\"lþHï¸Ö¸¦Çaã2ç%jK©1ÂÁCrÿ' => '·Ú~ý•²8Æº.¿Ñ=‘Ù9ÌÍÃ]ÞÊñ#?Ô\\ÞÉI—5ou‹UÞ‹´(êÞZÞ5®åþa}ÛÜ1/F5¢Óòÿ\0‡Çv[ð¦3c­¤K)S.I©•þßã®¾:$¡ly‹Y·,í<ò»¹¬Œô\'­Iñ®Œ`Ëéˆfi¥©ZRµøjIhñ¥ñÜ€\0­véMDYò¦Ä£UA5Vó:¦S
+ãqžÐ3È\0,¿ñÕ$›’à/Oÿ\0ÀÕpÀÌ7Zµj	Û¦ÃY!£š“AN[ž¤æw„#?0dÆƒæ4í¨CÑ,ŠÁƒ¨âE:ë¶¡»k…žæSPâ¿óþz\"(Û«!‰Ô!ã¨FËâýô,Ÿ85Qå«Ü¦…Â^I\"Œ»0øk'
+    'Y_êÚÎ÷)!/à’ØµH¡‘Hj5,¥At·kLå)»{2_•cŽ?ÿ' => '¼¯$÷%æ@¨„Š*ªíñë­[C5Õ™ÎÁ£ý¿J9Y\0*•?/ÿ\0¨ž€êÒ2õ\"ÉÅ¸ibrÜh)ÉûoºžC}iC1ˆnªL4!¸zJïN=j5¨3'
+    ')ÂT«•\'ÿ' => 'Bl>ÜÚE<e\\~:ÃY­K‘k ‰paZn’xk.°Zb–GÎJ€RU!‘ÆÔ Ôt­ÖÐT™Û<€°¾™Úi$\0HŽíUi¸øÔéGätUö\'Ùãl’H¯Q¥s_Z/ì³)¡b7â|ôËP\'#6[·~¦|}â2FC\\ÕÀ#¯]/WÚšN\\€/{G¸/òÏ²]›uCoB³Q·PH¯”iœ)ÛE»1•¥«Ùo>Ú÷lÍ ±‚÷ÞåàF
+P§T^D'
+    'Üö>eð¯?Æ¢ßíÖ,_Û_Ùf²\\µÂK€f†$^u3R†mÇ_ËFÁíöVõ} rókÆ;¿¶¸«È)yªºˆÚ‡ªRŸÈk¤ñU¨YšreÛ_f»W9¹µŽIä$2›‚#Ô¢t|JÖÝÍÏ¼œËZ°´ø	fG GVJ•¨¡óÓB‰‹R}«ì«Œ³Dp^Ì ºÓÄÆ8™¾^#õ­9Ut›ãQÛéÓâ5^EÕfuÿ' => ''
+    'rÇ©goQÑ©ÇÆ”A‡ÉÈÜÉîX£T·pÄ¡#‰Uv' => ''
+    'Ü©6öÖ¶î­V_›—-ÍRÚ`¥yU	âÈ:xñ jþå¢%˜ÇŽ¯Xl>ÛÙX![¸' => '›ÉÛÝ2ÉêjÓxÿ\0Ëÿ\0Vƒ“%º‡¥*¶wp¦7ôòFÒHïÌªÕp±ÜÕ€zñ®‰Š²c5áþ×bg{û/«¹1û¥ËÛÀÊËí8­d`IQ¶ëªË’r%ÓM@ƒ.¸,í-c…(4Û®½ªJKra…·Ë#^-ü‘Éš¸õŒq):?ù«åªã«©îù•ÕÄ|ÂJ¼$CQ³)¦¢¦ûƒ3YÈŠ³Ä_˜P«AÌøþzMÂUˆØüFÅ¦ŽCÁÇ¥(µŽ‡!/þÛu±°÷\"F	ñØÐP3Pv)¼}Ð™ŽéËûM¦†\"Æ•(ÒÓÞ½q_\\Dz#Ü›öÖâ\\óÜ0­½”$SžPBÿ\0 t4l¿ï1x!jÏ=¼OU <c¨òä4­ÕÔed»q%}ÄßËapØ\"XZLÇÞ•=³$…	Ü\"OZu×Üª¶Hìq³,võ[R^#°3÷è_-4QC*¯Ê[ÞV‹·AñS©Æö—’½Öq#Y½ò”ÒŠ_è6aûŠýÈ¡÷g¥VÝ˜vøü*a^Î/ Ý3gúœ/\0Œ×î'
+    'Š(\"„1«òzüh' => '\'¡·³q¸Šr_ºï¤üØÏÛÿ\0n®òé™Ï—;Q£dúcp}•%·cêü4^?­´8yyý”ûxç³ñ×¯ðÞúÎÂÚ k£Kx}€
+Ä´ðQú¿×]5] å;6åƒÙžyšI[“Ì„‡zl£(’5 FÖ¢ŠAüiÓTÊ=-µNÞ#o†Ú¢Í^É¸b#\0”© \'aàIðÕ¦\\„¬1p¢‰d!ˆÜ<GŽ£$“ä– 7u§žýuFMFXÙxÆÀ±ò©ÿ\0
+êB¹†Y%V
+FÔf$¨§Æ´ÖZ$šÑhw‘¡2)ë·Õö•'
+    '–·s#,Ðñ_µüuPY¦YŠ kOÙxÝºuãQ©»w_w°’)â`9ÂeŒ¢µ>p§§ÇZ©Cu¢ÏŽ¡‰®¡lº´FÍá„‹%ÄF„ŠÈžcÌj Ë_ïg³Æß¸dŠÚwEBUÉXØŽ,*~:ÅÜ' => ''
+    ']¨æDLtÑZY]ÝGÝ’îpŽ' => ''
+    '¾f3\'ò<´ÇÇ{v’¥±H öÄò' => ''
+    'À¨AOÕË‡MX`šêî,,v—V÷bÒX”M$iËrÞ¥
+Bî_¶·›®Åb²{³lÚ¦µ¹“²I/»Y¦ä\"ˆ@ *dUã”ïÈ“Çmºé5Ý:þÞšÀ{³~Ý÷>c_A!ú<r7¹ýÊíCFãÚŒï\'ÀôÓ5ÀïXz' => ''
+    '-|½Žz–^_ý½öÙ_©ËÉ5Ó¿ÊœÙGZ’ÀS®Ž±V¢¶Ígä0Íöo³Ÿ	ŒÇØÇg%ì' => ''
+    '¿$–\"hC//\"<õ}¨ÅlüAýöÛ¹Ée§\\Åäý¼abŒø9BZ¯¨¨mÙ²Ó¥Äõ:Ü' => 'Ô(ZûÝ#·pMÉÞrƒ<UÈõMO(ÁÛüÔÖlà´s½…‡°Œ²û†$;1Ü×z’|Ož†m#x·ÌÌ¡l8I?ê½•ŸÝö—pFZû7Q¨ãÿ\0o'
+    'ÎýWfüµå3¡VÝ^ÂA\'/RÊ' => 'ýÄÎ8ÀÀ‹IUHš0ÊBøøsî¬´‰°õoW¬èZØ~Ïƒ©(¸’îèEÁžn=I©*\0ŸÃ]ž7¸áÿ\0”¼ü—}:…³ÖOÄSN‹­m½¡ÉºÓ¦ªJ7Ú5½ÈfŽE‘A ÉH#4#o¬ \'±m5¸Zã©Þƒ®¡˜=\0BŒ%tâU·b5 €|®R hÊø‘D¦­\"Ð­Vv.OS_ã¬›L`ÅÚûPóaG?-\\l›OR(ô\0¬„àî.ÝÁ_g¯ý¶>#/·¹/H¢¨Ù6Êß]d²Y ×2^^J÷nk$­ÉºŽ•4ÒíË¶.ÏöÓ‘HÛ)ŽcêåÊ×­›ù­ãz˜¿C F2a=Ìp{|ù#„^\"¦§}-ÈÍZ%=\\ÇGiŽ€Ë»{IîÆ`xÝ«Qz¨Ûsð®¼Ï#É‰ÌßUåN†;[ÓuÐæò±ùû‚Å…”ük¿¤Ë ¸ø¬ðr;cŽ¡³Ö- K±L}ÅåÌ‡ê#‘ÂÄªC˜j–uGGV_Kx¶®»ZU³rIîì­¢y¤†âK;[FÜž0)F$#•vóÐo†¶ÛsuÊÖ„¹ðü­Eô‘·³-hˆB0ä§ƒ’Â€Üƒ¹5ŒYª­ÚÍYJ’(±ŠÎ¹š\"ÆTStÔ*#åP©^„°´Uwm6 ÷¢i,îÚÜKt’!vâÇn¸£uøhîº:ÏÌÇv©–SYãn±?A{m%¶:p±J’…3YßêE9ªñ ë…g|wŸò_ªIYy
+.G	yýƒ5ÜFXðg„ð‘Åx¶ÄW-ºu±Þ·¯}?ðÅméô±RF“’{f\"KVrbæA­(iÑ´âJõž U»_ÉŠº·»h`ÞKØò\0þí¹=Y]¾t­×hjÚH¹>ÖÊao„qÈo-¯ê!ijžägÔ‹Ð’~=tjæ­×ƒ3m©.Ë#~ðÇŠúIm¥¸B¤²†ŽFSÄÑ—o dÆ—ªB×$¨€õæal/­ µ˜Û‹5Yî%äü‡s°ôíðÒøñÊl ¼8
+ß}ÇÈNPÎòº]2·ˆ•@º1©Rÿ\0§Óüuuã©ÔÓÏA.HMåûÜ^Þ¥%%€ä?¤ƒäv?ÇFn$*õrÙb}¯˜’ÛYû†9}ÇHÏ·î)¼¤AéO.6ØEeïN#ƒÜ…¤¿Õ †TÞ…¹Tm·Ž»X,ûrÙÏ²Rü‘¨öÀùÅ|Æúv»dK¨r2½ªXÉKïÆf‚ÊaYSpÜzg\'tzcæj³©Y÷ÔÔîIï(L.¥œ0¢±¥³“rè-dS„î¥¸€ªÄÔŠ€*¦„lyµî˜;síåçpJü›o ˆr©iÁ ßÇ‘®˜Ç±‹#ž®.\'¶™º‘^öõÈÜËxÞërëVÄkVeã©p·áî¶RZDP|*kåðóÕ×b¬µ'
+    'vÞ>ñžæ<NA­²Èè#šéxÊ«ÈsQën\"£\\GÌ¼t#Üû×±q±SîãVªê«ªòøjÊ}õ°Ä]Ïž*_Ä©úy`7©d
+ž•ùÓCãåímº¦Ø§öÖNEU­kSÅ5ü	]±÷“¹3Y(`' => '¿6·!ßêW¨Þ„z‡å¾™ÿ\0vÝ÷?eÁÆ£k#µ×H;#”·ÆEqŽ¶[É˜z—Ý(Ûzò¦Þzk-ô^óØÒo]…¼Oum·–ó3wä'
+    'q6V¡YÊMÀcÖœºhqSU¸{âîq_¤\'gæ;§%õÒÚk\'W‰ÖçöU£-Ë•' => ''
+    '8ÍÈzÜø|4ÂBäoiß‰æËåÖŸ†¶d’HŒªA' => ''
+    'ªÃ	f¯Ê ’)ñ§áã¨@œP·´H¢ìxú·ñ¯†®RD¹¼Ç_n\'xŸúØÓÉEtò1Óvj¸¬öB–kîçdcj' => ''
+    '¼0©ãîWåëé„7C±òÐ;þ5oô§·e°½s÷Ï$øÜs\\$¥„_‘¨\'ˆõ÷]H
+vjü<õŸö²>ˆj¾Òú°Hÿ' => ''
+    'Z„<®ú…2ƒ¨H»ƒÉ^H½U(ÜGÊ\\Sþ:Í”¢¶rrüÿ' => '“Àµ¤@}Ý««™R¥º˜üOá«L„8®Ijƒ( ©$ÌjF²Y:¦p
+á©-A^ˆøÐPO]d©dÐÜE	­5	'
+    '§”jB–rI²î¬¡º#ÝÓ¡jŒàÆZD¤xõD%SP£ÔS×P†Øí¥~DJŠBé÷ë¿£Ìe“¶ñ²†Åâd/w\"5VkÀ
+žVJóWAÉn1¢£;oA¶Àåå¡HQïíp}c%fÐÖSƒJRÿ' => 'îØÔ§Ô{ŠÜ?Ÿû¿Ú¶—ÕQÅÝ’éô”
+Ç:Ÿ\0ëPÞ#EZ9®ó1ÉîPÿ\0Eqrö°OcÌ§î…C
+ªÓxë§G5¶Œ²E—”R¸·–žïËÇNÕâ7¦³‹\'Fk%|ØÛÈ­¢úu¸úëåúbd¥v'
+    '7Þ¾¨›øµY*¥™­´Ô^ïNæ3ûx»_/¢´†‹,òÝ”Fr>@~P4ßŽç¸,¹Æ¼~Rxe³È_{°ÍœRf§Ì}$lhun°Ú3ÜHîþé¿³ïË›9%ÔVæê¤E#{JX”>5ñÔÿ' => 'f¿ÇûŒÚ.¼ÊþúÖô\\Ëa‘ˆCt¦ AÌu5ñ®Æ;Õ¥j¹BÍ=™Ž=çŽd@Lw4ôÀüF¦Dšò.£.C»2y=¾.êJÇhÕ€VjN\"Jr òÒê­iÐ$„°–ÊÓ¤°ÃìûŠªhXÒ‹BÂ¤OðÒ™²N±Öw½·z×q½ÅÔÖPfcãUHÕTiÔòJþç®Ûjé•RF]¤HÉã»žÒú{k¹ìFÅšÆê¾‘Â $nºs¿@¶ê1ö_cesórLYH~ååÛºÄ(wõ*ià4åÖ/¶7/îÕíË~ÖÀClBJ±¡™® õI!q^©]Â¯¡m·ègwjÃ$×Ft1 0ãÝHé½w§ó×K…Ýj÷5_4\''
+    'f4†QdQÚ‚¿üxk ¶' => 'ÞNk¦_Tî_zÐ~CmSa¢oûx_û¬Êõjª¸Gˆ­vßá¢S`w]Gû¿¶rI\"¿÷iÇ\'oß·*ÌS‡(ÛÒ«áÄkšøkÅ×žÒˆ²ù‚ÚVB0T!ÚH$^RD]‚ÿ\0Hëã¬¥æ7ÿ\0ûY£ë¿ÿ\0\"UÚ³m(š,…¥”Â0‚khH­ã\"’ËB|¾Qå«¯Ì_/¹Zê-Ýo‹Ãöë 7×_]äœ9B´Ž/FâœAa¾çÕ¾^-|›tI=¾Îíù¤x­ã[Óê‘ãOvv$u.ÕjŸÇLÖ•®È²ZÛ²w•ÝÁt‚Í	4öÌœ›¯NAzëZ3Ä-åÁY2Rs˜nŠ Â?úV€WVCjÁrjHêú¹4fÒ(Uà†F\'äRÄþ{ôÕfkc#êˆÔ%ªO‰Ž¬‡ËµFT»‘ò–¯_€Ô3$¸¬£9 Qê\0Ò›×Ôýà7Õ|I ¼Ïxà°À[™k™íÛFkÖI\0ñ:ZÜºÿ\0¨o
+÷òESÜ?x»–þC6Ú8m…K,“F³{U§5Š¡•†•¶Kßwò;8}³uz‰×Ö=ÏÜQ^ÝËmy{ke¹¾‰®KkåÀ=1’Ê†CéèvðÕWT†êñã…¢lÑ†²ÇÝ:6W3sŒµ6mx™‹=ÚIÄP™ÍiÊ£Ä×[­SÝ›ËkUMTêÁÿ\0`k«'
+    'Ë_E' => '½ÓÉÛ[þÄ’[|ÖËÕ‘u%•MNÃR±:™ËÝUëÐõ.l½ù]bmâX`½Vv¶Æ14Lš?yHZñ U¡ZÂ—¬ï,Íß÷¼î#'
+    '/	±Ámg\'ýÅ½¤ì‚áÔrâ¡E#ÏmjÊuKC·lRÖ›»ˆvÓß\'öë)±Øßab¾‚áù-åïýÈdÜ*ø™<¼£Ž…*Y\'Üú‘rü4ãm¬¯âîê!ýçà¤6Hbri°;z›—ç«€unZhlûyÝÙžÆ{â»sÚ9¢lîäùew„’,*hŒ¤Wvå×F£uø1^F*åô¯©CŽ½²½´†òÊUžÖáyÃ*ôeü:‚:z6‘Ä²iÃ%×PÉáÔ,ûP†_ŠÊU…A#P¦W½Éö?±³×“ÝÝC4RÜºËr!¢»¯ê# \'ÄŽºÇÚ¨E–É@' => [
+        '·¾Ùöo?»ŠÇ¥¼üx{ÊI~\'¨,Äüu´’Ùwov2-´h(€(øjäÌˆu$‡¾ØòÕIÂBÏ¶Ô\"<mBÙæ¡“xã¤‘‚F‚¬çÃP‚‡tZ[÷¯ÒNQ-Ðû–Õ©¤«°v' => '©*²BHzT¼¶é ²Ï•
+©xÏy(ª©Ðê™,ûzâîäE	SlÌ?v€ZíøÐm¨i2Ç³ÇEcmµªðH—ŽÄO3·S­f_¹	#fY©NÛSÄm]B†l^J;øSŒé´Ñÿ\0üÃàtDBe5yA¨CÃMB¶ú²™IÔ!¬¨¯A_?I!õHØjø3B ø±Ô!‰êhh÷ß®¡gÊ”Øj
+í¨Yç¨dÈPtðÕ2çÞ¹·½„8<;Ó3x¿½2uµ…Áá?ýÆ ðù¼µ‹Z>'
+    ]
+    'ª¤æ*-6Ò»ž»þ:béZŽ_ScÓùm¾²AÏíçlÿ' => '«p†ñ$¶ä²[ÄT$ZF þ­é¬ZºÊÝ‘;£¶²7óG”Ç#^[µ¼kq\'„KPŽ5nªÕàÊ«XzjKT‡ÚyWÆeÒã¶‘¸I‘ÎÀþè\\ìrŽËêA0_¶Å“ÞÑ5ÿ\0lZ^FÀÁlEµüe*®ÐÌæVjñ$u¦úäð9]ÑõØo:•%c{a’ÇÝ´Þó?»5µÊúªú”èFêÃË]êdM(ÐI£vÕî®PÜB9<žòØÏM … JîZ]¡ecu—‚™„OqÌDŒ ëQXÕˆëÈùk—uÐj¬3Ü–×Ét©qhÖV–ìbŠ7•§2J¡ZG<ÙÊ¨¨ k…*PÇ	ÛÖùlŒðUcs#»|¨ oSá·M×iÂênÎ××w-¥…¯(­áèª€dEPr¥¤×¦ú×#•[ÕRªýEñÑ©³ÜjXçŒÄ‘•Ælƒ’·N%iã¶º•åDBÑïÔVÑ¬†±«n¬ûÓ èkç¶½k
+fY…ÝÓ»³r$ž¬zi\".B¬knhÔPÎ\0¨%‡ÄCec÷ÝÑ \0š©’*Ô‘ÀÎûm ä4„œ$0Ë%ºK#\'–¼”R¢»€<4$[bS\"¹.øÌß­è¥¹¯'
+    'ôrýZ2ÑJœò¾äÛ•M…_YAÑíöÐÇÙ÷—ennŠ‚iòÄ¡G_‹hµsÿÙ
+------WebKitFormBoundaryhOlEF009ANmsqxfl--
+' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'udphtpueb4jn20a4k6gcsblvd4'
+    '_csrf' => '65e9e31f3f5b7486e7bfdba3cb9362a894cbcec041c2295dd436dc46d09b3a0ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"L_AvMFyAuGzFwEO2vPC1pwKPC1wD1imD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/api/create-gate-in'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '94778'
+    'HTTP_POSTMAN_TOKEN' => 'ffb3fca3-4fa7-ed51-b7ec-382d6a0fd50b'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=udphtpueb4jn20a4k6gcsblvd4; _csrf=65e9e31f3f5b7486e7bfdba3cb9362a894cbcec041c2295dd436dc46d09b3a0ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22L_AvMFyAuGzFwEO2vPC1pwKPC1wD1imD%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '50206'
+    'REDIRECT_URL' => '/secure-parking/web/api/create-gate-in'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/api/create-gate-in'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507826865.747
+    'REQUEST_TIME' => 1507826865
+]

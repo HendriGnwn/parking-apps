@@ -136,6 +136,7 @@ $config = [
 		'class' => 'mdm\admin\components\AccessControl',
 		'allowActions' => [
 			'site/login',
+			'api*',
 			'site/error',
 			'user/security/logout',
 			'user/logout',
