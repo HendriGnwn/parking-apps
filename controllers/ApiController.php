@@ -48,11 +48,11 @@ class ApiController extends Controller
 			
 			return Yii::$app->response->send();
 		}
-		return $request->getBodyParams();
 		$model = new Transaction();
 		$model->scenario = Transaction::SCENARIO_ENTRY;
 		//$model->attributes = ;
 		$model->cameraFileUpload = UploadedFile::getInstance($model, 'cameraFileUpload');
+		return $model->cameraFileUpload;
 		if(!$model->validate()) {
 			return [
 				'status' => 'error',
