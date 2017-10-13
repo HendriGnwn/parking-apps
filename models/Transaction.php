@@ -10,6 +10,8 @@ use Yii;
 use yii\db\ActiveQuery;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
+use yii\helpers\Inflector;
+use yii\web\UploadedFile;
 
 /**
  * This is the model class for table "transaction".
@@ -78,7 +80,7 @@ class Transaction extends BaseActiveRecord
 	{
 		parent::init();
 		
-		$path = 'web/transactions/';
+		$path = 'web/files/transactions/';
 		$this->path = $path;
 		
 		if(!is_dir(Yii::getAlias('@app/' .$path))) {
@@ -109,7 +111,7 @@ class Transaction extends BaseActiveRecord
             [['code', 'police_number', 'gate_in_id', 'time_in', 'gate_out_id', 'time_out', 'status', 
 				'vehicle_id', 'payment_status', 'transport_price_id', 'payment_id', 'voucher_id', 'final_amount', 'created_at', 'updated_at', 'picture'], 'safe'],
             [['final_amount'], 'number'],
-            [['camera_in', 'camera_out'], 'safe'],
+            [['camera_in', 'camera_out', 'police_number'], 'safe'],
 			[['payment_status'], 'default', 'value'=>self::PAYMENT_STATUS_DRAFT],
 			[['status'], 'default', 'value'=>self::STATUS_ENTRY],
 			['police_number', 'match', 'pattern'=>'/^([\w\S])+$/', 'message'=>"{attribute} jangan memakai spasi"],
@@ -211,7 +213,7 @@ class Transaction extends BaseActiveRecord
 		$prefix = $this->vehicle_id . '-' . $this->gate_in_id;
 		$trim   = trim($prefix);
 		$name	= str_replace(' ', '-', $trim).'-'.$this->time_in;
-		$name = Url::generateUrl($name);
+		$name = Inflector::slug($name);
 		
 		$ext = $withExt ? '.' . $this->cameraFileUpload->extension : '';
 		

@@ -4,7 +4,9 @@ namespace app\controllers;
 
 use app\models\Setting;
 use app\models\Transaction;
+use Carbon\Carbon;
 use Yii;
+use app\helpers\FormatConverter;
 use yii\rest\Controller;
 use yii\web\Response;
 use yii\web\UploadedFile;
@@ -50,9 +52,9 @@ class ApiController extends Controller
 		}
 		$model = new Transaction();
 		$model->scenario = Transaction::SCENARIO_ENTRY;
-		//$model->attributes = ;
-		$model->cameraFileUpload = UploadedFile::getInstance($model, 'cameraFileUpload');
-		return $model->cameraFileUpload;
+        $model->attributes = $request->post();
+        $model->time_in = Carbon::now()->toDateTimeString();
+        $model->cameraFileUpload = UploadedFile::getInstanceByName('cameraFileUpload');
 		if(!$model->validate()) {
 			return [
 				'status' => 'error',
@@ -70,12 +72,12 @@ class ApiController extends Controller
 				'company_phone' => Setting::getCompanyPhone(),
 				'vehicle' => isset($model->vehicle) ? $model->vehicle->name : '',
 				'code' => $model->code,
-				'time' => $model->getFormattedIndoDateTime(),
+				'date' => FormatConverter::formatIndoDate($model->time_in, '%d %B %Y'),
+				'time' => FormatConverter::formatIndoDate($model->time_in, '%H:%M:%S'),
 				'time_original' => $model->time_in,
 				'footer_description' => Setting::getStructEntryFooter(),
 			],
 		];
-		
 	}
 }
 
