@@ -34189,3 +34189,247 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1508172795.506
     'REQUEST_TIME' => 1508172795
 ]
+2017-10-17 15:50:08 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'user' does not exist: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id-ID/user.php Fallback file does not exist as well: D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user/messages/id/user.php
+    in D:\xampp\htdocs\secure-parking\themes\adminlte\views\security\login.php:22
+    in D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\controllers\SecurityController.php:167
+2017-10-17 15:50:07 [::1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'e6dup90cdfinfmaf0798vpte67'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/7.0.6.1618 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=e6dup90cdfinfmaf0798vpte67'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '49457'
+    'REDIRECT_URL' => '/secure-parking/web/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/user/login'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1508230207.908
+    'REQUEST_TIME' => 1508230207
+]
+2017-10-17 15:50:12 [::1][-][e6dup90cdfinfmaf0798vpte67][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: dektrium\user\models\User::last_login_at' in D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Component.php:203
+Stack trace:
+#0 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\db\BaseActiveRecord.php(307): yii\base\Component->__set('last_login_at', 1508230212)
+#1 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\db\BaseActiveRecord.php(735): yii\db\BaseActiveRecord->__set('last_login_at', 1508230212)
+#2 D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\models\LoginForm.php(145): yii\db\BaseActiveRecord->updateAttributes(Array)
+#3 D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\controllers\SecurityController.php(159): dektrium\user\models\LoginForm->login()
+#4 [internal function]: dektrium\user\controllers\SecurityController->actionLogin()
+#5 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#8 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/security/l...', Array)
+#9 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\xampp\htdocs\secure-parking\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-10-17 15:50:12 [::1][-][e6dup90cdfinfmaf0798vpte67][info][application] $_POST = [
+    '_csrf' => 'AAsKS0T-Vp8heKBrK2AduWr-1eg4MuTudL34XybA6D5vWm8bEbtixWMn_wcGTUfVWsesgFtrrYUNxJwWQpOccw=='
+    'login-form' => [
+        'login' => 'admin'
+        'password' => 'admin123'
+        'rememberMe' => '0'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'e6dup90cdfinfmaf0798vpte67'
+    '_csrf' => 'c3350185fac1b1d2ac7ff7813082110af70680a5f9039c4dce199eb150b7e468a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"oQePUE4ZB__l--Zl09yhcYIkyydIdStM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '189'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/7.0.6.1618 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/user/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=e6dup90cdfinfmaf0798vpte67; _csrf=c3350185fac1b1d2ac7ff7813082110af70680a5f9039c4dce199eb150b7e468a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oQePUE4ZB__l--Zl09yhcYIkyydIdStM%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '49457'
+    'REDIRECT_URL' => '/secure-parking/web/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/user/login'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1508230212.255
+    'REQUEST_TIME' => 1508230212
+]
+2017-10-17 15:50:16 [::1][-][e6dup90cdfinfmaf0798vpte67][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: dektrium\user\models\User::last_login_at' in D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Component.php:203
+Stack trace:
+#0 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\db\BaseActiveRecord.php(307): yii\base\Component->__set('last_login_at', 1508230216)
+#1 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\db\BaseActiveRecord.php(735): yii\db\BaseActiveRecord->__set('last_login_at', 1508230216)
+#2 D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\models\LoginForm.php(145): yii\db\BaseActiveRecord->updateAttributes(Array)
+#3 D:\xampp\htdocs\secure-parking\vendor\dektrium\yii2-user\controllers\SecurityController.php(159): dektrium\user\models\LoginForm->login()
+#4 [internal function]: dektrium\user\controllers\SecurityController->actionLogin()
+#5 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#8 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/security/l...', Array)
+#9 D:\xampp\htdocs\secure-parking\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\xampp\htdocs\secure-parking\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-10-17 15:50:16 [::1][-][e6dup90cdfinfmaf0798vpte67][info][application] $_POST = [
+    '_csrf' => 'AAsKS0T-Vp8heKBrK2AduWr-1eg4MuTudL34XybA6D5vWm8bEbtixWMn_wcGTUfVWsesgFtrrYUNxJwWQpOccw=='
+    'login-form' => [
+        'login' => 'admin'
+        'password' => 'admin123'
+        'rememberMe' => '0'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'e6dup90cdfinfmaf0798vpte67'
+    '_csrf' => 'c3350185fac1b1d2ac7ff7813082110af70680a5f9039c4dce199eb150b7e468a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"oQePUE4ZB__l--Zl09yhcYIkyydIdStM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/secure-parking/web/'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '189'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/7.0.6.1618 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8080/secure-parking/web/user/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=e6dup90cdfinfmaf0798vpte67; _csrf=c3350185fac1b1d2ac7ff7813082110af70680a5f9039c4dce199eb150b7e468a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oQePUE4ZB__l--Zl09yhcYIkyydIdStM%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Users\\ACER\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/secure-parking/web/index.php'
+    'REMOTE_PORT' => '49470'
+    'REDIRECT_URL' => '/secure-parking/web/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/secure-parking/web/user/login'
+    'SCRIPT_NAME' => '/secure-parking/web/index.php'
+    'PHP_SELF' => '/secure-parking/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1508230216.389
+    'REQUEST_TIME' => 1508230216
+]
