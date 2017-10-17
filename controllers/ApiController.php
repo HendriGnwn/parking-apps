@@ -71,7 +71,7 @@ class ApiController extends Controller
 				'company_address' => Setting::getCompanyAddress(),
 				'company_phone' => Setting::getCompanyPhone(),
 				'vehicle' => isset($model->vehicle) ? $model->vehicle->name : '',
-				'code' => $model->code,
+				'code' => $model->code, // 17 digit alpha numeric
 				'date' => FormatConverter::formatIndoDate($model->time_in, '%d %B %Y'),
 				'time' => FormatConverter::formatIndoDate($model->time_in, '%H:%M:%S'),
 				'time_original' => $model->time_in,

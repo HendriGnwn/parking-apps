@@ -29,7 +29,7 @@ NavBar::begin([
 	};
 
 	$menuItems	= MenuHelper::getAssignedMenu(Yii::$app->user->id, null, $callback);
-	$rbcMenu	= ['label' => 'Rigths', 'icon' => 'fa fa-gears', 'url' => ['/admin/assignment/index'], 'visible' => Yii::$app->user->can('superadmin')];
+	$rbcMenu	= ['label' => 'Rights', 'icon' => 'fa fa-gears', 'url' => ['/admin/assignment/index'], 'visible' => Yii::$app->user->can('superadmin')];
 	$menuItems	= ArrayHelper::merge($menuItems, [$rbcMenu]);
 	$logins = [
 		'label' => '<i class="fa fa-user"></i>',

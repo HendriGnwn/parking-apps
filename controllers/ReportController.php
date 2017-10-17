@@ -60,4 +60,24 @@ class ReportController extends BaseController
 			'dataProvider' => $dataProvider
 		]);
 	}
+	
+	public function actionTransactionMonthly()
+	{
+		
+	}
+	
+	public function actionTransactionPerGate()
+	{
+		
+	}
+	
+	public function actionTransactionRecapitulationMonthly()
+	{
+		
+	}
+	
+	public function actionTransactionDaily()
+	{
+		return $this->render('transaction-daily', []);
+	}
 }
