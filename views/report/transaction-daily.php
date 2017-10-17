@@ -31,7 +31,7 @@ $this->title = 'Laporan Transaksi Harian';
                 <?= yii\helpers\Html::endForm() ?>
             </div>
             <div class="col-md-6 text-right">
-                <?= yii\helpers\Html::a("Print", '#', ['class' => 'btn btn-primary', 'onclick'=>'return window.print()']) ?><br/><br/>
+                <?= yii\helpers\Html::a("Print", ['report/transaction-daily-print', 'date' => Yii::$app->request->get('date', '')], ['class' => 'btn btn-primary']) ?><br/><br/>
             </div>
         </div>
         

@@ -43,7 +43,7 @@ $reports = $queryReport
 
 <div class="row only-print-enable">
     <div class="col-md-12">
-        <h4><?= Setting::getAppName() ?></h4>
+        <strong><?= Setting::getAppName() ?></strong><br/>
         <span>Dicetak Oleh: <?= User::findOne(Yii::$app->user->id)->username ?></span><br/>
     </div>
     

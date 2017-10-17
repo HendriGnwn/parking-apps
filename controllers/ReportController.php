@@ -63,8 +63,14 @@ class ReportController extends BaseController
 	
 	public function actionTransactionMonthly()
 	{
-		
+		return $this->render('transaction-monthly', []);
 	}
+	
+	public function actionTransactionMonthlyPrint()
+    {
+		$this->layout = 'report-print';
+        return $this->render('print-transaction-monthly', []);
+    }
 	
 	public function actionTransactionPerGate()
 	{
@@ -83,6 +89,7 @@ class ReportController extends BaseController
     
     public function actionTransactionDailyPrint()
     {
-        return $this->render('_list-transaction-daily', []);
+		$this->layout = 'report-print';
+        return $this->render('print-transaction-daily', []);
     }
 }
