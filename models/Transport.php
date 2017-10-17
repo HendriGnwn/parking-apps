@@ -71,4 +71,14 @@ class Transport extends \app\models\BaseActiveRecord
     {
         return $this->hasMany(TransportPrice::className(), ['transport_id' => 'id'])->active();
     }
+    
+    public function getListTransportPriceId()
+    {
+        $result = [];
+        foreach ($this->transportPrices as $transportPrice) {
+            $result[] = $transportPrice->id;
+        }
+        
+        return $result;
+    }
 }

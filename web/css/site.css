@@ -89,3 +89,25 @@ a.desc:after {
     padding: 10px 20px;
     margin: 0 0 15px 0;
 }
+
+.table > thead > tr > th {
+	vertical-align: middle !important;
+}
+
+.only-print-enable {
+	display: none;
+}
+
+.only-print-disable {
+	display: block;
+}
+
+@media print {
+	.only-print-enable {
+		display: block;
+	}
+	
+	.only-print-disable {
+		display: none;
+	}
+}

@@ -80,4 +80,9 @@ class ReportController extends BaseController
 	{
 		return $this->render('transaction-daily', []);
 	}
+    
+    public function actionTransactionDailyPrint()
+    {
+        return $this->render('_list-transaction-daily', []);
+    }
 }
