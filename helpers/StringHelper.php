@@ -31,4 +31,23 @@ class StringHelper extends BaseStringHelper
 			'12' => 'Desember',
 		];
 	}
+	
+	public static function listOldParkings()
+	{
+		$result = [];
+		for ($i=0;$i<25;$i++) {
+			$result[$i] = [
+				'name' => $i . ' Jam',
+				'compare' => '=',
+				'value' => $i,
+			];
+		}
+		$result[25] = [
+				'name' => '> 24 Jam',
+				'compare' => '>',
+				'value' => 24,
+			];
+		
+		return $result;
+	}
 }

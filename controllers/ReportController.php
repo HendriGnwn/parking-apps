@@ -77,9 +77,15 @@ class ReportController extends BaseController
 		
 	}
 	
-	public function actionTransactionRecapitulationMonthly()
+	public function actionTransactionMonthlyRecapitulation()
 	{
-		
+		return $this->render('transaction-monthly-recapitulation', []);
+	}
+	
+	public function actionTransactionMonthlyRecapitulationPrint()
+	{
+		$this->layout = 'report-print';
+		return $this->render('print-transaction-monthly-recapitulation', []);
 	}
 	
 	public function actionTransactionDaily()
