@@ -10,9 +10,12 @@ use yii\web\View;
 if ($model->scenario == Transaction::SCENARIO_ENTRY) {
 	$title = 'Buat Transaksi Masuk';
 	$form = '_form-entry';
-} else {
+} else if ($model->scenario == Transaction::SCENARIO_EXIT) {
 	$title = 'Buat Transaksi Keluar';
 	$form = '_form-exit';
+} else if ($model->scenario == Transaction::SCENARIO_MANUAL_INPUT) {
+	$title = 'Manual Input Transaksi';
+	$form = '_form-manual-input';
 }
 
 $this->title = $title;

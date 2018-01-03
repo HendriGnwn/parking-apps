@@ -35,6 +35,6 @@ use yii\helpers\Url;
 <div class="text-center">
 	<small><?= Setting::getStructExitFooter() ?></small>
 </div>
-<?= Html::beginForm(Url::to(['transaction/create-transaction']), 'get') ?>
+<?= Html::beginForm(Url::previous(), 'get') ?>
 <?= Html::submitButton('Print / Press Enter', ['class'=>'print', 'id'=>'buttonPrint', 'onclick'=>'printWindow()']) ?>
 <?= Html::endForm() ?>

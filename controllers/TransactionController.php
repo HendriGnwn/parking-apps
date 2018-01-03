@@ -72,6 +72,8 @@ class TransactionController extends BaseController
         $model = new Transaction();
 		$model->scenario = Transaction::SCENARIO_ENTRY;
 		
+		\yii\helpers\Url::remember();
+		
 		/** if session transactionGateIn found, set model gate_in_id */
 		if ($session->has('transactionGateIn')) {
 			$model->gate_in_id = $session->get('transactionGateIn');
@@ -169,6 +171,8 @@ class TransactionController extends BaseController
 		$model = new Transaction();
 		$model->scenario = Transaction::SCENARIO_EXIT;
 		
+		\yii\helpers\Url::remember();
+		
 		/** if session transactionGateOut found, set model gate_out_id */
 		if ($session->has('transactionGateOut')) {
 			$model->gate_out_id = $session->get('transactionGateOut');
@@ -179,9 +183,69 @@ class TransactionController extends BaseController
 		}
 
         if ($model->load(Yii::$app->request->post())) {
+			$model->attributes = Yii::$app->request->post('Transaction');
 			$query = Transaction::getDataByCode($model->code);
 			$query->scenario = Transaction::SCENARIO_EXIT;
 			$query->code = $model->code;
+			$query->police_number = $model->police_number;
+			$query->time_out = $model->time_out;
+			$query->gate_out_id = $model->gate_out_id;
+			$query->transport_price_id = $model->transport_price_id;
+			$query->payment_id = $model->payment_id;
+			$query->voucher_id = $model->voucher_id;
+			$query->final_amount = $model->final_amount;
+			
+			$session->set('transactionGateOut', $query->gate_out_id);
+			$session->set('transactionPayment', $query->payment_id);
+			
+			if($query->validate()) {
+				$query->save();
+				return $this->redirect(['print-out', 'id' => $query->id]);
+			} else {
+				return $this->render('create', [
+                'model' => $query,
+            ]);
+			}
+        } else {
+            return $this->render('create', [
+                'model' => $model,
+            ]);
+        }
+	}
+	
+	public function actionCreateManualInput()
+	{
+		//return $this->redirect(['create-transaction']);
+		$session = Yii::$app->session;
+		
+		$model = new Transaction();
+		$model->scenario = Transaction::SCENARIO_MANUAL_INPUT;
+		
+		\yii\helpers\Url::remember();
+		
+		/** if session transactionGateOut found, set model gate_out_id */
+		if ($session->has('transactionGateOut')) {
+			$model->gate_out_id = $session->get('transactionGateOut');
+		}
+		/** if session transactionPayment found, set model payment_id */
+		if ($session->has('transactionPayment')) {
+			$model->payment_id = $session->get('transactionPayment');
+		}
+
+        if ($model->load(Yii::$app->request->post())) {
+			$model->attributes = Yii::$app->request->post('Transaction');
+			
+			//var_dump($model);die;
+			$query = Transaction::find()
+				->andWhere([
+					'code'=>$model->code, 
+					'payment_status'=>Transaction::PAYMENT_STATUS_WAITING
+				])
+				->limit(1)
+				->one();
+			$query->scenario = Transaction::SCENARIO_MANUAL_INPUT;
+			$query->code = $model->code;
+			$query->status = Transaction::STATUS_MANUAL_INPUT;
 			$query->police_number = $model->police_number;
 			$query->time_out = $model->time_out;
 			$query->gate_out_id = $model->gate_out_id;
@@ -214,6 +278,8 @@ class TransactionController extends BaseController
 		
 		$model = new Transaction();
 		$model->scenario = Transaction::SCENARIO_ENTRY_AND_EXIT;
+		
+		\yii\helpers\Url::remember();
 		
 		
 		/** if session transactionGateIn found, set model gate_in_id */
@@ -288,19 +354,43 @@ class TransactionController extends BaseController
 		return json_encode($result);
 	}
 	
-	public function actionTest()
+	/**
+	 * call ajax request to get data transaction by time in and police number
+	 * 
+	 * @return json_encode
+	 */
+	public function actionAjaxCalculateByTimeInAndTimeOut()
 	{
-		$code = 'B1010FFF';
-		$vehicle = '1';
-		$today = date('Y-m-d');
-		$var = Voucher::find()
-				->join('INNER JOIN', 'transport_price', 'transport_price.id = voucher.id')
-				//->andWhere(['voucher.code'=>$code, 'voucher.status'=>\app\models\Voucher::STATUS_ACTIVE, 'voucher.vehicle_id'=>$vehicle,'transport_price.transport_id'=>])
-				->andFilterWhere(['<=', 'voucher.start_date', $today])
-				->andFilterWhere(['>=', 'voucher.end_date', $today])
-				->limit(1)
-				->one();
+		$request = Yii::$app->request;
+		if(!$request->isAjax) {
+			return null;
+		}
 		
-		var_dump($var);
+		$code = $request->post('code');
+		
+		if ($code == null) {
+			$transaction = new Transaction();
+			$transaction->setScenario(Transaction::SCENARIO_ENTRY);
+			$transaction->setAttributes([
+				'gate_in_id' => 0,
+				'time_in' => $request->post('timeIn'),
+				'transport_price_id' => $request->post('transportPrice'),
+			]);
+			$transaction->save();
+			
+			$code = $transaction->code;
+		}
+		
+		$params = [
+			'code' => $code,
+			'policeNumber' => $request->post('policeNumber'),
+			'timeOut' => $request->post('timeOut'),
+		];
+		$query = (new Transaction())->calculateByParams($params);
+		if(!$query) {
+			return null;
+		}
+		
+		echo json_encode($query);
 	}
 }

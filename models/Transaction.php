@@ -50,12 +50,14 @@ class Transaction extends BaseActiveRecord
 	const SCENARIO_ENTRY = 'entry';
 	const SCENARIO_EXIT = 'exit';
 	const SCENARIO_ENTRY_AND_EXIT = 'entryAndExit';
+	const SCENARIO_MANUAL_INPUT = 'manualInput';
 	
 	const CODE_PREFIX = '';
 	
 	const STATUS_ENTRY = 1;
 	const STATUS_EXIT = 2;
 	const STATUS_ENTRY_EXIT = 3;
+	const STATUS_MANUAL_INPUT = 4;
 	
 	const PAYMENT_STATUS_DRAFT = 1;
 	const PAYMENT_STATUS_WAITING = 5;
@@ -107,6 +109,7 @@ class Transaction extends BaseActiveRecord
 			[['gate_in_id', 'time_in', 'transport_price_id'], 'required', 'on'=> [self::SCENARIO_ENTRY, self::SCENARIO_ENTRY_AND_EXIT]],
 			[['police_number', 'code', 'gate_out_id', 'time_out', 'payment_id', 'final_amount'], 'required', 'on'=>self::SCENARIO_EXIT],
 			[['police_number', 'payment_id', 'final_amount'], 'required', 'on'=>self::SCENARIO_ENTRY_AND_EXIT],
+			[['police_number', 'payment_id', 'final_amount', 'time_out', 'transport_price_id', 'gate_out_id'], 'required', 'on'=>self::SCENARIO_MANUAL_INPUT],
             [['gate_in_id', 'gate_out_id', 'status', 'payment_status', 'transport_price_id', 'payment_id', 'voucher_id', 'created_by', 'updated_by'], 'integer'],
             [['code', 'police_number', 'gate_in_id', 'time_in', 'gate_out_id', 'time_out', 'status', 
 				'vehicle_id', 'payment_status', 'transport_price_id', 'payment_id', 'voucher_id', 'final_amount', 'created_at', 'updated_at', 'picture'], 'safe'],
@@ -132,14 +135,19 @@ class Transaction extends BaseActiveRecord
 	public function beforeDelete() 
 	{
 		/* todo: delete the corresponding file in storage */
-		$this->deleteFile();
+		$this->deleteCameraInFile();
+		$this->deleteCameraOutFile();
 				
 		return parent::beforeDelete();
 	}
 	
-	private function deleteFile()
+	private function deleteCameraInFile()
 	{
 		@unlink(Yii::getAlias('@app/' . $this->path) . $this->camera_in);
+	}
+	
+	private function deleteCameraOutFile()
+	{
 		@unlink(Yii::getAlias('@app/' . $this->path) . $this->camera_out);
 	}
 	
@@ -180,6 +188,13 @@ class Transaction extends BaseActiveRecord
 			$this->status = self::STATUS_ENTRY_EXIT;
 		}
 		
+		if ($this->scenario == self::SCENARIO_MANUAL_INPUT) {
+			$calculate = $this->calculateByParams();
+			$this->final_amount = $calculate['final_amount'];
+			$this->transport_price_id = $calculate['transport_price_id'];
+			$this->voucher_id = $calculate['voucher_id'];
+		}
+		
 		return parent::beforeSave($insert);
 	}
 	
@@ -191,7 +206,7 @@ class Transaction extends BaseActiveRecord
 	public function processUploadCameraInFile()
 	{
 		if (!empty($this->cameraFileUpload)) {
-			$this->deleteFile();
+			$this->deleteCameraInFile();
 			
 			$path = str_replace('web/', '', $this->path);
 			$this->cameraFileUpload->saveAs($path . $this->generateCameraInFile(true));
@@ -213,6 +228,43 @@ class Transaction extends BaseActiveRecord
 		$prefix = $this->vehicle_id . '-' . $this->gate_in_id;
 		$trim   = trim($prefix);
 		$name	= str_replace(' ', '-', $trim).'-'.$this->time_in;
+		$name = Inflector::slug($name);
+		
+		$ext = $withExt ? '.' . $this->cameraFileUpload->extension : '';
+		
+		return $name . $ext;
+	}
+	
+	/**
+	 * process upload file
+	 * 
+	 * @return boolean
+	 */
+	public function processUploadCameraOutFile()
+	{
+		if (!empty($this->cameraFileUpload)) {
+			$this->deleteCameraOutFile();
+			
+			$path = str_replace('web/', '', $this->path);
+			$this->cameraFileUpload->saveAs($path . $this->generateCameraOutFile(true));
+		
+			$this->camera_out = $this->generateCameraOutFile(true);
+		}
+		
+		return true;
+	}
+	
+	/**
+	 * generate file name
+	 * 
+	 * @param type $withExt false
+	 * @return type
+	 */
+	public function generateCameraOutFile($withExt = false)
+	{
+		$prefix = $this->vehicle_id . '-' . $this->gate_out_id;
+		$trim   = trim($prefix);
+		$name	= str_replace(' ', '-', $trim).'-'.$this->time_out;
 		$name = Inflector::slug($name);
 		
 		$ext = $withExt ? '.' . $this->cameraFileUpload->extension : '';
@@ -406,7 +458,7 @@ class Transaction extends BaseActiveRecord
      * @param integer $padLength increment pad length
      * @return string
      */
-    public function generateCode($padLength = 3)
+    public function generateCode($padLength = 9)
     {
 		$prefix = self::CODE_PREFIX;
 		
@@ -415,7 +467,7 @@ class Transaction extends BaseActiveRecord
 		
         $left = $prefix . date('ymd');
         $leftLen = strlen($left);
-        $increment = 1;
+        $increment = rand(100000, 50000);
 
         $last = self::find()
             ->select('code')
@@ -426,7 +478,7 @@ class Transaction extends BaseActiveRecord
 
         if ($last) {
             $increment = (int) substr($last, $leftLen, $padLength);
-            $increment++;
+            $increment += rand(100000, 50000);
         }
 
         $number = str_pad($increment, $padLength, '0', STR_PAD_LEFT);
@@ -677,5 +729,35 @@ class Transaction extends BaseActiveRecord
 		$html.= 'Sisa ' . $limit .'<br/>';
 		
 		return $html;
+	}
+	
+	public function getCameraInUrl()
+	{
+		return \yii\helpers\Url::to("@" . $this->path . $this->camera_in);
+	}
+	
+	public function getCameraInImg()
+	{
+		return Html::img($this->getCameraInUrl(), ['width' => '300px']);
+	}
+	
+	public function getCameraInImgHtml()
+	{
+		return Html::a($this->getCameraInImg(), $this->getCameraInUrl(), ['target' => '_blank']);
+	}
+	
+	public function getCameraOutUrl()
+	{
+		return \yii\helpers\Url::to("@" . $this->path . $this->camera_out);
+	}
+	
+	public function getCameraOutImg()
+	{
+		return Html::img($this->getCameraOutUrl(), ['width' => '300px']);
+	}
+	
+	public function getCameraOutImgHtml()
+	{
+		return Html::a($this->getCameraOutImg(), $this->getCameraOutUrl(), ['target' => '_blank']);
 	}
 }

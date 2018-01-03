@@ -50,7 +50,16 @@ $this->params['breadcrumbs'][] = $this->title;
 						'value'=>$model->gateOut ? $model->gateOut->name : $model->gate_out_id,
 					],
 					'time_out',
-					//'picture',
+					[
+						'attribute'=>'camera_in',
+						'value'=>$model->getCameraInImgHtml(),
+						'format'=>'raw',
+					],
+					[
+						'attribute'=>'camera_out',
+						'value'=>$model->getCameraOutImgHtml(),
+						'format'=>'raw',
+					],
 					[
 						'attribute'=>'vehicle_id',
 						'value'=>$model->vehicle ? $model->vehicle->name : $model->vehicle_id,
