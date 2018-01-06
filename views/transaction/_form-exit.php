@@ -3,6 +3,8 @@
 use app\models\Gate;
 use app\models\Payment;
 use app\models\Transaction;
+use app\models\Transport;
+use app\models\TransportPrice;
 use kartik\datetime\DateTimePicker;
 use kartik\select2\Select2;
 use yii\helpers\ArrayHelper;
@@ -36,9 +38,26 @@ use yii\widgets\ActiveForm;
 					],
 				]) ?>
 				
-				<?= $form->field($model, 'police_number')->textInput(['maxlength' => true, 'tabindex' => 1]) ?>
+				<?php
+				$transportPrices = ArrayHelper::map(TransportPrice::find()->where(['transport_id'=>Transport::TRANSPORT_REGULAR])->active()->all(), 'id', 'name');
+				$selectOptions = ['data'=>$transportPrices, 'pluginOptions'=>['allowClear'=>true], 'options'=>['prompt'=>'--Choose One--', 'tabindex'=>0]];
+				?>
+				<?= $form->field($model, 'transport_price_id')->radioList($transportPrices, [
+					'tabindex' => 0,
+					'item' => function($index, $label, $name, $checked, $value) {
+						$return = '<label class="modal-radio">';
+						$return .= '<input type="radio" name="' . $name . '" value="' . $value . '" tabindex="'.$index.'">';
+						$return .= '&nbsp;&nbsp;';
+						$return .= '<span>' . ucwords($label) . '</span> <small></small>';
+						$return .= '</label><br/>';
 
-				<?= $form->field($model, 'code')->textInput(['maxlength' => true, 'tabindex' => 2]) ?>
+						return $return;
+					},
+				]) ?>
+				
+				<?= $form->field($model, 'police_number')->textInput(['maxlength' => true, 'tabindex' => 5]) ?>
+
+				<?= $form->field($model, 'code')->textInput(['maxlength' => true, 'tabindex' => 6]) ?>
 
 			</div>
 			<div class="panel-footer">
@@ -53,20 +72,18 @@ use yii\widgets\ActiveForm;
 			<div class="panel-body">
 				<?php
 					$gates = ArrayHelper::map(Gate::find()->where(['gate_type'=>Gate::GATE_TYPE_OUT])->active()->all(), 'id', 'name');
-					$selectOptions = ['data'=>$gates, 'pluginOptions'=>['allowClear'=>true], 'options'=>['prompt'=>'--Choose One--', 'tabindex' => 3]];
+					$selectOptions = ['data'=>$gates, 'pluginOptions'=>['allowClear'=>true], 'options'=>['prompt'=>'--Choose One--', 'tabindex' => 7]];
 					?>
 					<?= $form->field($model, 'gate_out_id')->widget(Select2::className(), $selectOptions) ?>
 
 					<?php
 					$payments = ArrayHelper::map(Payment::find()->active()->all(), 'id', 'name');
-					$selectOptions = ['data'=>$payments, 'pluginOptions'=>['allowClear'=>true], 'options'=>['prompt'=>'--Choose One--', 'tabindex' => 4]];
+					$selectOptions = ['data'=>$payments, 'pluginOptions'=>['allowClear'=>true], 'options'=>['prompt'=>'--Choose One--', 'tabindex' => 8]];
 					?>
 					<?= $form->field($model, 'payment_id')->widget(Select2::className(), $selectOptions) ?>
 
 					<?= $form->field($model, 'voucher_id')->hiddenInput()->label(false) ?>
 				
-					<?= $form->field($model, 'transport_price_id')->hiddenInput()->label(false) ?>
-
 					<?= $form->field($model, 'final_amount')->hiddenInput()->label(false) ?>
 			</div>
 			<div class="panel-footer">
@@ -88,7 +105,7 @@ use yii\widgets\ActiveForm;
 	
 	<div class="col-xs-12 col-md-12">
 	<div class="form-group">
-        <?= Html::submitButton($model->isNewRecord ? Yii::t('app', 'Simpan (End)') : Yii::t('app', 'Update'), ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary', 'id'=>'button-submit', 'tabindex' => 5]) ?>
+        <?= Html::submitButton($model->isNewRecord ? Yii::t('app', 'Simpan (End)') : Yii::t('app', 'Update'), ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary', 'id'=>'button-submit', 'tabindex' => 9]) ?>
     </div>
 	</div>
 
@@ -109,22 +126,24 @@ $this->registerJs("
 		finalAmountLabel = $('#final-amount-label'),
 		descLabel = $('#description-label');
 		
-	policeNumber.focus();
+	transportPrice.focus();
 	
 	checkButton.click(function() {
-		if (code.val() == '' || policeNumber.val() == '') {
-			alert('Kode dan Nomor Polisi harus diisi.');
+		var transportPrice1 = $('input[name=\"Transaction\\[transport_price_id\\]\"]:checked');
+		console.log(transportPrice1.is(':checked') == false);
+		if (code.val() == '' || policeNumber.val() == '' || transportPrice1.is(':checked') == false) {
+			alert('Jenis Kendaraan / Kode / Nomor Polisi harus diisi.');
 			code.focus();
 			return false;
 		}
 		
-		var data = {code: code.val(), policeNumber: policeNumber.val(), timeOut: timeOut.val()};
+		
+		var data = {code: code.val(), policeNumber: policeNumber.val(), timeOut: timeOut.val(), transportPrice: transportPrice1.val()};
 		$.post('".Url::to(['transaction/ajax-calculate-by-code-and-police-number'])."', data).done(function (result) {
 			console.log(result);
 			if(result) {
 				obj = JSON.parse(result);
 				
-				transportPrice.val(obj.transport_price_id);
 				voucherId.val(obj.voucher_id);
 				finalAmount.val(obj.final_amount);
 				finalAmountLabel.text(rupiah(obj.final_amount));
@@ -139,7 +158,6 @@ $this->registerJs("
 				});
 				
 			} else {
-				transportPrice.val('');
 				voucherId.val('');
 				finalAmount.val('');
 				finalAmountLabel.text('');

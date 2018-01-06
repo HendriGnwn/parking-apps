@@ -6,11 +6,16 @@ use app\helpers\DateTime;
 use app\helpers\FormatConverter;
 use app\models\query\TransactionQuery;
 use barcode\barcode\BarcodeGenerator;
+use Mike42\Escpos\PrintConnectors\CupsPrintConnector;
+use Mike42\Escpos\PrintConnectors\WindowsPrintConnector;
+use Mike42\Escpos\Printer;
 use Yii;
 use yii\db\ActiveQuery;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Inflector;
+use yii\helpers\Url;
+use yii\httpclient\Exception;
 use yii\web\UploadedFile;
 
 /**
@@ -51,6 +56,7 @@ class Transaction extends BaseActiveRecord
 	const SCENARIO_EXIT = 'exit';
 	const SCENARIO_ENTRY_AND_EXIT = 'entryAndExit';
 	const SCENARIO_MANUAL_INPUT = 'manualInput';
+	const SCENARIO_PREPARE_DATA_BEFORE_EXIT = 'prepareDataBeforeExit';
 	
 	const CODE_PREFIX = '';
 	
@@ -106,15 +112,16 @@ class Transaction extends BaseActiveRecord
     public function rules()
     {
         return [
-			[['gate_in_id', 'time_in', 'transport_price_id'], 'required', 'on'=> [self::SCENARIO_ENTRY, self::SCENARIO_ENTRY_AND_EXIT]],
-			[['police_number', 'code', 'gate_out_id', 'time_out', 'payment_id', 'final_amount'], 'required', 'on'=>self::SCENARIO_EXIT],
-			[['police_number', 'payment_id', 'final_amount'], 'required', 'on'=>self::SCENARIO_ENTRY_AND_EXIT],
+			[['gate_in_id', 'time_in'], 'required', 'on'=> [self::SCENARIO_ENTRY, self::SCENARIO_ENTRY_AND_EXIT]],
+			[['police_number', 'code', 'gate_out_id', 'time_out', 'payment_id', 'final_amount', 'transport_price_id'], 'required', 'on'=>self::SCENARIO_EXIT],
+			[['police_number', 'payment_id', 'final_amount', 'transport_price_id'], 'required', 'on'=>self::SCENARIO_ENTRY_AND_EXIT],
 			[['police_number', 'payment_id', 'final_amount', 'time_out', 'transport_price_id', 'gate_out_id'], 'required', 'on'=>self::SCENARIO_MANUAL_INPUT],
             [['gate_in_id', 'gate_out_id', 'status', 'payment_status', 'transport_price_id', 'payment_id', 'voucher_id', 'created_by', 'updated_by'], 'integer'],
             [['code', 'police_number', 'gate_in_id', 'time_in', 'gate_out_id', 'time_out', 'status', 
 				'vehicle_id', 'payment_status', 'transport_price_id', 'payment_id', 'voucher_id', 'final_amount', 'created_at', 'updated_at', 'picture'], 'safe'],
             [['final_amount'], 'number'],
-            [['camera_in', 'camera_out', 'police_number'], 'safe'],
+			[['transport_price_id'], 'required', 'on'=> [self::SCENARIO_PREPARE_DATA_BEFORE_EXIT]],
+            [['camera_in', 'camera_out', 'police_number', 'transport_price_id'], 'safe'],
 			[['payment_status'], 'default', 'value'=>self::PAYMENT_STATUS_DRAFT],
 			[['status'], 'default', 'value'=>self::STATUS_ENTRY],
 			['police_number', 'match', 'pattern'=>'/^([\w\S])+$/', 'message'=>"{attribute} jangan memakai spasi"],
@@ -171,6 +178,11 @@ class Transaction extends BaseActiveRecord
 			$this->processUploadCameraInFile();
 		}
 		
+		if ($this->scenario == self::SCENARIO_PREPARE_DATA_BEFORE_EXIT) {
+			$transportPrice = TransportPrice::findOne($this->transport_price_id);
+			$this->vehicle_id = $transportPrice ? $transportPrice->vehicle->id : null;
+		}
+		
 		if ($this->scenario == self::SCENARIO_EXIT) {
 			$this->payment_status = self::PAYMENT_STATUS_PAID;
 			$this->status = self::STATUS_EXIT;
@@ -189,6 +201,9 @@ class Transaction extends BaseActiveRecord
 		}
 		
 		if ($this->scenario == self::SCENARIO_MANUAL_INPUT) {
+			$this->payment_status = self::PAYMENT_STATUS_PAID;
+			$this->status = self::STATUS_EXIT;
+			
 			$calculate = $this->calculateByParams();
 			$this->final_amount = $calculate['final_amount'];
 			$this->transport_price_id = $calculate['transport_price_id'];
@@ -733,7 +748,7 @@ class Transaction extends BaseActiveRecord
 	
 	public function getCameraInUrl()
 	{
-		return \yii\helpers\Url::to("@" . $this->path . $this->camera_in);
+		return Url::to("@" . $this->path . $this->camera_in);
 	}
 	
 	public function getCameraInImg()
@@ -748,7 +763,7 @@ class Transaction extends BaseActiveRecord
 	
 	public function getCameraOutUrl()
 	{
-		return \yii\helpers\Url::to("@" . $this->path . $this->camera_out);
+		return Url::to("@" . $this->path . $this->camera_out);
 	}
 	
 	public function getCameraOutImg()
@@ -759,5 +774,96 @@ class Transaction extends BaseActiveRecord
 	public function getCameraOutImgHtml()
 	{
 		return Html::a($this->getCameraOutImg(), $this->getCameraOutUrl(), ['target' => '_blank']);
+	}
+	
+	public function printVehicleExit()
+	{
+		try {
+			//$connector = new CupsPrintConnector("EPSON_TM-T82-S_A"); // for linux with cups printer
+			$connector = new WindowsPrintConnector("EPSON_TM-T82-S_A"); // for windows
+
+
+			/* Print a "Hello world" receipt" */
+			$printer = new Printer($connector);
+
+			$printer->setPrintLeftMargin(4);
+			$printer->selectPrintMode(Printer::MODE_DOUBLE_HEIGHT | Printer::MODE_DOUBLE_WIDTH);
+			$printer->setJustification(Printer::JUSTIFY_CENTER);
+
+			$printer->setTextSize(2, 1);
+			$printer->text(Setting::getAppName());
+			$printer->feed(1);
+
+			$companyAddress = wordwrap(Setting::getCompanyAddress(), 40);
+			$printer->setTextSize(1, 1);
+			$printer->text($companyAddress);
+			$printer->feed(1);
+			
+			$companyPhone = wordwrap(Setting::getCompanyPhone(), 40);
+			$printer->setTextSize(1, 1);
+			$printer->text($companyPhone);
+			$printer->feed(1);
+			
+			$printer->setJustification(Printer::JUSTIFY_LEFT);
+			$printer->setTextSize(1, 1);
+			$printer->text("-----------------------------------------------");
+			$printer->text("\n");
+			
+			$printer->setJustification(Printer::JUSTIFY_LEFT);
+			$printer->setTextSize(1, 1);
+			$printer->text(($this->gateOut ? $this->gateOut->name . ' / ' : '') . ($this->vehicle ? $this->vehicle->name : ''));
+			$printer->text("\n");
+			
+			$printer->setJustification(Printer::JUSTIFY_LEFT);
+			$printer->setTextSize(1, 1);
+			$printer->text("No Trx : " . $this->code);
+			$printer->text("\n");
+			
+			$printer->setJustification(Printer::JUSTIFY_LEFT);
+			$printer->setTextSize(1, 1);
+			$printer->text("Nopol : " . $this->police_number);
+			$printer->text("\n");
+			
+			$printer->setTextSize(1, 1);
+			$printer->text("Masuk : " . $this->getFormattedIndoDateTime());
+			$printer->text("\n");
+			
+			$printer->setTextSize(1, 1);
+			$printer->text("Keluar : " . $this->getFormattedIndoDateTime('time_out'));
+			$printer->text("\n");
+
+			$printer->setTextSize(1, 1);
+			$printer->text("Lama Parkir : " . $this->getDiffTimeInOut());
+			$printer->text("\n");
+
+			$printer->setJustification(Printer::JUSTIFY_CENTER);
+			$printer->setTextSize(2, 1);
+			$printer->text("\n");
+			$printer->text($this->getFinalAmountLabel());
+			$printer->text("\n");
+			$printer->text("\n");
+
+			$printer->setJustification(Printer::JUSTIFY_CENTER);
+			$printer->setTextSize(1, 1);
+			$printer->text(wordwrap(Setting::getCompanyName() . ' - ' . ($this->updatedBy ? $this->updatedBy->getIdentityName() : ''), 40));
+			$printer->feed(1);
+			$printer->text("\n");
+			
+			$printer->setJustification(Printer::JUSTIFY_LEFT);
+			$printer->setTextSize(1, 1);
+			$printer->text("-----------------------------------------------");
+			$printer->text("\n");
+			
+			$printer->setJustification(Printer::JUSTIFY_CENTER);
+			$printer->text(wordwrap(Setting::getStructExitFooter(), 40));
+			$printer->feed(1);
+
+			$printer->cut();
+
+			/* Close printer */
+			$printer -> close();
+		} catch (Exception $e) {
+			echo "Couldn't print to this printer: " . $e -> getMessage() . "\n";
+		}
 	}
 }

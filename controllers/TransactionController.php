@@ -17,6 +17,11 @@ use yii\web\NotFoundHttpException;
  */
 class TransactionController extends BaseController
 {
+	
+	public function actionTest($id) {
+		$transaction = Transaction::findOne($id);
+		$transaction->printVehicleExit();
+	}
     /**
      * @inheritdoc
      */
@@ -71,8 +76,6 @@ class TransactionController extends BaseController
 		
         $model = new Transaction();
 		$model->scenario = Transaction::SCENARIO_ENTRY;
-		
-		\yii\helpers\Url::remember();
 		
 		/** if session transactionGateIn found, set model gate_in_id */
 		if ($session->has('transactionGateIn')) {
@@ -171,8 +174,6 @@ class TransactionController extends BaseController
 		$model = new Transaction();
 		$model->scenario = Transaction::SCENARIO_EXIT;
 		
-		\yii\helpers\Url::remember();
-		
 		/** if session transactionGateOut found, set model gate_out_id */
 		if ($session->has('transactionGateOut')) {
 			$model->gate_out_id = $session->get('transactionGateOut');
@@ -185,6 +186,9 @@ class TransactionController extends BaseController
         if ($model->load(Yii::$app->request->post())) {
 			$model->attributes = Yii::$app->request->post('Transaction');
 			$query = Transaction::getDataByCode($model->code);
+			if (!$query) {
+				return $this->redirect(['create-out']);
+			}
 			$query->scenario = Transaction::SCENARIO_EXIT;
 			$query->code = $model->code;
 			$query->police_number = $model->police_number;
@@ -200,7 +204,9 @@ class TransactionController extends BaseController
 			
 			if($query->validate()) {
 				$query->save();
-				return $this->redirect(['print-out', 'id' => $query->id]);
+				//return $this->redirect(['print-out', 'id' => $query->id]);
+				$query->printVehicleExit();
+				return $this->redirect(['create-out']);
 			} else {
 				return $this->render('create', [
                 'model' => $query,
@@ -221,8 +227,6 @@ class TransactionController extends BaseController
 		$model = new Transaction();
 		$model->scenario = Transaction::SCENARIO_MANUAL_INPUT;
 		
-		\yii\helpers\Url::remember();
-		
 		/** if session transactionGateOut found, set model gate_out_id */
 		if ($session->has('transactionGateOut')) {
 			$model->gate_out_id = $session->get('transactionGateOut');
@@ -235,7 +239,6 @@ class TransactionController extends BaseController
         if ($model->load(Yii::$app->request->post())) {
 			$model->attributes = Yii::$app->request->post('Transaction');
 			
-			//var_dump($model);die;
 			$query = Transaction::find()
 				->andWhere([
 					'code'=>$model->code, 
@@ -243,6 +246,9 @@ class TransactionController extends BaseController
 				])
 				->limit(1)
 				->one();
+			if (!$query) {
+				return $this->redirect(['create-manual-input']);
+			}
 			$query->scenario = Transaction::SCENARIO_MANUAL_INPUT;
 			$query->code = $model->code;
 			$query->status = Transaction::STATUS_MANUAL_INPUT;
@@ -259,7 +265,8 @@ class TransactionController extends BaseController
 			
 			if($query->validate()) {
 				$query->save();
-				return $this->redirect(['print-out', 'id' => $query->id]);
+				$query->printVehicleExit();
+				return $this->redirect(['create-manual-input']);
 			} else {
 				return $this->render('create', [
                 'model' => $query,
@@ -279,9 +286,6 @@ class TransactionController extends BaseController
 		$model = new Transaction();
 		$model->scenario = Transaction::SCENARIO_ENTRY_AND_EXIT;
 		
-		\yii\helpers\Url::remember();
-		
-		
 		/** if session transactionGateIn found, set model gate_in_id */
 		if ($session->has('transactionGateIn')) {
 			$model->gate_in_id = $session->get('transactionGateIn');
@@ -297,7 +301,9 @@ class TransactionController extends BaseController
 			$session->set('transactionGateIn', $model->gate_in_id);
 			$session->set('transactionTransportPriceId', $model->transport_price_id);
 			$session->set('transactionPayment', $model->payment_id);
-			return $this->redirect(['print-out', 'id' => $model->id]);
+			//return $this->redirect(['print-out', 'id' => $model->id]);
+			$model->printVehicleExit();
+			return $this->redirect(['create-transaction']);
 			
         } else {
 			render:
@@ -318,10 +324,17 @@ class TransactionController extends BaseController
 		if(!$request->isAjax) {
 			return null;
 		}
+		if ($request->post('transportPrice') && $request->post('code')) {
+			$transaction = Transaction::find()->where(['code'=>$request->post('code')])->one();
+			$transaction->setScenario(Transaction::SCENARIO_PREPARE_DATA_BEFORE_EXIT);
+			$transaction->transport_price_id = $request->post('transportPrice');
+			$transaction->save();
+		}
 		
 		$params = [
 			'code' => $request->post('code'),
 			'policeNumber' => $request->post('policeNumber'),
+			'transportPrice' => $request->post('transportPrice'),
 			'timeOut' => $request->post('timeOut'),
 		];
 		$query = (new Transaction())->calculateByParams($params);

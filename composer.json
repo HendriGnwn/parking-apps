@@ -27,7 +27,8 @@
         "kartik-v/yii2-widget-select2": "*",
         "kartik-v/yii2-widget-datetimepicker": "*",
 		"vilochane/yii2-barcode-generator": "dev-master",
-		"nesbot/carbon": "^1.22"
+		"nesbot/carbon": "^1.22",
+		"mike42/escpos-php": "^1.5"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

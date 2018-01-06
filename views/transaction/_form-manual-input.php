@@ -27,10 +27,21 @@ use yii\widgets\ActiveForm;
 			<div class="panel-heading">Proses Cek</div>
 			<div class="panel-body">
 				<?php
-				$transportPrices = ArrayHelper::map(TransportPrice::find()->where(['transport_id'=>Transport::TRANSPORT_REGULAR])->active()->all(), 'id', 'transportWithCode');
+				$transportPrices = ArrayHelper::map(TransportPrice::find()->where(['transport_id'=>Transport::TRANSPORT_REGULAR])->active()->all(), 'id', 'name');
 				$selectOptions = ['data'=>$transportPrices, 'pluginOptions'=>['allowClear'=>true], 'options'=>['prompt'=>'--Choose One--', 'tabindex'=>2]];
 				?>
-				<?= $form->field($model, 'transport_price_id')->radioList($transportPrices, ['tabindex' => 0]) ?>
+				<?= $form->field($model, 'transport_price_id')->radioList($transportPrices, [
+					'tabindex' => 0,
+					'item' => function($index, $label, $name, $checked, $value) {
+						$return = '<label class="modal-radio">';
+						$return .= '<input type="radio" name="' . $name . '" value="' . $value . '" tabindex="'.$index.'">';
+						$return .= '&nbsp;&nbsp;';
+						$return .= '<span>' . ucwords($label) . '</span> <small></small>';
+						$return .= '</label><br/>';
+
+						return $return;
+					},
+				]) ?>
 				
 				<?= $form->field($model, 'time_in')->label('Waktu Masuk')->widget(DateTimePicker::classname(), [
 					'type' => DateTimePicker::TYPE_INPUT,
@@ -66,7 +77,7 @@ use yii\widgets\ActiveForm;
 
 			</div>
 			<div class="panel-footer">
-				<?=	Html::button('Cek Transaksi (Insert)', ['class'=>'btn btn-primary', 'id'=>'transaction-check-button']) ?>
+				<?=	Html::button('Cek Transaksi (Enter)', ['class'=>'btn btn-primary', 'id'=>'transaction-check-button']) ?>
 			</div>
 		</div>
 	</div>
@@ -204,7 +215,7 @@ $this->registerJs("
 		var endKey = 35;
 		
 		// cek transaksi
-		if(e.keyCode == insertKey) {
+		if(e.keyCode == enterKey) {
 			checkButton.click();
 		}
 		
