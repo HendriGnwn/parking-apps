@@ -146,6 +146,20 @@ class TransactionController extends BaseController
         }
     }
 	
+	public function actionPosPrintIn($id)
+	{
+		$model = $this->findModel($id);
+		$model->printVehicleEntry();
+		return $this->redirect(['view', 'id'=>$id]);
+	}
+	
+	public function actionPosPrintOut($id)
+	{
+		$model = $this->findModel($id);
+		$model->printVehicleExit();
+		return $this->redirect(['view', 'id'=>$id]);
+	}
+	
 	public function actionPrintIn($id)
 	{
 		$this->layout = 'print';

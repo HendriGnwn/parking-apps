@@ -776,6 +776,79 @@ class Transaction extends BaseActiveRecord
 		return Html::a($this->getCameraOutImg(), $this->getCameraOutUrl(), ['target' => '_blank']);
 	}
 	
+	public function printVehicleEntry()
+	{
+		try {
+			//$connector = new CupsPrintConnector("EPSON_TM-T82-S_A"); // for linux with cups printer
+			$connector = new WindowsPrintConnector("EPSON_TM-T82-S_A"); // for windows
+
+
+			/* Print a "Hello world" receipt" */
+			$printer = new Printer($connector);
+
+			$printer->setPrintLeftMargin(4);
+			$printer->selectPrintMode(Printer::MODE_DOUBLE_HEIGHT | Printer::MODE_DOUBLE_WIDTH);
+			$printer->setJustification(Printer::JUSTIFY_CENTER);
+
+			$printer->setTextSize(2, 1);
+			$printer->text(Setting::getAppName());
+			$printer->feed(1);
+
+			$companyAddress = wordwrap(Setting::getCompanyAddress(), 40);
+			$printer->setTextSize(1, 1);
+			$printer->text($companyAddress);
+			$printer->feed(1);
+
+			$companyPhone = wordwrap(Setting::getCompanyPhone(), 40);
+			$printer->setTextSize(1, 1);
+			$printer->text($companyPhone);
+			$printer->feed(1);
+
+			$printer->setJustification(Printer::JUSTIFY_LEFT);
+			$printer->setTextSize(1, 1);
+			$printer->text("-----------------------------------------------");
+			$printer->text("\n");
+
+			$printer->setJustification(Printer::JUSTIFY_LEFT);
+			$printer->setTextSize(1, 1);
+			$printer->text(Setting::getAppName());
+			$printer->text("\n");
+
+			$printer->setTextSize(1, 1);
+			$printer->text("Date  : " . FormatConverter::formatIndoDate($this->time_in, '%d %B %Y'));
+
+			$printer->setJustification(Printer::JUSTIFY_LEFT);
+			$printer->setTextSize(1, 1);
+			$printer->text("Time  : " . FormatConverter::formatIndoDate($this->time_in, '%H:%M:%S'));
+			$printer->text("\n");
+
+
+			$printer->setJustification(Printer::JUSTIFY_CENTER);
+			$printer->setBarcodeWidth(15);
+			$printer->setBarcodeHeight(150);
+			$printer->setBarcodeTextPosition(Printer::BARCODE_TEXT_BELOW);
+			$printer->barcode($this->code, Printer::BARCODE_CODE93);
+			$printer->feed(1);
+
+			$printer->setJustification(Printer::JUSTIFY_LEFT);
+			$printer->setTextSize(1, 1);
+			$printer->text("-----------------------------------------------");
+			$printer->text("\n");
+
+			$printer->setJustification(Printer::JUSTIFY_CENTER);
+			$footerDescription = wordwrap(Setting::getStructEntryFooter(), 40);
+			$printer->text($footerDescription);
+			$printer->feed(1);
+
+			$printer->cut();
+
+			/* Close printer */
+			$printer -> close();
+		} catch (Exception $e) {
+			echo "Couldn't print to this printer: " . $e -> getMessage() . "\n";
+		}
+	}
+	
 	public function printVehicleExit()
 	{
 		try {
